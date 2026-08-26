@@ -1,0 +1,606 @@
+[
+  {
+    "id": "bread",
+    "type": "food",
+    "itemId": "bread",
+    "name": "面包",
+    "emoji": "🍞",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "apple",
+    "type": "food",
+    "itemId": "apple",
+    "name": "苹果",
+    "emoji": "🍎",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "banana",
+    "type": "food",
+    "itemId": "banana",
+    "name": "香蕉",
+    "emoji": "🍌",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "orange",
+    "type": "food",
+    "itemId": "orange",
+    "name": "橙子",
+    "emoji": "🍊",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "watermelon",
+    "type": "food",
+    "itemId": "watermelon",
+    "name": "西瓜",
+    "emoji": "🍉",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "grapes",
+    "type": "food",
+    "itemId": "grapes",
+    "name": "葡萄",
+    "emoji": "🍇",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "strawberry",
+    "type": "food",
+    "itemId": "strawberry",
+    "name": "草莓",
+    "emoji": "🍓",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "pineapple",
+    "type": "food",
+    "itemId": "pineapple",
+    "name": "菠萝",
+    "emoji": "🍍",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "peach",
+    "type": "food",
+    "itemId": "peach",
+    "name": "桃子",
+    "emoji": "🍑",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "cherries",
+    "type": "food",
+    "itemId": "cherries",
+    "name": "樱桃",
+    "emoji": "🍒",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "coconut",
+    "type": "food",
+    "itemId": "coconut",
+    "name": "椰子",
+    "emoji": "🥥",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "melon",
+    "type": "food",
+    "itemId": "melon",
+    "name": "甜瓜",
+    "emoji": "🍈",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "lemon",
+    "type": "food",
+    "itemId": "lemon",
+    "name": "柠檬",
+    "emoji": "🍋",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "kiwi",
+    "type": "food",
+    "itemId": "kiwi",
+    "name": "猕猴桃",
+    "emoji": "🥝",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "mango",
+    "type": "food",
+    "itemId": "mango",
+    "name": "芒果",
+    "emoji": "🥭",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "blueberries",
+    "type": "food",
+    "itemId": "blueberries",
+    "name": "蓝莓",
+    "emoji": "🫐",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "avocado",
+    "type": "food",
+    "itemId": "avocado",
+    "name": "牛油果",
+    "emoji": "🥑",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "corn",
+    "type": "food",
+    "itemId": "corn",
+    "name": "玉米",
+    "emoji": "🌽",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "carrot",
+    "type": "food",
+    "itemId": "carrot",
+    "name": "胡萝卜",
+    "emoji": "🥕",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "tomato",
+    "type": "food",
+    "itemId": "tomato",
+    "name": "番茄",
+    "emoji": "🍅",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "cucumber",
+    "type": "food",
+    "itemId": "cucumber",
+    "name": "黄瓜",
+    "emoji": "🥒",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "cheese",
+    "type": "food",
+    "itemId": "cheese",
+    "name": "奶酪",
+    "emoji": "🧀",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "croissant",
+    "type": "food",
+    "itemId": "croissant",
+    "name": "牛角包",
+    "emoji": "🥐",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "pizza",
+    "type": "food",
+    "itemId": "pizza",
+    "name": "披萨",
+    "emoji": "🍕",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "hamburger",
+    "type": "food",
+    "itemId": "hamburger",
+    "name": "汉堡",
+    "emoji": "🍔",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "fries",
+    "type": "food",
+    "itemId": "fries",
+    "name": "薯条",
+    "emoji": "🍟",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "hotdog",
+    "type": "food",
+    "itemId": "hotdog",
+    "name": "热狗",
+    "emoji": "🌭",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "fried_chicken",
+    "type": "food",
+    "itemId": "fried_chicken",
+    "name": "炸鸡",
+    "emoji": "🍗",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "bacon",
+    "type": "food",
+    "itemId": "bacon",
+    "name": "培根",
+    "emoji": "🥓",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "egg",
+    "type": "food",
+    "itemId": "egg",
+    "name": "鸡蛋",
+    "emoji": "🥚",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "rice",
+    "type": "food",
+    "itemId": "rice",
+    "name": "米饭",
+    "emoji": "🍚",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "fried_rice",
+    "type": "food",
+    "itemId": "fried_rice",
+    "name": "炒饭",
+    "emoji": "🍳",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "ramen",
+    "type": "food",
+    "itemId": "ramen",
+    "name": "拉面",
+    "emoji": "🍜",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "spaghetti",
+    "type": "food",
+    "itemId": "spaghetti",
+    "name": "意大利面",
+    "emoji": "🍝",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "sushi",
+    "type": "food",
+    "itemId": "sushi",
+    "name": "寿司",
+    "emoji": "🍣",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "rice_ball",
+    "type": "food",
+    "itemId": "rice_ball",
+    "name": "饭团",
+    "emoji": "🍙",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "dumplings",
+    "type": "food",
+    "itemId": "dumplings",
+    "name": "饺子",
+    "emoji": "🥟",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "steamed_bun",
+    "type": "food",
+    "itemId": "steamed_bun",
+    "name": "包子",
+    "emoji": "🥮",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "pancake",
+    "type": "food",
+    "itemId": "pancake",
+    "name": "煎饼",
+    "emoji": "🥞",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "waffle",
+    "type": "food",
+    "itemId": "waffle",
+    "name": "华夫饼",
+    "emoji": "🧇",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "popcorn",
+    "type": "food",
+    "itemId": "popcorn",
+    "name": "爆米花",
+    "emoji": "🍿",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "bento",
+    "type": "food",
+    "itemId": "bento",
+    "name": "便当",
+    "emoji": "🍱",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "rice_cracker",
+    "type": "food",
+    "itemId": "rice_cracker",
+    "name": "仙贝",
+    "emoji": "🍘",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "curry_rice",
+    "type": "food",
+    "itemId": "curry_rice",
+    "name": "咖喱饭",
+    "emoji": "🍛",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "sweet_potato",
+    "type": "food",
+    "itemId": "sweet_potato",
+    "name": "烤地瓜",
+    "emoji": "🍠",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "oden",
+    "type": "food",
+    "itemId": "oden",
+    "name": "关东煮",
+    "emoji": "🍢",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "fish_cake",
+    "type": "food",
+    "itemId": "fish_cake",
+    "name": "鱼糕",
+    "emoji": "🍥",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "dango",
+    "type": "food",
+    "itemId": "dango",
+    "name": "团子",
+    "emoji": "🍡",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "beef_steak",
+    "type": "food",
+    "itemId": "beef_steak",
+    "name": "牛排",
+    "emoji": "🥩",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "fried_shrimp",
+    "type": "food",
+    "itemId": "fried_shrimp",
+    "name": "炸虾",
+    "emoji": "🍤",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "crab",
+    "type": "food",
+    "itemId": "crab",
+    "name": "螃蟹",
+    "emoji": "🦀",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "ice_cream",
+    "type": "food",
+    "itemId": "ice_cream",
+    "name": "冰淇淋",
+    "emoji": "🍦",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "shaved_ice",
+    "type": "food",
+    "itemId": "shaved_ice",
+    "name": "刨冰",
+    "emoji": "🍧",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "gelato",
+    "type": "food",
+    "itemId": "gelato",
+    "name": "意式冰淇淋",
+    "emoji": "🍨",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "donut",
+    "type": "food",
+    "itemId": "donut",
+    "name": "甜甜圈",
+    "emoji": "🍩",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "cookie",
+    "type": "food",
+    "itemId": "cookie",
+    "name": "曲奇",
+    "emoji": "🍪",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "cake",
+    "type": "food",
+    "itemId": "cake",
+    "name": "蛋糕",
+    "emoji": "🍰",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+"id": "birthday_cake",
+"type": "food",
+"itemId": "birthday_cake",
+"name": "生日蛋糕",
+"emoji": "🎂",
+"quantity": 1,
+"chance": 1
+},
+  {
+    "id": "cupcake",
+    "type": "food",
+    "itemId": "cupcake",
+    "name": "纸杯蛋糕",
+    "emoji": "🧁",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "chocolate",
+    "type": "food",
+    "itemId": "chocolate",
+    "name": "巧克力",
+    "emoji": "🍫",
+    "quantity": 1,
+    "chance": 1
+  },
+  {
+    "id": "pudding",
+    "type": "food",
+    "itemId": "pudding",
+    "name": "布丁",
+    "emoji": "🍮",
+    "quantity": 1,
+    "chance": 1
+  },
+
+  {
+    "id": "fishing_rod",
+    "type": "rod",
+    "itemId": "fishing_rod",
+    "name": "钓鱼竿",
+    "emoji": "🎣",
+    "quantity": 1,
+    "chance": 10
+  },
+  {
+    "id": "incubator",
+    "type": "incubator",
+    "itemId": "incubator",
+    "name": "孵化器",
+    "emoji": "🪺",
+    "quantity": 1,
+    "chance": 9
+  },
+  {
+    "id": "hatch_egg",
+    "type": "egg",
+    "itemId": "hatch_egg",
+    "name": "孵化蛋",
+    "emoji": "🥚",
+    "quantity": 1,
+    "chance": 13
+  },
+  {
+    "id": "map",
+    "type": "map",
+    "itemId": "map",
+    "name": "地图",
+    "emoji": "🗺️",
+    "quantity": 1,
+    "chance": 4
+  },
+  {
+    "id": "points_1000",
+    "type": "points",
+    "itemId": "points_1000",
+    "name": "1000积分",
+    "emoji": "⭐",
+    "quantity": 1000,
+    "chance": 3
+  },
+  {
+    "id": "diamond",
+    "type": "diamond",
+    "itemId": "diamond",
+    "name": "钻石",
+    "emoji": "💎",
+    "quantity": 1,
+    "chance": 1
+  }
+]

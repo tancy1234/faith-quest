@@ -1,0 +1,37 @@
+[
+  {
+    "id": "fail",
+    "name": "Unsuccessful",
+    "chance": 40,
+    "minHours": 1,
+    "maxHours": 2
+  },
+  {
+    "id": "normal",
+    "name": "Normal",
+    "chance": 30,
+    "minHours": 1,
+    "maxHours": 4
+  },
+  {
+    "id": "rare",
+    "name": "Rare",
+    "chance": 20,
+    "minHours": 4,
+    "maxHours": 8
+  },
+  {
+    "id": "super_rare",
+    "name": "Super Rare",
+    "chance": 9,
+    "minHours": 8,
+    "maxHours": 16
+  },
+  {
+    "id": "feather",
+    "name": "Feather",
+    "chance": 1,
+    "minHours": 8,
+    "maxHours": 24
+  }
+]

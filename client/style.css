@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    margin:0;
+    background:#ddd;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+/* Phone */
+
+.phone {
+    width:390px;
+    height:844px;
+    background:white;
+    border-radius:30px;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+
+
+/* Header */
+
+.header {
+    height:80px;
+    padding:15px;
+    background:#4b7bec;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+
+.header h2 {
+    margin:0;
+    font-size:20px;
+}
+
+.header span {
+    font-size:12px;
+
+}
+
+.coin {
+    background:white;
+    color:#333;
+    padding:8px 12px;
+    border-radius:20px;
+}
+
+/* Chat */
+
+
+.chat {
+    flex:1;
+    padding:15px;
+    overflow-y:auto;
+    background:#f5f6fa;
+}
+
+.system-message {
+    background:#ffeaa7;
+    padding:12px;
+    border-radius:15px;
+    margin-bottom:15px;
+    font-size:14px;
+}
+
+
+.message {
+    max-width:80%;
+    padding:10px;
+    margin-bottom:12px;
+    border-radius:15px;
+}
+
+.message b {
+    font-size:12px;
+}
+
+.message p {
+    margin:5px 0 0;
+}
+
+
+.user {
+    margin-left:auto;
+    background:#74b9ff;
+    color:white;
+}
+
+
+
+.bot {
+    background:white;
+    border:1px solid #ddd;
+}
+
+/* Input */
+
+
+.input-area {
+    height:70px;
+    display:flex;
+    padding:10px;
+    background:white;
+    border-top:1px solid #ddd;
+}
+
+.input-area input {
+    flex:1;
+    border-radius:25px;
+    border:1px solid #ccc;
+    padding:0 15px;
+    font-size:15px;
+}
+
+
+.input-area button {
+    width:50px;
+    margin-left:10px;
+    border:none;
+    border-radius:50%;
+    background:#4b7bec;
+    color:white;
+    font-size:20px;
+}
+
+.login-box{
+    width:350px;
+    padding:30px;
+    background:white;
+    border-radius:20px;
+    text-align:center;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:20px;
+    background:#4285f4;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}

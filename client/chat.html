@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<title>信心任务</title>
+
+<link rel="stylesheet" href="chat.css">
+</head>
+<body>
+<div id="usernameModal" class="hidden">
+
+    <h3>请输入用户名</h3><br>
+    <p>❗❗❗不可更改</p>
+
+    <input id="usernameInput">
+
+    <button id="usernameBtn">
+        确认
+    </button>
+
+    <p id="usernameError"></p>
+
+</div>
+
+
+<div class="chat-container">
+
+   <header>
+
+        <button id="menu">☰</button>
+
+        <h2>✝ 信心任务</h2>
+
+
+        <div id="userArea">
+
+            <div id="user">
+                👤
+            </div>
+
+
+            <div id="profilePopup" class="hidden">
+
+                <div class="profile-header">
+
+                    <div id="profileAvatar">
+                        👤
+                    </div>
+
+                    <div>
+
+                        <h3 id="profileName">
+                            稍等...
+                        </h3>
+
+                        <p id="profileLevel">
+                            Lv.1
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <hr>
+
+                <div class="profile-info">
+
+                    <p>
+                        ⭐ XP:
+                        <span id="profileXP">--</span>
+                    </p>
+
+                    <div class="xp-bar-container">
+                        <div id="xpProgress" class="xp-progress"></div>
+                    </div>
+
+                    <p id="xpText">稍等...</p>
+
+                    <p>
+                        🌟 Stars:
+                        <span id="profileStars">
+                            --
+                        </span>
+                    </p>
+
+                    <p>
+                        🏆 Points:
+                        <span id="profilePoints">--</span>
+                    </p>
+
+                    <p>
+                        ✅ Correct:
+                        <span id="profileCorrect">--</span>
+                    </p>
+
+                    <p>
+                        ❌ Wrong:
+                        <span id="profileWrong">--</span>
+                    </p>
+
+                    <p>
+                        🎯 Accuracy:
+                        <span id="profileAccuracy">--</span>
+                    </p>
+
+                </div>
+
+                
+            </div>
+
+        </div>
+
+
+    </header>
+
+    <div class="app">
+
+        <div class="sidebar">
+
+            <div class="sidebar-title">
+                信心任务
+            </div>
+
+
+            <!-- ROOMS -->
+
+            <div class="sidebar-section-title">
+                对话频道
+            </div>
+
+            <div class="room active-room" data-room="global">
+                💬 Room
+            </div>
+
+            <div class="room" data-room="room1">
+                📖 Room1
+            </div>
+
+            <div class="room" data-room="room2">
+                🙏 Room2
+            </div>
+
+            <div class="room" data-room="room3">
+                🎮 Room3
+            </div>
+
+            <div class="room" data-room="room4">
+                🎉 Room4
+            </div>
+
+
+            <!-- USERS -->
+
+            <div class="sidebar-section-title users-title">
+                玩家
+            </div>
+
+            <div id="userList">
+
+                <!-- Users will be inserted here by JavaScript -->
+
+            </div>
+
+            <!-- AVAILABLE COMMANDS -->
+
+            <div class="sidebar-section-title commands-title">
+                适用cmd
+            </div>
+
+
+            <!-- NORMAL COMMANDS -->
+
+            <div class="command-category">
+                日常
+            </div>
+
+            <div class="command-list">
+
+                <div class="command-item">C#help</div>
+                <div class="command-item">C#profile</div>
+                <div class="command-item">C#leaderboard</div>
+                <div class="command-item">C#wish</div>
+                <div class="command-item">C#give</div>
+                <div class="command-item">C#daily</div>
+                <div class="command-item">C#work</div>
+                <div class="command-item">C#rob</div>
+
+            </div>
+
+
+            <!-- COLLECTION COMMANDS -->
+
+            <div class="command-category">
+                收藏
+            </div>
+
+            <div class="command-list">
+
+                <div class="command-item">C#shop</div>
+                <div class="command-item">C#bag</div>
+                <div class="command-item">C#fish</div>
+                <div class="command-item">C#adventure</div>
+                <div class="command-item">C#bird</div>
+                <div class="command-item">C#collection</div>
+
+            </div>
+
+
+            <!-- CHURCH COMMANDS -->
+
+            <div class="command-category">
+                基督
+            </div>
+
+            <div class="command-list">
+
+                <div class="command-item">C#church</div>
+                <div class="command-item">C#dedicate</div>
+
+            </div>
+
+
+            <!-- QUESTION COMMANDS -->
+
+            <div class="command-category">
+                题目挑战
+            </div>
+
+            <div class="command-list">
+
+                <div class="command-item">C#quiz</div>
+                <div class="command-item">C#math</div>
+                <div class="command-item">C#trivia</div>
+
+            </div>
+
+        </div>
+
+        <div class="chat-area">
+
+            <!-- EVERYTHING you already have -->
+            <main id="chatBox">
+
+                <!-- Messages will appear here -->
+
+            </main>
+        </div>
+
+
+    
+    </div>
+
+    <div id="churchCreateModal" class="hidden">
+
+        <div class="church-create-panel">
+
+            <h2>⛪ 建立教会</h2>
+
+            <p>输入教会名称：</p>
+
+            <input
+                id="churchNameInput"
+                type="text"
+                maxlength="20"
+                placeholder="Enter church name..."
+            >
+
+            <p id="churchCreateError"></p>
+
+            <div class="church-create-buttons">
+
+                <button id="churchCreateCancel">
+                    取消
+                </button>
+
+                <button id="churchCreateConfirm">
+                    建立教会
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="churchEnterModal" class="hidden">
+
+        <div class="church-create-panel">
+
+            <h2>⛪ 选择教会</h2>
+
+            <p>请选择想加入的教会</p>
+
+            <div id="churchList">
+
+                <p>稍等...</p>
+
+            </div>
+
+            <p id="churchEnterError"></p>
+
+            <div class="church-create-buttons">
+
+                <button id="churchEnterCancel">
+                    取消
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="churchLeaveModal" class="hidden">
+
+        <div class="church-create-panel">
+
+            <h2>⛪ 离开教会</h2>
+
+            <p>
+                你确定你想要离开目前的教会？
+            </p>
+
+            <p id="churchLeaveError"></p>
+
+            <div class="church-create-buttons">
+
+                <button id="churchLeaveCancel">
+                    取消
+                </button>
+
+                <button id="churchLeaveConfirm">
+                    离开
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="shopPopup" class="shop-popup-overlay">
+
+        <div class="shop-popup">
+
+            <div class="shop-header">
+
+                <h2>🛒 商店</h2>
+
+                <button id="closeShopBtn">
+                    ✕
+                </button>
+
+            </div>
+
+
+            <div class="shop-content">
+
+                <h3>🍔 今日特选</h3>
+
+                <div
+                    id="dailyFoodList"
+                    class="shop-list">
+                </div>
+
+
+                <h3>🎒 特别物品</h3>
+
+                <div
+                    id="shopItemList"
+                    class="shop-list">
+                </div>
+
+            </div>
+
+
+            <div class="shop-footer">
+
+                <div id="shopTotal">
+                    🏆 Total: 0 Points
+                </div>
+
+                <button
+                    id="shopBuyBtn"
+                    disabled>
+                    🛒 购买
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="bagPopup" class="shop-popup-overlay">
+
+        <div class="shop-popup bag-popup">
+
+            <div class="shop-header">
+
+                <h2>🎒 书包</h2>
+
+                <button id="closeBagBtn">
+                    ✕
+                </button>
+
+            </div>
+
+
+            <div
+                id="bagContent"
+                class="shop-content">
+
+                <p>稍等...</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="sellPopup" class="shop-popup-overlay hidden">
+
+        <div class="shop-popup sell-popup">
+
+            <div class="shop-header">
+
+                <h2 id="sellTitle">
+                    💰 卖物品
+                </h2>
+
+                <button
+                    id="sellCloseBtn"
+                    type="button">
+
+                    ✕
+
+                </button>
+
+            </div>
+
+
+            <div class="shop-content sell-content">
+
+                <div
+                    id="sellItemInfo"
+                    class="sell-item-info">
+                </div>
+
+
+                <div class="sell-price-info">
+
+                    <span>
+                        卖出价格:
+                    </span>
+
+                    <strong id="sellPrice">
+                        🏆 0 Points
+                    </strong>
+
+                </div>
+
+
+                <div class="sell-quantity-section">
+
+                    <p>
+                        数量
+                    </p>
+
+                    <div class="quantity-control">
+
+                        <button id="sellMinus">
+                            −
+                        </button>
+
+                        <span id="sellQuantity">
+                            1
+                        </span>
+
+                        <button id="sellPlus">
+                            +
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <div
+                    id="sellTotal"
+                    class="sell-total">
+
+                    🏆 你获得: 0 Points
+
+                </div>
+
+
+                <button
+                    id="sellConfirm"
+                    class="shop-buy-btn">
+
+                    💰 卖出
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- DEDICATE POPUP -->
+
+    <div id="dedicatePopup" class="dedicate-overlay hidden">
+
+        <div class="dedicate-panel">
+
+            <!-- HEADER -->
+            <div class="dedicate-header">
+
+                <div class="dedicate-title-area">
+                    <h2>🙏 献上</h2>
+                    <p>献上食物与真诚的心</p>
+                </div>
+
+                <button
+                    id="closeDedicateBtn"
+                    class="dedicate-close-btn">
+                    ✕
+                </button>
+
+            </div>
+
+
+            <!-- FOOD LIST -->
+            <div class="dedicate-food-section">
+
+                <div class="dedicate-section-title">
+                    🍽️ 食物
+                </div>
+
+                <div
+                    id="dedicateFoodList"
+                    class="dedicate-food-list">
+
+                    <div class="dedicate-loading">
+                        稍等...
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- SUMMARY -->
+            <div class="dedicate-summary">
+
+                <div class="dedicate-summary-row">
+
+                    <span>🍽️ 食物价值</span>
+
+                    <strong id="dedicateFoodValue">
+                        0 🏆
+                    </strong>
+
+                </div>
+
+
+                <div class="dedicate-summary-row">
+
+                    <span>✨ 祝福分量</span>
+
+                    <strong id="dedicateBlessWeight">
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div class="dedicate-summary-divider"></div>
+
+
+                <div class="dedicate-total-row">
+
+                    <span>🙏 献上的价值</span>
+
+                    <strong id="dedicateTotalValue">
+                        0 🏆
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- BUTTONS -->
+            <div class="dedicate-buttons">
+
+                <button
+                    id="dedicateConfirm"
+                    class="dedicate-confirm-btn"
+                    disabled>
+
+                    🙏 献上
+
+                </button>
+
+                <button
+                    id="dedicateCancel"
+                    class="dedicate-cancel-btn">
+
+                    取消
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div
+    id="adventurePopup"
+    class="popup hidden">
+
+        <div class="adventure-panel">
+
+            <button
+                id="closeAdventureBtn"
+                class="adventure-close">
+                ✕
+            </button>
+
+            <div class="adventure-header">
+
+                <div class="adventure-title">
+                    🗺️ 冒险
+                </div>
+
+                <div
+                    id="adventureMaps"
+                    class="adventure-maps">
+                    🗺️ 地图: 0
+                </div>
+
+            </div>
+
+
+            <div
+                id="adventureTimer"
+                class="adventure-timer">
+            </div>
+
+
+            <div class="adventure-section">
+
+                <h3>
+                    ⏳ 选择冒险时间
+                </h3>
+
+                <div
+                    id="adventureTimeList"
+                    class="adventure-time-grid">
+                </div>
+
+            </div>
+
+
+            <div class="adventure-section">
+
+                <h3>
+                    📍 选择地点
+                </h3>
+
+                <div
+                    id="adventureLocationList"
+                    class="adventure-location-grid">
+                </div>
+
+            </div>
+
+            <div class="adventure-section">
+
+                <h3>
+                    🔍 冒险放大镜
+                </h3>
+
+                <button
+                    id="adventureLensBtn"
+                    class="adventure-lens-btn"
+                    type="button">
+
+                    🔍 使用放大镜
+                    <span id="adventureLensQuantity">
+                        × 0
+                    </span>
+
+                </button>
+
+            </div>
+
+
+            <button
+                id="startAdventureBtn"
+                class="adventure-start-btn"
+                disabled>
+
+                🗺️ 开始冒险
+
+            </button>
+
+        </div>
+
+    </div>
+
+    <div id="collectionPopup" class="collection-popup">
+
+        <div class="collection-window">
+
+            <div class="collection-header">
+
+                <h2>
+                    📖 收藏
+                </h2>
+
+                <button
+                    id="closeCollectionBtn"
+                    class="collection-close"
+                >
+                    ✕
+                </button>
+
+            </div>
+
+
+            <div
+                id="collectionContent"
+                class="collection-content"
+            >
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        <input 
+            id="messageInput"
+            type="text"
+            placeholder="Type a message..."
+        >
+        <div id="userDropdown"></div>
+        <button id="sendBtn">
+            ➤
+        </button>
+
+    </footer>
+
+</div>
+
+<script type="module" src="chat.js"></script>
+
+</body>
+</html>

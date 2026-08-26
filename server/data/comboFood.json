@@ -1,0 +1,216 @@
+
+[
+  {
+    "foods": [
+      "hamburger",
+      "soda"
+    ],
+    "bonusChance": 20
+  },
+  {
+    "foods": [
+      "pizza",
+      "soda"
+    ],
+    "bonusChance": 20
+  },
+  {
+    "foods": [
+      "hotdog",
+      "fries"
+    ],
+    "bonusChance": 15
+  },
+  {
+    "foods": [
+      "hamburger",
+      "fries",
+      "soda"
+    ],
+    "bonusChance": 25
+  },
+  {
+    "foods": [
+      "fried_chicken",
+      "fries"
+    ],
+    "bonusChance": 20
+  },
+  {
+    "foods": [
+      "fried_chicken",
+      "soda"
+    ],
+    "bonusChance": 15
+  },
+  {
+    "foods": [
+      "pizza",
+      "fries"
+    ],
+    "bonusChance": 15
+  },
+  {
+    "foods": [
+      "ramen",
+      "egg"
+    ],
+    "bonusChance": 15
+  },
+  {
+    "foods": [
+      "ramen",
+      "dumplings"
+    ],
+    "bonusChance": 15
+  },
+  {
+    "foods": [
+      "rice",
+      "fried_chicken"
+    ],
+    "bonusChance": 15
+  },
+  {
+    "foods": [
+      "rice",
+      "curry_rice"
+    ],
+    "bonusChance": 10
+  },
+  {
+    "foods": [
+      "sushi",
+      "tea"
+    ],
+    "bonusChance": 20
+  },
+  {
+    "foods": [
+      "sushi",
+      "edamame"
+    ],
+    "bonusChance": 15
+  },
+  {
+    "foods": [
+      "dumplings",
+      "tea"
+    ],
+    "bonusChance": 15
+  },
+  {
+    "foods": [
+      "bento",
+      "tea"
+    ],
+    "bonusChance": 15
+  },
+  {
+    "foods": [
+      "bento",
+      "dumplings"
+    ],
+    "bonusChance": 15
+  },
+  {
+    "foods": [
+      "spaghetti",
+      "cheese"
+    ],
+    "bonusChance": 15
+  },
+  {
+    "foods": [
+      "spaghetti",
+      "cheese"
+    ],
+    "bonusChance": 20
+  },
+  {
+    "foods": [
+      "croissant",
+      "coffee"
+    ],
+    "bonusChance": 20
+  },
+  {
+    "foods": [
+      "bread",
+      "cheese"
+    ],
+    "bonusChance": 15
+  },
+  {
+    "foods": [
+      "bread",
+      "bacon",
+      "egg"
+    ],
+    "bonusChance": 20
+  },
+  {
+    "foods": [
+      "pancake",
+      "honey"
+    ],
+    "bonusChance": 20
+  },
+  {
+    "foods": [
+      "waffle",
+      "honey"
+    ],
+    "bonusChance": 20
+  },
+  {
+    "foods": [
+      "pancake",
+      "strawberry"
+    ],
+    "bonusChance": 20
+  },
+  {
+    "foods": [
+      "waffle",
+      "strawberry"
+    ],
+    "bonusChance": 20
+  },
+  {
+    "foods": [
+      "ice_cream",
+      "chocolate"
+    ],
+    "bonusChance": 20
+  },
+  {
+    "foods": [
+      "ice_cream",
+      "strawberry"
+    ],
+    "bonusChance": 20
+  },
+  {
+    "foods": [
+      "donut",
+      "coffee"
+    ],
+    "bonusChance": 20
+  },
+  {
+    "foods": [
+      "cookie",
+      "milk"
+    ],
+    "bonusChance": 20
+  },
+  {
+    "foods": [
+      "chocolate",
+      "milk"
+    ],
+    "bonusChance": 20
+  }
+]
+

@@ -1,0 +1,108 @@
+[
+    {
+        "id": "egg",
+        "name": "鸡蛋",
+        "emoji": "🥚",
+        "rarity": "fail"
+    },
+
+    {
+        "id": "baby_chick",
+        "name": "小鸡",
+        "emoji": "🐥",
+        "rarity": "normal"
+    },
+    {
+        "id": "rooster",
+        "name": "公鸡",
+        "emoji": "🐓",
+        "rarity": "normal"
+    },
+    {
+        "id": "black_bird",
+        "name": "黑鸟",
+        "emoji": "🐦‍⬛",
+        "rarity": "normal"
+    },
+    {
+        "id": "duck",
+        "name": "鸭子",
+        "emoji": "🦆",
+        "rarity": "normal"
+    },
+    {
+        "id": "goose",
+        "name": "鹅",
+        "emoji": "🪿",
+        "rarity": "normal"
+    },
+    {
+        "id": "parrot",
+        "name": "鹦鹉",
+        "emoji": "🦜",
+        "rarity": "normal"
+    },
+
+    {
+        "id": "dove",
+        "name": "鸽子",
+        "emoji": "🕊️",
+        "rarity": "rare"
+    },
+    {
+        "id": "eagle",
+        "name": "鹰",
+        "emoji": "🦅",
+        "rarity": "rare"
+    },
+    {
+        "id": "turkey",
+        "name": "火鸡",
+        "emoji": "🦃",
+        "rarity": "rare"
+    },
+    {
+        "id": "owl",
+        "name": "猫头鹰",
+        "emoji": "🦉",
+        "rarity": "rare"
+    },
+    {
+        "id": "flamingo",
+        "name": "火烈鸟",
+        "emoji": "🦩",
+        "rarity": "rare"
+    },
+
+    {
+        "id": "swan",
+        "name": "天鹅",
+        "emoji": "🦢",
+        "rarity": "super_rare"
+    },
+    {
+        "id": "phoenix",
+        "name": "凤凰",
+        "emoji": "🐦‍🔥",
+        "rarity": "super_rare"
+    },
+    {
+        "id": "peacock",
+        "name": "孔雀",
+        "emoji": "🦚",
+        "rarity": "super_rare"
+    },
+    {
+        "id": "dodo",
+        "name": "渡渡鸟",
+        "emoji": "🦤",
+        "rarity": "super_rare"
+    },
+
+    {
+        "id": "feather",
+        "name": "羽毛",
+        "emoji": "🪶",
+        "rarity": "feather"
+    }
+]

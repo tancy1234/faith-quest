@@ -1,0 +1,802 @@
+[
+  {
+    "id": "deer",
+    "name": "鹿",
+    "emoji": "🦌",
+    "type": "animal",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "goat",
+    "name": "山羊",
+    "emoji": "🐐",
+    "type": "animal",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "leopard",
+    "name": "猎豹",
+    "emoji": "🐆",
+    "type": "animal",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "sheep",
+    "name": "绵羊",
+    "emoji": "🐑",
+    "type": "animal",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "hedgehog",
+    "name": "刺猬",
+    "emoji": "🦔",
+    "type": "animal",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "donkey",
+    "name": "驴",
+    "emoji": "🫏",
+    "type": "animal",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "sloth",
+    "name": "树懒",
+    "emoji": "🦥",
+    "type": "animal",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "horse",
+    "name": "马",
+    "emoji": "🐎",
+    "type": "animal",
+    "rarity": "uncommon",
+    "sellable": false
+  },
+  {
+    "id": "ox",
+    "name": "公牛",
+    "emoji": "🐂",
+    "type": "animal",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "pig",
+    "name": "猪",
+    "emoji": "🐖",
+    "type": "animal",
+    "rarity": "uncommon",
+    "sellable": false
+  },
+  {
+    "id": "rabbit",
+    "name": "兔子",
+    "emoji": "🐇",
+    "type": "animal",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "elephant",
+    "name": "大象",
+    "emoji": "🐘",
+    "type": "animal",
+    "rarity": "rare",
+    "sellable": false
+  },
+  {
+    "id": "turtle",
+    "name": "乌龟",
+    "emoji": "🐢",
+    "type": "animal",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "snake",
+    "name": "蛇",
+    "emoji": "🐍",
+    "type": "animal",
+    "rarity": "uncommon",
+    "sellable": false
+  },
+  {
+    "id": "lizard",
+    "name": "蜥蜴",
+    "emoji": "🦎",
+    "type": "animal",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "frog",
+    "name": "青蛙",
+    "emoji": "🐸",
+    "type": "animal",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "panda",
+    "name": "熊猫",
+    "emoji": "🐼",
+    "type": "animal",
+    "rarity": "rare",
+    "sellable": false
+  },
+  {
+    "id": "koala",
+    "name": "考拉",
+    "emoji": "🐨",
+    "type": "animal",
+    "rarity": "rare",
+    "sellable": false
+  },
+  {
+    "id": "hippopotamus",
+    "name": "河马",
+    "emoji": "🦛",
+    "type": "animal",
+    "rarity": "rare",
+    "sellable": false
+  },
+  {
+    "id": "rhinoceros",
+    "name": "犀牛",
+    "emoji": "🦏",
+    "type": "animal",
+    "rarity": "rare",
+    "sellable": false
+  },
+  {
+    "id": "giraffe",
+    "name": "长颈鹿",
+    "emoji": "🦒",
+    "type": "animal",
+    "rarity": "rare",
+    "sellable": false
+  },
+  {
+    "id": "zebra",
+    "name": "斑马",
+    "emoji": "🦓",
+    "type": "animal",
+    "rarity": "uncommon",
+    "sellable": false
+  },
+  {
+    "id": "kangaroo",
+    "name": "袋鼠",
+    "emoji": "🦘",
+    "type": "animal",
+    "rarity": "rare",
+    "sellable": false
+  },
+  {
+    "id": "camel",
+    "name": "骆驼",
+    "emoji": "🐫",
+    "type": "animal",
+    "rarity": "uncommon",
+    "sellable": false
+  },
+  {
+    "id": "snail",
+    "name": "蜗牛",
+    "emoji": "🐌",
+    "type": "bug",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "ant",
+    "name": "蚂蚁",
+    "emoji": "🐜",
+    "type": "bug",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "bee",
+    "name": "蜜蜂",
+    "emoji": "🐝",
+    "type": "bug",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "butterfly",
+    "name": "蝴蝶",
+    "emoji": "🦋",
+    "type": "bug",
+    "rarity": "uncommon",
+    "sellable": false
+  },
+  {
+    "id": "beetle",
+    "name": "甲虫",
+    "emoji": "🪲",
+    "type": "bug",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "ladybug",
+    "name": "瓢虫",
+    "emoji": "🐞",
+    "type": "bug",
+    "rarity": "uncommon",
+    "sellable": false
+  },
+  {
+    "id": "scorpion",
+    "name": "蝎子",
+    "emoji": "🦂",
+    "type": "bug",
+    "rarity": "rare",
+    "sellable": false
+  },
+  {
+    "id": "grasshopper",
+    "name": "蚱蜢",
+    "emoji": "🦗",
+    "type": "bug",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "spider",
+    "name": "蜘蛛",
+    "emoji": "🕷️",
+    "type": "bug",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "cactus",
+    "name": "仙人掌",
+    "emoji": "🌵",
+    "type": "plant",
+    "rarity": "uncommon",
+    "sellable": false
+  },
+  {
+    "id": "palm_tree",
+    "name": "棕榈树",
+    "emoji": "🌴",
+    "type": "plant",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "evergreen_tree",
+    "name": "常青树",
+    "emoji": "🌲",
+    "type": "plant",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "deciduous_tree",
+    "name": "落叶树",
+    "emoji": "🌳",
+    "type": "plant",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "bamboo",
+    "name": "竹子",
+    "emoji": "🎋",
+    "type": "plant",
+    "rarity": "uncommon",
+    "sellable": false
+  },
+  {
+    "id": "seedling",
+    "name": "幼苗",
+    "emoji": "🌱",
+    "type": "plant",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "sunflower",
+    "name": "向日葵",
+    "emoji": "🌻",
+    "type": "plant",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "rose",
+    "name": "玫瑰",
+    "emoji": "🌹",
+    "type": "plant",
+    "rarity": "uncommon",
+    "sellable": false
+  },
+  {
+    "id": "tulip",
+    "name": "郁金香",
+    "emoji": "🌷",
+    "type": "plant",
+    "rarity": "uncommon",
+    "sellable": false
+  },
+  {
+    "id": "cherry_blossom",
+    "name": "樱花",
+    "emoji": "🌸",
+    "type": "plant",
+    "rarity": "rare",
+    "sellable": false
+  },
+  {
+    "id": "hibiscus",
+    "name": "木槿花",
+    "emoji": "🌺",
+    "type": "plant",
+    "rarity": "uncommon",
+    "sellable": false
+  },
+  {
+    "id": "lotus",
+    "name": "莲花",
+    "emoji": "🪷",
+    "type": "plant",
+    "rarity": "rare",
+    "sellable": false
+  },
+  {
+    "id": "maple_leaf",
+    "name": "枫叶",
+    "emoji": "🍁",
+    "type": "leaf",
+    "rarity": "uncommon",
+    "sellable": false
+  },
+  {
+    "id": "fallen_leaf",
+    "name": "落叶",
+    "emoji": "🍂",
+    "type": "leaf",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "leaf",
+    "name": "绿叶",
+    "emoji": "🍃",
+    "type": "leaf",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "apple",
+    "name": "苹果",
+    "emoji": "🍎",
+    "type": "fruit",
+    "rarity": "common",
+    "sellable": true
+  },
+  {
+    "id": "banana",
+    "name": "香蕉",
+    "emoji": "🍌",
+    "type": "fruit",
+    "rarity": "common",
+    "sellable": true
+  },
+  {
+    "id": "orange",
+    "name": "橙子",
+    "emoji": "🍊",
+    "type": "fruit",
+    "rarity": "common",
+    "sellable": true
+  },
+  {
+    "id": "watermelon",
+    "name": "西瓜",
+    "emoji": "🍉",
+    "type": "fruit",
+    "rarity": "common",
+    "sellable": true
+  },
+  {
+    "id": "grapes",
+    "name": "葡萄",
+    "emoji": "🍇",
+    "type": "fruit",
+    "rarity": "common",
+    "sellable": true
+  },
+  {
+    "id": "strawberry",
+    "name": "草莓",
+    "emoji": "🍓",
+    "type": "fruit",
+    "rarity": "uncommon",
+    "sellable": true
+  },
+  {
+    "id": "pineapple",
+    "name": "菠萝",
+    "emoji": "🍍",
+    "type": "fruit",
+    "rarity": "uncommon",
+    "sellable": true
+  },
+  {
+    "id": "peach",
+    "name": "桃子",
+    "emoji": "🍑",
+    "type": "fruit",
+    "rarity": "uncommon",
+    "sellable": true
+  },
+  {
+    "id": "cherries",
+    "name": "樱桃",
+    "emoji": "🍒",
+    "type": "fruit",
+    "rarity": "uncommon",
+    "sellable": true
+  },
+  {
+    "id": "coconut",
+    "name": "椰子",
+    "emoji": "🥥",
+    "type": "fruit",
+    "rarity": "uncommon",
+    "sellable": true
+  },
+  {
+    "id": "melon",
+    "name": "甜瓜",
+    "emoji": "🍈",
+    "type": "fruit",
+    "rarity": "common",
+    "sellable": true
+  },
+  {
+    "id": "lemon",
+    "name": "柠檬",
+    "emoji": "🍋",
+    "type": "fruit",
+    "rarity": "common",
+    "sellable": true
+  },
+  {
+    "id": "kiwi",
+    "name": "猕猴桃",
+    "emoji": "🥝",
+    "type": "fruit",
+    "rarity": "uncommon",
+    "sellable": true
+  },
+  {
+    "id": "mango",
+    "name": "芒果",
+    "emoji": "🥭",
+    "type": "fruit",
+    "rarity": "uncommon",
+    "sellable": true
+  },
+  {
+    "id": "blueberries",
+    "name": "蓝莓",
+    "emoji": "🫐",
+    "type": "fruit",
+    "rarity": "rare",
+    "sellable": true
+  },
+  {
+    "id": "avocado",
+    "name": "牛油果",
+    "emoji": "🥑",
+    "type": "fruit",
+    "rarity": "rare",
+    "sellable": true
+  },
+  {
+    "id": "corn",
+    "name": "玉米",
+    "emoji": "🌽",
+    "type": "vegetable",
+    "rarity": "common",
+    "sellable": true
+  },
+  {
+    "id": "carrot",
+    "name": "胡萝卜",
+    "emoji": "🥕",
+    "type": "vegetable",
+    "rarity": "common",
+    "sellable": true
+  },
+  {
+    "id": "tomato",
+    "name": "番茄",
+    "emoji": "🍅",
+    "type": "vegetable",
+    "rarity": "common",
+    "sellable": true
+  },
+  {
+    "id": "cucumber",
+    "name": "黄瓜",
+    "emoji": "🥒",
+    "type": "vegetable",
+    "rarity": "common",
+    "sellable": true
+  },
+  {
+    "id": "chestnut",
+    "name": "栗子",
+    "emoji": "🌰",
+    "type": "fruit",
+    "rarity": "uncommon",
+    "sellable": true
+  },
+  {
+    "id": "peanuts",
+    "name": "花生",
+    "emoji": "🥜",
+    "type": "vegetable",
+    "rarity": "common",
+    "sellable": true
+  },
+  {
+    "id": "olives",
+    "name": "橄榄",
+    "emoji": "🫒",
+    "type": "fruit",
+    "rarity": "rare",
+    "sellable": true
+  },
+  {
+    "id": "edamame",
+    "name": "毛豆",
+    "emoji": "🫛",
+    "type": "vegetable",
+    "rarity": "uncommon",
+    "sellable": true
+  },
+  {
+    "id": "bison",
+    "name": "野牛",
+    "emoji": "🦬",
+    "type": "animal",
+    "rarity": "rare",
+    "sellable": false
+  },
+  {
+    "id": "llama",
+    "name": "美洲驼",
+    "emoji": "🦙",
+    "type": "animal",
+    "rarity": "uncommon",
+    "sellable": false
+  },
+  {
+    "id": "beaver",
+    "name": "海狸",
+    "emoji": "🦫",
+    "type": "animal",
+    "rarity": "uncommon",
+    "sellable": false
+  },
+  {
+    "id": "otter",
+    "name": "水獭",
+    "emoji": "🦦",
+    "type": "animal",
+    "rarity": "rare",
+    "sellable": false
+  },
+  {
+    "id": "skunk",
+    "name": "臭鼬",
+    "emoji": "🦨",
+    "type": "animal",
+    "rarity": "uncommon",
+    "sellable": false
+  },
+  {
+    "id": "badger",
+    "name": "獾",
+    "emoji": "🦡",
+    "type": "animal",
+    "rarity": "rare",
+    "sellable": false
+  },
+  {
+    "id": "bat",
+    "name": "蝙蝠",
+    "emoji": "🦇",
+    "type": "animal",
+    "rarity": "uncommon",
+    "sellable": false
+  },
+  {
+    "id": "squirrel",
+    "name": "松鼠",
+    "emoji": "🐿️",
+    "type": "animal",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "crocodile",
+    "name": "鳄鱼",
+    "emoji": "🐊",
+    "type": "animal",
+    "rarity": "rare",
+    "sellable": false
+  },
+  {
+    "id": "seal",
+    "name": "海豹",
+    "emoji": "🦭",
+    "type": "animal",
+    "rarity": "rare",
+    "sellable": false
+  },
+  {
+    "id": "water_buffalo",
+    "name": "水牛",
+    "emoji": "🐃",
+    "type": "animal",
+    "rarity": "uncommon",
+    "sellable": false
+  },
+  {
+    "id": "ram",
+    "name": "公羊",
+    "emoji": "🐏",
+    "type": "animal",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "hyacinth",
+    "name": "风信子",
+    "emoji": "🪻",
+    "type": "plant",
+    "rarity": "uncommon",
+    "sellable": false
+  },
+  {
+    "id": "blossom",
+    "name": "花朵",
+    "emoji": "🌼",
+    "type": "plant",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "herb",
+    "name": "香草",
+    "emoji": "🌿",
+    "type": "plant",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "four_leaf_clover",
+    "name": "四叶草",
+    "emoji": "🍀",
+    "type": "leaf",
+    "rarity": "rare",
+    "sellable": false
+  },
+  {
+    "id": "shamrock",
+    "name": "三叶草",
+    "emoji": "☘️",
+    "type": "leaf",
+    "rarity": "uncommon",
+    "sellable": false
+  },
+  {
+    "id": "fly",
+    "name": "苍蝇",
+    "emoji": "🪰",
+    "type": "bug",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "mosquito",
+    "name": "蚊子",
+    "emoji": "🦟",
+    "type": "bug",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "worm",
+    "name": "蠕虫",
+    "emoji": "🪱",
+    "type": "bug",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "caterpillar",
+    "name": "毛毛虫",
+    "emoji": "🐛",
+    "type": "bug",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "cricket",
+    "name": "蟋蟀",
+    "emoji": "🦗",
+    "type": "bug",
+    "rarity": "uncommon",
+    "sellable": false
+  },
+  {
+    "id": "mammoth",
+    "name": "猛犸象",
+    "emoji": "🦣",
+    "type": "animal",
+    "rarity": "legendary",
+    "sellable": false
+  },
+  {
+    "id": "orangutan",
+    "name": "人猿",
+    "emoji": "🦧",
+    "type": "animal",
+    "rarity": "rare",
+    "sellable": false
+  },
+  {
+    "id": "wheat",
+    "name": "小麦",
+    "emoji": "🌾",
+    "type": "plant",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+    "id": "wilted_flower",
+    "name": "枯萎的花",
+    "emoji": "🥀",
+    "type": "plant",
+    "rarity": "uncommon",
+    "sellable": false
+  },
+  {
+    "id": "potted_plant",
+    "name": "盆栽",
+    "emoji": "🪴",
+    "type": "plant",
+    "rarity": "common",
+    "sellable": false
+  },
+  {
+  "id": "black_cat",
+  "name": "黑猫",
+  "emoji": "🐈‍⬛",
+  "type": "animal",
+  "rarity": "uncommon",
+  "sellable": false
+  }
+]

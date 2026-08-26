@@ -1,0 +1,2402 @@
+[
+    {
+        "id": 1,
+        "difficulty": "Easy",
+        "category": "Old Testament",
+        "book": "Genesis",
+        "question": "神创造世界用了多少天？",
+        "options": {
+            "A": "5天",
+            "B": "7天",
+            "C": "6天",
+            "D": "8天"
+        },
+        "answer": "C",
+        "verse": "创世记 1:31-2:2",
+        "explanation": "神在六日内完成创造，第七日安息。因此创造工作用了六天完成。"
+    },
+    {
+        "id": 2,
+        "difficulty": "Medium",
+        "category": "Old Testament",
+        "book": "Genesis",
+        "question": "谁建造了方舟？",
+        "options": {
+            "A": "彼得",
+            "B": "摩西",
+            "C": "保罗",
+            "D": "挪亚"
+        },
+        "answer": "D",
+        "verse": "创世记 6:13-14",
+        "explanation": "神吩咐挪亚建造方舟，因为神要用洪水审判当时的罪恶世界，并拯救挪亚一家。"
+    },
+    {
+        "id": 3,
+        "difficulty": "Hard",
+        "category": "New Testament",
+        "book": "John",
+        "question": "耶稣在迦拿行的第一个神迹是什么？",
+        "options": {
+            "A": "平静风浪",
+            "B": "水变酒",
+            "C": "医治病人",
+            "D": "五饼二鱼"
+        },
+        "answer": "B",
+        "verse": "约翰福音 2:1-11",
+        "explanation": "耶稣在加利利的迦拿婚宴中将水变成酒，这是他所行的第一个神迹，显出他的荣耀。"
+    },
+    {
+        "id": 4,
+        "difficulty": "Easy",
+        "category": "Old Testament",
+        "book": "Genesis",
+        "question": "亚当和夏娃住在哪里？",
+        "options": {
+            "A": "迦南地",
+            "B": "伊甸园",
+            "C": "埃及",
+            "D": "耶路撒冷"
+        },
+        "answer": "B",
+        "verse": "创世记 2:8",
+        "explanation": "神在东方的伊甸设立一个园子，并把所造的人安置在那里。"
+    },
+    {
+        "id": 5,
+        "difficulty": "Easy",
+        "category": "New Testament",
+        "book": "Matthew",
+        "question": "耶稣有几个门徒？",
+        "options": {
+            "A": "13个",
+            "B": "11个",
+            "C": "10个",
+            "D": "12个"
+        },
+        "answer": "D",
+        "verse": "马太福音 10:1-4",
+        "explanation": "耶稣拣选了十二个门徒，并赐给他们传道和医治的能力。"
+    },
+    {
+        "id": 6,
+        "difficulty": "Medium",
+        "category": "Old Testament",
+        "book": "1 Samuel",
+        "question": "大卫用什么击败歌利亚？",
+        "options": {
+            "A": "剑",
+            "B": "石头和机弦",
+            "C": "弓箭",
+            "D": "长矛"
+        },
+        "answer": "B",
+        "verse": "撒母耳记上 17:49-50",
+        "explanation": "大卫用机弦甩出一块石子击中歌利亚，靠着神取得胜利。"
+    },
+    {
+        "id": 7,
+        "difficulty": "Medium",
+        "category": "Old Testament",
+        "book": "Exodus",
+        "question": "摩西带领以色列人离开哪里？",
+        "options": {
+            "A": "埃及",
+            "B": "巴比伦",
+            "C": "亚述",
+            "D": "罗马"
+        },
+        "answer": "A",
+        "verse": "出埃及记 12:31-32",
+        "explanation": "神通过摩西带领以色列人离开埃及，脱离法老的奴役。"
+    },
+    {
+        "id": 8,
+        "difficulty": "Medium",
+        "category": "New Testament",
+        "book": "Matthew / Luke",
+        "question": "耶稣出生在哪里？",
+        "options": {
+            "A": "加利利",
+            "B": "耶路撒冷",
+            "C": "伯利恒",
+            "D": "拿撒勒"
+        },
+        "answer": "C",
+        "verse": "马太福音 2:1; 路加福音 2:4-7",
+        "explanation": "耶稣出生在犹太的伯利恒，应验了旧约关于弥赛亚出生地点的预言。"
+    },
+    {
+        "id": 9,
+        "difficulty": "Medium",
+        "category": "New Testament",
+        "book": "Matthew",
+        "question": "谁曾三次不认耶稣？",
+        "options": {
+            "A": "约翰",
+            "B": "雅各",
+            "C": "多马",
+            "D": "彼得"
+        },
+        "answer": "D",
+        "verse": "马太福音 26:69-75",
+        "explanation": "彼得在耶稣被捕后，因为害怕而三次否认认识耶稣，后来痛哭悔改。"
+    },
+    {
+        "id": 10,
+        "difficulty": "Easy",
+        "category": "Old Testament",
+        "book": "Genesis",
+        "question": "圣经中的第一卷书是什么？",
+        "options": {
+            "A": "马太福音",
+            "B": "出埃及记",
+            "C": "诗篇",
+            "D": "创世记"
+        },
+        "answer": "D",
+        "verse": "创世记 1:1",
+        "explanation": "创世记是圣经的第一卷书，记载神创造天地的开始。"
+    },
+    {
+        "id": 11,
+        "difficulty": "Easy",
+        "category": "Old Testament",
+        "book": "Daniel",
+        "question": "谁被丢进狮子坑但被神保护？",
+        "options": {
+            "A": "以利亚",
+            "B": "但以理",
+            "C": "撒母耳",
+            "D": "约瑟"
+        },
+        "answer": "B",
+        "verse": "但以理书 6:16-23",
+        "explanation": "但以理因忠心敬拜神被丢进狮子坑，但神保护他没有受伤。"
+    },
+    {
+        "id": 12,
+        "difficulty": "Hard",
+        "category": "New Testament",
+        "book": "Acts",
+        "question": "耶稣复活后在地上显现了多少天？",
+        "options": {
+            "A": "7天",
+            "B": "30天",
+            "C": "40天",
+            "D": "50天"
+        },
+        "answer": "C",
+        "verse": "使徒行传 1:3",
+        "explanation": "耶稣复活后向门徒显现四十天，讲说神国的事。"
+    },
+    {
+        "id": 13,
+        "difficulty": "Medium",
+        "category": "New Testament",
+        "book": "Matthew",
+        "question": "谁把耶稣卖给了祭司长？",
+        "options": {
+            "A": "彼得",
+            "B": "犹大",
+            "C": "腓力",
+            "D": "马太"
+        },
+        "answer": "B",
+        "verse": "马太福音 26:14-16",
+        "explanation": "犹大为了三十块银钱，与祭司长商议出卖耶稣。"
+    },
+    {
+        "id": 14,
+        "difficulty": "Hard",
+        "category": "Old Testament",
+        "book": "Genesis",
+        "question": "神与亚伯拉罕立约时，应许他的后裔会像什么一样多？",
+        "options": {
+            "A": "天上的星",
+            "B": "两者都是",
+            "C": "海边的沙",
+            "D": "高山上的石头"
+        },
+        "answer": "B",
+        "verse": "创世记 15:5; 22:17",
+        "explanation": "神应许亚伯拉罕的后裔将如天上的星和海边的沙一样多。"
+    },
+    {
+        "id": 15,
+        "difficulty": "Hard",
+        "category": "Old Testament",
+        "book": "Genesis",
+        "question": "约瑟被他的哥哥卖到了哪里？",
+        "options": {
+            "A": "埃及",
+            "B": "巴比伦",
+            "C": "亚述",
+            "D": "迦南"
+        },
+        "answer": "A",
+        "verse": "创世记 37:28",
+        "explanation": "约瑟被哥哥卖给米甸商人，后来被带到埃及。"
+    },
+    {
+        "id": 16,
+        "difficulty": "Hard",
+        "category": "Old Testament",
+        "book": "Exodus",
+        "question": "十诫是神在哪里赐给摩西的？",
+        "options": {
+            "A": "橄榄山",
+            "B": "亚拉腊山",
+            "C": "各各他山",
+            "D": "西奈山"
+        },
+        "answer": "D",
+        "verse": "出埃及记 19:20; 20:1-17",
+        "explanation": "神在西奈山向摩西颁布十诫，作为以色列人的律法。"
+    },
+    {
+        "id": 17,
+        "difficulty": "Medium",
+        "category": "Old Testament",
+        "book": "Joshua",
+        "question": "以色列人进入应许之地后，第一个攻打的城市是什么？",
+        "options": {
+            "A": "希伯仑",
+            "B": "耶路撒冷",
+            "C": "耶利哥",
+            "D": "伯利恒"
+        },
+        "answer": "C",
+        "verse": "约书亚记 6:1-20",
+        "explanation": "以色列人在约书亚带领下绕行耶利哥城，城墙倒塌后取得胜利。"
+    },
+    {
+        "id": 18,
+        "difficulty": "Hard",
+        "category": "Old Testament",
+        "book": "Judges",
+        "question": "参孙的力量来源是什么？",
+        "options": {
+            "A": "他的训练",
+            "B": "他的头发本身",
+            "C": "神赐给他的力量",
+            "D": "他的武器"
+        },
+        "answer": "C",
+        "verse": "士师记 16:17",
+        "explanation": "参孙的力量来自神，他的头发是拿细耳人身份的记号，并非力量本身。"
+    },
+    {
+        "id": 19,
+        "difficulty": "Hard",
+        "category": "Old Testament",
+        "book": "1 Kings",
+        "question": "所罗门向神求了什么，使神喜悦？",
+        "options": {
+            "A": "军事力量",
+            "B": "财富",
+            "C": "智慧",
+            "D": "长寿"
+        },
+        "answer": "C",
+        "verse": "列王纪上 3:9-12",
+        "explanation": "所罗门求智慧来治理百姓，神因此赐给他超过所求的祝福。"
+    },
+    {
+        "id": 20,
+        "difficulty": "Hard",
+        "category": "Old Testament",
+        "book": "Jonah",
+        "question": "约拿逃避神的呼召时，去了哪里？",
+        "options": {
+            "A": "他施",
+            "B": "埃及",
+            "C": "尼尼微",
+            "D": "巴比伦"
+        },
+        "answer": "A",
+        "verse": "约拿书 1:3",
+        "explanation": "约拿想逃避神的命令，搭船往他施去，后来被大鱼吞下。"
+    },
+    {
+        "id": 21,
+        "difficulty": "Hard",
+        "category": "New Testament",
+        "book": "Matthew",
+        "question": "耶稣受洗时，圣灵以什么形状降下？",
+        "options": {
+            "A": "鸽子",
+            "B": "云彩",
+            "C": "火焰",
+            "D": "光"
+        },
+        "answer": "A",
+        "verse": "马太福音 3:16",
+        "explanation": "耶稣受洗后，圣灵仿佛鸽子降下，天上有声音宣告耶稣是神的爱子。"
+    },
+    {
+        "id": 22,
+        "difficulty": "Hard",
+        "category": "New Testament",
+        "book": "Acts",
+        "question": "保罗原来的名字是什么？",
+        "options": {
+            "A": "马可",
+            "B": "扫罗",
+            "C": "约瑟",
+            "D": "西门"
+        },
+        "answer": "B",
+        "verse": "使徒行传 9:1-4",
+        "explanation": "保罗原名扫罗，起初逼迫基督徒，后来在往大马士革路上遇见耶稣并改变。"
+    },
+    {
+        "id": 23,
+        "difficulty": "Hard",
+        "category": "New Testament",
+        "book": "Revelation",
+        "question": "启示录中，新耶路撒冷有几道城门？",
+        "options": {
+            "A": "10道",
+            "B": "24道",
+            "C": "12道",
+            "D": "7道"
+        },
+        "answer": "C",
+        "verse": "启示录 21:12",
+        "explanation": "新耶路撒冷有十二道门，每一道门是一颗珍珠，并写着以色列十二支派的名字。"
+    },
+    {
+        "id": 24,
+        "difficulty": "Hard",
+        "category": "Old Testament",
+        "book": "Genesis",
+        "question": "雅各有几个儿子，后来成为以色列的十二支派？",
+        "options": {
+            "A": "10个",
+            "B": "12个",
+            "C": "13个",
+            "D": "11个"
+        },
+        "answer": "B",
+        "verse": "创世记 35:22-26",
+        "explanation": "雅各有十二个儿子，他们成为以色列十二支派的祖先。"
+    },
+    {
+        "id": 25,
+        "difficulty": "Medium",
+        "category": "Old Testament",
+        "book": "Exodus",
+        "question": "以色列人在旷野中吃了神供应的什么食物？",
+        "options": {
+            "A": "葡萄",
+            "B": "橄榄",
+            "C": "吗哪",
+            "D": "无酵饼"
+        },
+        "answer": "C",
+        "verse": "出埃及记 16:4-15",
+        "explanation": "神从天降下吗哪供应以色列人在旷野中的需要。"
+    },
+    {
+        "id": 26,
+        "difficulty": "Hard",
+        "category": "Old Testament",
+        "book": "1 Chronicles",
+        "question": "大卫为什么不能建造圣殿？",
+        "options": {
+            "A": "他不是以色列王",
+            "B": "他曾经流过许多人的血",
+            "C": "他没有足够的钱",
+            "D": "神不允许敬拜"
+        },
+        "answer": "B",
+        "verse": "历代志上 28:3",
+        "explanation": "神告诉大卫，因为他曾参与许多战争并流过人的血，所以圣殿将由他的儿子所罗门建造。"
+    },
+    {
+        "id": 27,
+        "difficulty": "Hard",
+        "category": "Old Testament",
+        "book": "Daniel",
+        "question": "但以理为什么被丢进狮子坑？",
+        "options": {
+            "A": "偷窃王宫财物",
+            "B": "违反饮食规定",
+            "C": "攻击巴比伦军队",
+            "D": "拒绝停止向神祷告"
+        },
+        "answer": "D",
+        "verse": "但以理书 6:10-16",
+        "explanation": "但以理坚持向神祷告，没有遵守禁止祷告的命令，因此被陷害丢进狮子坑。"
+    },
+    {
+        "id": 28,
+        "difficulty": "Insane",
+        "category": "Old Testament",
+        "book": "Isaiah",
+        "question": "哪位先知预言了弥赛亚会由童女所生？",
+        "options": {
+            "A": "耶利米",
+            "B": "以赛亚",
+            "C": "以西结",
+            "D": "但以理"
+        },
+        "answer": "B",
+        "verse": "以赛亚书 7:14",
+        "explanation": "以赛亚预言必有童女怀孕生子，这被认为指向耶稣基督的降生。"
+    },
+    {
+        "id": 29,
+        "difficulty": "Medium",
+        "category": "New Testament",
+        "book": "Matthew",
+        "question": "耶稣在旷野受试探时，禁食了多少天？",
+        "options": {
+            "A": "30天",
+            "B": "50天",
+            "C": "40天",
+            "D": "7天"
+        },
+        "answer": "C",
+        "verse": "马太福音 4:1-2",
+        "explanation": "耶稣在旷野禁食四十昼夜，之后面对撒但的试探。"
+    },
+    {
+        "id": 30,
+        "difficulty": "Hard",
+        "category": "New Testament",
+        "book": "John",
+        "question": "耶稣使拉撒路复活时，拉撒路已经死了多久？",
+        "options": {
+            "A": "三天",
+            "B": "四天",
+            "C": "一天",
+            "D": "七天"
+        },
+        "answer": "B",
+        "verse": "约翰福音 11:39",
+        "explanation": "拉撒路已经死了四天，耶稣使他复活，显明神的大能。"
+    },
+    {
+        "id": 31,
+        "difficulty": "Insane",
+        "category": "New Testament",
+        "book": "Romans",
+        "question": "保罗认为人称义主要是靠什么？",
+        "options": {
+            "A": "信靠耶稣基督",
+            "B": "财富和善行",
+            "C": "遵守所有律法",
+            "D": "人的智慧"
+        },
+        "answer": "A",
+        "verse": "罗马书 3:28",
+        "explanation": "保罗教导人称义不是靠律法行为，而是因信耶稣基督。"
+    },
+    {
+        "id": 32,
+        "difficulty": "Hard",
+        "category": "New Testament",
+        "book": "Acts",
+        "question": "第一次被称为“基督徒”的地方是哪里？",
+        "options": {
+            "A": "安提阿",
+            "B": "耶路撒冷",
+            "C": "哥林多",
+            "D": "罗马"
+        },
+        "answer": "A",
+        "verse": "使徒行传 11:26",
+        "explanation": "门徒在安提阿第一次被称为基督徒。"
+    },
+    {
+        "id": 33,
+        "difficulty": "Insane",
+        "category": "Bible Knowledge",
+        "book": "General",
+        "question": "圣经中最长的一章是哪一章？",
+        "options": {
+            "A": "诗篇 119篇",
+            "B": "诗篇 23篇",
+            "C": "启示录 22章",
+            "D": "创世记 1章"
+        },
+        "answer": "A",
+        "verse": "诗篇 119篇",
+        "explanation": "诗篇119篇共有176节，是圣经中最长的一章。"
+    },
+    {
+        "id": 34,
+        "difficulty": "Hard",
+        "category": "Old Testament",
+        "book": "Genesis",
+        "question": "谁是圣经中第一个被称为先知的人？",
+        "options": {
+            "A": "摩西",
+            "B": "撒母耳",
+            "C": "亚伯拉罕",
+            "D": "以利亚"
+        },
+        "answer": "C",
+        "verse": "创世记 20:7",
+        "explanation": "神称亚伯拉罕为先知，这是圣经中第一次出现“先知”这个称呼。"
+    },
+    {
+        "id": 35,
+        "difficulty": "Hard",
+        "category": "Old Testament",
+        "book": "Genesis",
+        "question": "以扫因为什么把长子的名分卖给雅各？",
+        "options": {
+            "A": "一碗红豆汤",
+            "B": "金钱",
+            "C": "土地",
+            "D": "牲畜"
+        },
+        "answer": "A",
+        "verse": "创世记 25:29-34",
+        "explanation": "以扫因饥饿轻看长子的名分，用一碗红豆汤换给雅各。"
+    },
+    {
+        "id": 36,
+        "difficulty": "Insane",
+        "category": "Old Testament",
+        "book": "Leviticus",
+        "question": "以色列的大祭司一年一次进入至圣所是在什么节日？",
+        "options": {
+            "A": "赎罪日",
+            "B": "住棚节",
+            "C": "逾越节",
+            "D": "五旬节"
+        },
+        "answer": "A",
+        "verse": "利未记 16:29-34",
+        "explanation": "赎罪日时，大祭司一年一次进入至圣所，为自己和百姓赎罪。"
+    },
+    {
+        "id": 37,
+        "difficulty": "Hard",
+        "category": "Old Testament",
+        "book": "Numbers",
+        "question": "以色列人在旷野漂流了多少年？",
+        "options": {
+            "A": "40年",
+            "B": "70年",
+            "C": "30年",
+            "D": "20年"
+        },
+        "answer": "A",
+        "verse": "民数记 14:33-34",
+        "explanation": "因为以色列人不信靠神，他们在旷野漂流四十年，直到那一代人过去。"
+    },
+    {
+        "id": 38,
+        "difficulty": "Insane",
+        "category": "Old Testament",
+        "book": "Judges",
+        "question": "圣经中唯一一位女性士师是谁？",
+        "options": {
+            "A": "路得",
+            "B": "以斯帖",
+            "C": "底波拉",
+            "D": "米利暗"
+        },
+        "answer": "C",
+        "verse": "士师记 4:4",
+        "explanation": "底波拉是以色列的士师，也是唯一记载的女性士师。"
+    },
+    {
+        "id": 39,
+        "difficulty": "Hard",
+        "category": "Old Testament",
+        "book": "1 Kings",
+        "question": "以利亚在迦密山挑战巴力先知时，有多少个巴力先知参加？",
+        "options": {
+            "A": "450个",
+            "B": "100个",
+            "C": "700个",
+            "D": "300个"
+        },
+        "answer": "A",
+        "verse": "列王纪上 18:19",
+        "explanation": "以利亚在迦密山面对450个巴力先知，并证明耶和华是真神。"
+    },
+    {
+        "id": 40,
+        "difficulty": "Hard",
+        "category": "New Testament",
+        "book": "Matthew",
+        "question": "耶稣登山变像时，与他一起出现的两位旧约人物是谁？",
+        "options": {
+            "A": "亚当和挪亚",
+            "B": "亚伯拉罕和大卫",
+            "C": "摩西和以利亚",
+            "D": "以赛亚和耶利米"
+        },
+        "answer": "C",
+        "verse": "马太福音 17:1-3",
+        "explanation": "耶稣登山变像时，摩西和以利亚向门徒显现，与耶稣谈话。"
+    },
+    {
+        "id": 41,
+        "difficulty": "Insane",
+        "category": "New Testament",
+        "book": "John",
+        "question": "耶稣复活后，多马因不信而要求看见什么才相信？",
+        "options": {
+            "A": "耶稣的脸",
+            "B": "天上的异象",
+            "C": "耶稣的手和肋旁的伤痕",
+            "D": "空坟墓"
+        },
+        "answer": "C",
+        "verse": "约翰福音 20:24-27",
+        "explanation": "多马说除非看见耶稣手上的钉痕，并探入他的肋旁，否则不相信。"
+    },
+    {
+        "id": 42,
+        "difficulty": "Hard",
+        "category": "New Testament",
+        "book": "Acts",
+        "question": "司提反成为教会历史上的第一个殉道者，他被什么罪名攻击？",
+        "options": {
+            "A": "亵渎神和摩西",
+            "B": "背叛罗马",
+            "C": "偷窃",
+            "D": "拒绝传福音"
+        },
+        "answer": "A",
+        "verse": "使徒行传 6:11-14",
+        "explanation": "司提反被诬告说讲毁谤摩西和神的话，后来成为第一个为信仰殉道的人。"
+    },
+    {
+        "id": 43,
+        "difficulty": "Insane",
+        "category": "Bible Knowledge",
+        "book": "General",
+        "question": "圣经中最短的一节经文是哪一节？",
+        "options": {
+            "A": "马太福音 5:3",
+            "B": "创世记 1:1",
+            "C": "约翰福音 11:35",
+            "D": "诗篇 23:1"
+        },
+        "answer": "C",
+        "verse": "约翰福音 11:35",
+        "explanation": "约翰福音11:35“耶稣哭了”是圣经中最短的一节经文（中文和英文传统计算略有不同）。"
+    },
+    {
+        "id": 44,
+        "difficulty": "Medium",
+        "category": "New Testament",
+        "book": "Luke",
+        "question": "耶稣讲述好撒玛利亚人的比喻，主要教导人什么？",
+        "options": {
+            "A": "如何成为宗教领袖",
+            "B": "如何成为富有的人",
+            "C": "谁是真正的邻舍，要爱人如己",
+            "D": "如何避免帮助别人"
+        },
+        "answer": "C",
+        "verse": "路加福音 10:25-37",
+        "explanation": "耶稣通过好撒玛利亚人的比喻教导我们，不只是爱认识的人，而是要爱和帮助有需要的人。"
+    },
+    {
+        "id": 45,
+        "difficulty": "Medium",
+        "category": "New Testament",
+        "book": "Matthew",
+        "question": "耶稣为什么用比喻教导众人？",
+        "options": {
+            "A": "为了帮助愿意寻求的人明白天国的道理",
+            "B": "为了隐藏所有真理",
+            "C": "因为耶稣不想直接讲话",
+            "D": "为了让人无法理解"
+        },
+        "answer": "A",
+        "verse": "马太福音 13:10-13",
+        "explanation": "耶稣用比喻启示天国的奥秘，使愿意听的人能够明白。"
+    },
+    {
+        "id": 46,
+        "difficulty": "Hard",
+        "category": "New Testament",
+        "book": "John",
+        "question": "耶稣说自己是“道路、真理、生命”，是在回答谁的问题？",
+        "options": {
+            "A": "马太",
+            "B": "约翰",
+            "C": "彼得",
+            "D": "多马"
+        },
+        "answer": "D",
+        "verse": "约翰福音 14:5-6",
+        "explanation": "多马问耶稣不知道往哪里去，耶稣回答祂就是道路、真理、生命。"
+    },
+    {
+        "id": 47,
+        "difficulty": "Hard",
+        "category": "Old Testament",
+        "book": "Genesis",
+        "question": "为什么神拣选约瑟成为埃及的重要人物？",
+        "options": {
+            "A": "因为约瑟打败了埃及军队",
+            "B": "因为约瑟拥有王族血统",
+            "C": "因为约瑟是最强壮的人",
+            "D": "因为约瑟有智慧并且忠心依靠神"
+        },
+        "answer": "D",
+        "verse": "创世记 41:39-41",
+        "explanation": "约瑟靠着神赐的智慧解释法老的梦，并被提升管理埃及。"
+    },
+    {
+        "id": 48,
+        "difficulty": "Hard",
+        "category": "New Testament",
+        "book": "Matthew",
+        "question": "彼得为什么三次不认耶稣？",
+        "options": {
+            "A": "他已经背叛耶稣",
+            "B": "他想离开门徒",
+            "C": "他害怕被抓和受逼迫",
+            "D": "他不相信耶稣"
+        },
+        "answer": "C",
+        "verse": "马太福音 26:69-75",
+        "explanation": "彼得因害怕人的压力而否认耶稣，但后来悔改并成为重要使徒。"
+    },
+    {
+        "id": 49,
+        "difficulty": "Insane",
+        "category": "New Testament",
+        "book": "Matthew",
+        "question": "耶稣说最大的诫命是什么？",
+        "options": {
+            "A": "积累财富",
+            "B": "成为宗教领袖",
+            "C": "遵守所有传统",
+            "D": "爱神并爱人如己"
+        },
+        "answer": "D",
+        "verse": "马太福音 22:37-40",
+        "explanation": "耶稣总结律法和先知的教导，就是尽心爱神，并爱人如己。"
+    },
+    {
+        "id": 50,
+        "difficulty": "Medium",
+        "category": "Old Testament",
+        "book": "Exodus",
+        "question": "摩西看见神向他显现时，是什么燃烧却没有烧毁？",
+        "options": {
+            "A": "荆棘",
+            "B": "香坛",
+            "C": "帐幕",
+            "D": "橄榄树"
+        },
+        "answer": "A",
+        "verse": "出埃及记 3:2-4",
+        "explanation": "神从燃烧的荆棘中向摩西显现，呼召他带领以色列人出埃及。"
+    },
+    {
+        "id": 51,
+        "difficulty": "Hard",
+        "category": "Old Testament",
+        "book": "1 Samuel",
+        "question": "撒母耳小时候在哪里服事神？",
+        "options": {
+            "A": "伯利恒",
+            "B": "王宫",
+            "C": "旷野",
+            "D": "圣殿"
+        },
+        "answer": "D",
+        "verse": "撒母耳记上 3:1-3",
+        "explanation": "撒母耳小时候在示罗的会幕中服事神，并在那里听见神的呼召。"
+    },
+    {
+        "id": 52,
+        "difficulty": "Hard",
+        "category": "New Testament",
+        "book": "Acts",
+        "question": "保罗和西拉在监狱中做什么，导致监门打开？",
+        "options": {
+            "A": "与狱卒争吵",
+            "B": "睡觉",
+            "C": "祷告和唱诗赞美神",
+            "D": "逃跑"
+        },
+        "answer": "C",
+        "verse": "使徒行传 16:25-26",
+        "explanation": "保罗和西拉在监狱中祷告唱诗，神使地大震动，监门打开。"
+    },
+    {
+        "id": 53,
+        "difficulty": "Insane",
+        "category": "Bible Knowledge",
+        "book": "General",
+        "question": "圣经中最长寿的人是谁？",
+        "options": {
+            "A": "亚当",
+            "B": "挪亚",
+            "C": "玛土撒拉",
+            "D": "亚伯拉罕"
+        },
+        "answer": "C",
+        "verse": "创世记 5:27",
+        "explanation": "玛土撒拉活了969岁，是圣经记载中寿命最长的人。"
+    },
+    {
+        "id": 54,
+        "difficulty": "Medium",
+        "category": "Old Testament",
+        "book": "Genesis",
+        "question": "亚伯和该隐向神献祭后，为什么神悦纳亚伯的祭物？",
+        "options": {
+            "A": "因为亚伯凭着信心献祭给神",
+            "B": "因为亚伯是哥哥",
+            "C": "因为亚伯献上的数量更多",
+            "D": "因为亚伯拥有更多财富"
+        },
+        "answer": "A",
+        "verse": "创世记 4:3-5; 希伯来书 11:4",
+        "explanation": "圣经指出亚伯因着信献上更美的祭，显明他对神的信靠。"
+    },
+    {
+        "id": 55,
+        "difficulty": "Hard",
+        "category": "Old Testament",
+        "book": "Genesis",
+        "question": "神为什么毁灭所多玛和蛾摩拉？",
+        "options": {
+            "A": "因为他们拒绝建造城墙",
+            "B": "因为他们与以色列为敌",
+            "C": "因为他们的罪恶非常严重",
+            "D": "因为他们没有敬拜任何偶像"
+        },
+        "answer": "C",
+        "verse": "创世记 18:20-21; 19:24-25",
+        "explanation": "神审判所多玛和蛾摩拉，因为那里的人罪恶极大。"
+    },
+    {
+        "id": 56,
+        "difficulty": "Hard",
+        "category": "Old Testament",
+        "book": "Exodus",
+        "question": "为什么法老不愿意让以色列人离开埃及？",
+        "options": {
+            "A": "因为摩西没有请求他",
+            "B": "因为他不知道以色列人是谁",
+            "C": "因为他心刚硬，不愿顺服神",
+            "D": "因为埃及没有足够土地"
+        },
+        "answer": "C",
+        "verse": "出埃及记 8:15; 9:12",
+        "explanation": "法老多次拒绝神的命令，因为他的心刚硬，不愿让以色列人自由。"
+    },
+    {
+        "id": 57,
+        "difficulty": "Insane",
+        "category": "Old Testament",
+        "book": "Joshua",
+        "question": "喇合为什么帮助以色列的探子？",
+        "options": {
+            "A": "因为她是以色列人",
+            "B": "因为她相信耶和华是真神",
+            "C": "因为她想得到金钱",
+            "D": "因为她害怕以色列军队"
+        },
+        "answer": "B",
+        "verse": "约书亚记 2:9-11",
+        "explanation": "喇合听见神在以色列中的作为，就承认耶和华是上天下地的神。"
+    },
+    {
+        "id": 58,
+        "difficulty": "Medium",
+        "category": "Old Testament",
+        "book": "Ruth",
+        "question": "路得为什么选择跟随拿俄米回到以色列？",
+        "options": {
+            "A": "因为她被强迫",
+            "B": "因为她想成为王后",
+            "C": "因为她爱拿俄米并愿意跟随她的神",
+            "D": "为了获得财富"
+        },
+        "answer": "C",
+        "verse": "路得记 1:16-17",
+        "explanation": "路得忠心选择陪伴拿俄米，并接受耶和华作为她的神。"
+    },
+    {
+        "id": 59,
+        "difficulty": "Hard",
+        "category": "Old Testament",
+        "book": "1 Samuel",
+        "question": "扫罗为什么失去王位？",
+        "options": {
+            "A": "因为他不是以色列人",
+            "B": "因为他没有军队",
+            "C": "因为他不听从神的命令",
+            "D": "因为他没有战胜敌人"
+        },
+        "answer": "C",
+        "verse": "撒母耳记上 15:22-23",
+        "explanation": "撒母耳指出，听命胜于献祭，扫罗因为违背神的命令而被废。"
+    },
+    {
+        "id": 60,
+        "difficulty": "Medium",
+        "category": "New Testament",
+        "book": "Luke",
+        "question": "浪子的比喻主要表达神怎样的心？",
+        "options": {
+            "A": "人必须靠自己改变",
+            "B": "财富比家庭重要",
+            "C": "神不会原谅错误的人",
+            "D": "神愿意接纳悔改的人"
+        },
+        "answer": "D",
+        "verse": "路加福音 15:11-32",
+        "explanation": "浪子的比喻显示天父愿意接纳悔改归向祂的人。"
+    },
+    {
+        "id": 61,
+        "difficulty": "Hard",
+        "category": "New Testament",
+        "book": "Matthew",
+        "question": "耶稣为什么责备文士和法利赛人？",
+        "options": {
+            "A": "因为他们不会读圣经",
+            "B": "因为他们没有钱",
+            "C": "因为他们不认识律法",
+            "D": "因为他们只重视外表，却忽略内心"
+        },
+        "answer": "D",
+        "verse": "马太福音 23:25-28",
+        "explanation": "耶稣责备他们假冒为善，只注重外在行为，却没有真实敬畏神的心。"
+    },
+    {
+        "id": 62,
+        "difficulty": "Hard",
+        "category": "New Testament",
+        "book": "Acts",
+        "question": "为什么保罗和巴拿巴分开旅行？",
+        "options": {
+            "A": "因为罗马禁止他们传道",
+            "B": "因为他们没有目标",
+            "C": "因为他们不再相信神",
+            "D": "因为他们对马可是否同行有争论"
+        },
+        "answer": "D",
+        "verse": "使徒行传 15:36-39",
+        "explanation": "保罗和巴拿巴因为是否带马可同行发生争论，后来分别前往不同地方服事。"
+    },
+    {
+        "id": 63,
+        "difficulty": "Insane",
+        "category": "Bible Knowledge",
+        "book": "General",
+        "question": "新约圣经中最长的一卷书是哪一卷？",
+        "options": {
+            "A": "启示录",
+            "B": "马太福音",
+            "C": "罗马书",
+            "D": "使徒行传"
+        },
+        "answer": "D",
+        "verse": "使徒行传",
+        "explanation": "按希腊原文长度计算，使徒行传是新约中最长的一卷书。"
+    },
+    {
+        "id": 64,
+        "difficulty": "Easy",
+        "category": "Old Testament",
+        "book": "Genesis",
+        "question": "神用什么创造了亚当？",
+        "options": {
+            "A": "泥土",
+            "B": "水",
+            "C": "木头",
+            "D": "石头"
+        },
+        "answer": "A",
+        "verse": "创世记 2:7",
+        "explanation": "神用地上的尘土造人，并将生命气息吹进他的鼻孔。"
+    },
+    {
+        "id": 65,
+        "difficulty": "Easy",
+        "category": "Old Testament",
+        "book": "Genesis",
+        "question": "神用什么作为不会再用洪水毁灭世界的记号？",
+        "options": {
+            "A": "彩虹",
+            "B": "星星",
+            "C": "太阳",
+            "D": "月亮"
+        },
+        "answer": "A",
+        "verse": "创世记 9:13",
+        "explanation": "彩虹是神与挪亚立约的记号，表示神不再用洪水毁灭全地。"
+    },
+    {
+        "id": 66,
+        "difficulty": "Easy",
+        "category": "Old Testament",
+        "book": "Exodus",
+        "question": "神借着谁带领以色列人出埃及？",
+        "options": {
+            "A": "约书亚",
+            "B": "亚伦",
+            "C": "摩西",
+            "D": "约瑟"
+        },
+        "answer": "C",
+        "verse": "出埃及记 3:10",
+        "explanation": "神呼召摩西带领以色列人离开埃及。"
+    },
+    {
+        "id": 67,
+        "difficulty": "Easy",
+        "category": "Old Testament",
+        "book": "Jonah",
+        "question": "约拿被什么吞进肚子里？",
+        "options": {
+            "A": "大鱼",
+            "B": "鲨鱼",
+            "C": "海蛇",
+            "D": "鲸鱼"
+        },
+        "answer": "A",
+        "verse": "约拿书 1:17",
+        "explanation": "圣经记载神安排一条大鱼吞下约拿，并没有说明是鲸鱼。"
+    },
+    {
+        "id": 68,
+        "difficulty": "Easy",
+        "category": "New Testament",
+        "book": "Luke",
+        "question": "耶稣的母亲叫什么名字？",
+        "options": {
+            "A": "路得",
+            "B": "马利亚",
+            "C": "马大",
+            "D": "以利沙伯"
+        },
+        "answer": "B",
+        "verse": "路加福音 1:26-31",
+        "explanation": "天使加百列向马利亚报喜，告诉她将怀孕生下耶稣。"
+    },
+    {
+        "id": 69,
+        "difficulty": "Easy",
+        "category": "New Testament",
+        "book": "Matthew",
+        "question": "耶稣出生时，东方来了什么人来敬拜祂？",
+        "options": {
+            "A": "牧羊人",
+            "B": "法利赛人",
+            "C": "博士",
+            "D": "祭司"
+        },
+        "answer": "C",
+        "verse": "马太福音 2:1-2",
+        "explanation": "有几位博士从东方来，寻找并敬拜新生的犹太人之王。"
+    },
+    {
+        "id": 70,
+        "difficulty": "Medium",
+        "category": "New Testament",
+        "book": "Mark",
+        "question": "耶稣平静风浪时，门徒原本在做什么？",
+        "options": {
+            "A": "祷告",
+            "B": "捕鱼",
+            "C": "划船比赛",
+            "D": "因风浪害怕"
+        },
+        "answer": "D",
+        "verse": "马可福音 4:37-41",
+        "explanation": "门徒因暴风害怕，以为船快沉了，耶稣却斥责风和海，使一切平静。"
+    },
+    {
+        "id": 71,
+        "difficulty": "Medium",
+        "category": "New Testament",
+        "book": "Luke",
+        "question": "税吏撒该为了看见耶稣，爬上了什么树？",
+        "options": {
+            "A": "棕树",
+            "B": "桑树",
+            "C": "橄榄树",
+            "D": "无花果树"
+        },
+        "answer": "B",
+        "verse": "路加福音 19:4",
+        "explanation": "撒该因身材矮小，爬上桑树等候耶稣经过。"
+    },
+    {
+        "id": 72,
+        "difficulty": "Medium",
+        "category": "New Testament",
+        "book": "John",
+        "question": "耶稣称自己是哪一位“好”什么？",
+        "options": {
+            "A": "好牧人",
+            "B": "好老师",
+            "C": "好先知",
+            "D": "好君王"
+        },
+        "answer": "A",
+        "verse": "约翰福音 10:11",
+        "explanation": "耶稣说自己是好牧人，并愿意为羊舍命。"
+    },
+    {
+        "id": 73,
+        "difficulty": "Medium",
+        "category": "Bible Knowledge",
+        "book": "General",
+        "question": "圣经一共有多少卷书？（基督教新教）",
+        "options": {
+            "A": "72卷",
+            "B": "39卷",
+            "C": "73卷",
+            "D": "66卷"
+        },
+        "answer": "D",
+        "verse": "圣经目录",
+        "explanation": "基督教新教圣经共有66卷，包括旧约39卷和新约27卷。"
+    },
+    {
+        "id": 73,
+        "difficulty": "Medium",
+        "category": "Bible Knowledge",
+        "book": "General",
+        "question": "圣经一共有多少卷书？（基督教新教）",
+        "options": {
+            "A": "39卷",
+            "B": "66卷",
+            "C": "73卷",
+            "D": "72卷"
+        },
+        "answer": "B",
+        "verse": "圣经目录",
+        "explanation": "基督教新教圣经共有66卷，包括旧约39卷和新约27卷。"
+    },
+    {
+        "id": 75,
+        "difficulty": "Easy",
+        "category": "Old Testament",
+        "book": "Genesis",
+        "question": "神创造夏娃时，是用亚当身体的哪一个部分？",
+        "options": {
+            "A": "手臂",
+            "B": "肋骨",
+            "C": "头发",
+            "D": "脚"
+        },
+        "answer": "B",
+        "verse": "创世记 2:21-22",
+        "explanation": "神使亚当沉睡，取下他的一根肋骨，造成一个女人，就是夏娃。"
+    },
+    {
+        "id": 76,
+        "difficulty": "Easy",
+        "category": "Old Testament",
+        "book": "Exodus",
+        "question": "神赐给摩西十诫是写在哪一种物品上？",
+        "options": {
+            "A": "木板",
+            "B": "羊皮卷",
+            "C": "石版",
+            "D": "铜板"
+        },
+        "answer": "C",
+        "verse": "出埃及记 31:18",
+        "explanation": "神亲自将十诫写在两块石版上，并交给摩西。"
+    },
+    {
+        "id": 77,
+        "difficulty": "Easy",
+        "category": "New Testament",
+        "book": "John",
+        "question": "耶稣称自己是世界的什么？",
+        "options": {
+            "A": "光",
+            "B": "君王",
+            "C": "生命",
+            "D": "道路"
+        },
+        "answer": "A",
+        "verse": "约翰福音 8:12",
+        "explanation": "耶稣说：'我是世界的光。跟从我的，就不在黑暗里走。'"
+    },
+    {
+        "id": 78,
+        "difficulty": "Medium",
+        "category": "Old Testament",
+        "book": "Genesis",
+        "question": "约瑟替法老解梦后，被任命管理哪个国家？",
+        "options": {
+            "A": "迦南",
+            "B": "埃及",
+            "C": "亚述",
+            "D": "巴比伦"
+        },
+        "answer": "B",
+        "verse": "创世记 41:39-41",
+        "explanation": "法老因约瑟有神所赐的智慧，任命他治理全埃及。"
+    },
+    {
+        "id": 79,
+        "difficulty": "Medium",
+        "category": "New Testament",
+        "book": "Matthew",
+        "question": "彼得原本的职业是什么？",
+        "options": {
+            "A": "税吏",
+            "B": "木匠",
+            "C": "渔夫",
+            "D": "医生"
+        },
+        "answer": "C",
+        "verse": "马太福音 4:18-20",
+        "explanation": "彼得原本是渔夫，后来蒙耶稣呼召成为'得人的渔夫'。"
+    },
+    {
+        "id": 80,
+        "difficulty": "Medium",
+        "category": "New Testament",
+        "book": "Luke",
+        "question": "耶稣在几岁时到圣殿，与教师们讨论圣经？",
+        "options": {
+            "A": "15岁",
+            "B": "18岁",
+            "C": "10岁",
+            "D": "12岁"
+        },
+        "answer": "D",
+        "verse": "路加福音 2:41-47",
+        "explanation": "耶稣十二岁时在圣殿中，与教师们讨论律法，使众人惊奇。"
+    },
+    {
+        "id": 81,
+        "difficulty": "Hard",
+        "category": "Old Testament",
+        "book": "1 Kings",
+        "question": "所罗门向神献殿祷告时，神后来以什么方式回应他？",
+        "options": {
+            "A": "差遣天使",
+            "B": "降下火烧尽祭物",
+            "C": "在梦中向他显现",
+            "D": "降下吗哪"
+        },
+        "answer": "C",
+        "verse": "列王纪上 9:1-9",
+        "explanation": "圣殿奉献后，神再次向所罗门显现，应许垂听祷告，并提醒他要遵行神的诫命。"
+    },
+    {
+        "id": 82,
+        "difficulty": "Hard",
+        "category": "New Testament",
+        "book": "Matthew",
+        "question": "犹大出卖耶稣后，最终如何处理那三十块银钱？",
+        "options": {
+            "A": "分给穷人",
+            "B": "埋在地下",
+            "C": "交给彼得",
+            "D": "丢在圣殿里"
+        },
+        "answer": "D",
+        "verse": "马太福音 27:3-5",
+        "explanation": "犹大后悔，将三十块银钱丢在圣殿里，然后离去，上吊自尽。"
+    },
+    {
+        "id": 83,
+        "difficulty": "Hard",
+        "category": "New Testament",
+        "book": "Acts",
+        "question": "保罗在前往大马士革的路上遇见耶稣后，首先失去了什么？",
+        "options": {
+            "A": "听觉",
+            "B": "说话能力",
+            "C": "视力",
+            "D": "行动能力"
+        },
+        "answer": "C",
+        "verse": "使徒行传 9:3-9",
+        "explanation": "保罗遇见复活的主后，暂时失明三天，后来藉着亚拿尼亚恢复视力。"
+    },
+    {
+        "id": 84,
+        "difficulty": "Insane",
+        "category": "Bible Knowledge",
+        "book": "General",
+        "question": "以下哪一卷书没有直接提到“神”这个字？",
+        "options": {
+            "A": "以斯帖记",
+            "B": "路得记",
+            "C": "雅歌",
+            "D": "约拿书"
+        },
+        "answer": "A",
+        "verse": "以斯帖记",
+        "explanation": "以斯帖记没有直接提到神的名字，但全书处处显明神隐藏的保守和带领，因此常被视为神护理的经典例子。"
+    },
+    {
+        "id": 85,
+        "difficulty": "Easy",
+        "category": "Old Testament",
+        "book": "Joshua",
+        "question": "是谁带领以色列人进入应许之地？",
+        "options": {
+            "A": "摩西",
+            "B": "约书亚",
+            "C": "亚伦",
+            "D": "撒母耳"
+        },
+        "answer": "B",
+        "verse": "约书亚记 1:1-6",
+        "explanation": "摩西去世后，神拣选约书亚带领以色列人进入迦南地。"
+    },
+    {
+        "id": 86,
+        "difficulty": "Easy",
+        "category": "Old Testament",
+        "book": "1 Samuel",
+        "question": "谁打败了非利士巨人歌利亚？",
+        "options": {
+            "A": "约拿单",
+            "B": "扫罗",
+            "C": "大卫",
+            "D": "参孙"
+        },
+        "answer": "C",
+        "verse": "撒母耳记上 17:49-50",
+        "explanation": "大卫靠着神，用机弦甩石击倒歌利亚。"
+    },
+    {
+        "id": 87,
+        "difficulty": "Medium",
+        "category": "Old Testament",
+        "book": "Job",
+        "question": "约伯经历苦难后，仍然选择做什么？",
+        "options": {
+            "A": "离弃神",
+            "B": "持守对神的信心",
+            "C": "埋怨朋友",
+            "D": "离开家乡"
+        },
+        "answer": "B",
+        "verse": "约伯记 1:20-22",
+        "explanation": "虽然经历极大的苦难，约伯仍然敬拜神，没有弃绝祂。"
+    },
+    {
+        "id": 88,
+        "difficulty": "Medium",
+        "category": "Old Testament",
+        "book": "Joshua",
+        "question": "约书亚曾说：“至于我和我家，我们必定______。”",
+        "options": {
+            "A": "进入迦南",
+            "B": "事奉耶和华",
+            "C": "敬拜圣殿",
+            "D": "遵守律法"
+        },
+        "answer": "B",
+        "verse": "约书亚记 24:15",
+        "explanation": "约书亚宣告，无论别人如何选择，他和他的家都要事奉耶和华。"
+    },
+    {
+        "id": 89,
+        "difficulty": "Medium",
+        "category": "New Testament",
+        "book": "Matthew",
+        "question": "耶稣为什么洁净圣殿？",
+        "options": {
+            "A": "因为圣殿需要重建",
+            "B": "因为圣殿太小",
+            "C": "因为祭司不在",
+            "D": "因为有人把圣殿变成买卖的地方"
+        },
+        "answer": "D",
+        "verse": "马太福音 21:12-13",
+        "explanation": "耶稣责备人把祷告的殿变成贼窝，因此赶出做买卖的人。"
+    },
+    {
+        "id": 90,
+        "difficulty": "Medium",
+        "category": "New Testament",
+        "book": "Luke",
+        "question": "为什么浪子决定回到父亲那里？",
+        "options": {
+            "A": "因为朋友邀请他",
+            "B": "因为没有钱后悔自己的行为",
+            "C": "因为想念哥哥",
+            "D": "因为父亲写信给他"
+        },
+        "answer": "B",
+        "verse": "路加福音 15:17-20",
+        "explanation": "浪子醒悟自己的过犯，决定悔改回到父亲身边。"
+    },
+    {
+        "id": 91,
+        "difficulty": "Hard",
+        "category": "New Testament",
+        "book": "Matthew",
+        "question": "耶稣为什么教导门徒要先求神的国和神的义？",
+        "options": {
+            "A": "因为不用吃饭",
+            "B": "因为神知道人真正的需要",
+            "C": "因为不用工作",
+            "D": "因为财富最重要"
+        },
+        "answer": "B",
+        "verse": "马太福音 6:31-33",
+        "explanation": "耶稣教导门徒不要忧虑生活，而要先追求神的国，神必供应所需。"
+    },
+    {
+        "id": 92,
+        "difficulty": "Hard",
+        "category": "Old Testament",
+        "book": "Genesis",
+        "question": "约瑟为什么能够饶恕曾经伤害他的哥哥们？",
+        "options": {
+            "A": "因为约瑟看见神的计划高过人的恶意",
+            "B": "因为法老命令他",
+            "C": "因为哥哥比他强大",
+            "D": "因为哥哥赔偿他"
+        },
+        "answer": "A",
+        "verse": "创世记 50:19-21",
+        "explanation": "约瑟相信神能将人的恶意变成祝福，因此选择饶恕哥哥们。"
+    },
+    {
+        "id": 93,
+        "difficulty": "Hard",
+        "category": "New Testament",
+        "book": "Matthew",
+        "question": "耶稣为什么咒诅没有果子的无花果树？",
+        "options": {
+            "A": "因为它象征只有外表却没有真实生命的信仰",
+            "B": "因为门徒要求",
+            "C": "因为树挡住道路",
+            "D": "因为耶稣肚子饿"
+        },
+        "answer": "A",
+        "verse": "马太福音 21:18-22",
+        "explanation": "无花果树象征徒有外表却没有结果子的生命，耶稣借此教导门徒。"
+    },
+    {
+        "id": 94,
+        "difficulty": "Insane",
+        "category": "Bible Knowledge",
+        "book": "General",
+        "question": "圣经中第一次出现“不要惧怕”是神对谁说的？",
+        "options": {
+            "A": "雅各",
+            "B": "亚伯拉罕",
+            "C": "亚当",
+            "D": "摩西"
+        },
+        "answer": "B",
+        "verse": "创世记 15:1",
+        "explanation": "神对亚伯兰说：'亚伯兰，你不要惧怕！我是你的盾牌，必大大地赏赐你。'"
+    },
+    {
+        "id": 95,
+        "difficulty": "Easy",
+        "category": "Old Testament",
+        "book": "Genesis",
+        "question": "神应许亚伯拉罕，他的后裔会像什么一样多？",
+        "options": {
+            "A": "天上的星",
+            "B": "山上的石头",
+            "C": "河里的鱼",
+            "D": "树叶"
+        },
+        "answer": "A",
+        "verse": "创世记 15:5",
+        "explanation": "神应许亚伯拉罕，他的后裔要像天上的星那样众多。"
+    },
+    {
+        "id": 96,
+        "difficulty": "Easy",
+        "category": "New Testament",
+        "book": "Matthew",
+        "question": "耶稣出生在哪一个城市？",
+        "options": {
+            "A": "伯大尼",
+            "B": "拿撒勒",
+            "C": "伯利恒",
+            "D": "耶路撒冷"
+        },
+        "answer": "C",
+        "verse": "马太福音 2:1",
+        "explanation": "耶稣出生在伯利恒，应验了旧约先知的预言。"
+    },
+    {
+        "id": 97,
+        "difficulty": "Medium",
+        "category": "Old Testament",
+        "book": "Exodus",
+        "question": "神赐下十诫最主要的目的是什么？",
+        "options": {
+            "A": "建立新的国家",
+            "B": "增加祭司的权力",
+            "C": "让人赚取救恩",
+            "D": "帮助百姓知道如何敬畏神并彼此相爱"
+        },
+        "answer": "D",
+        "verse": "出埃及记 20:1-17",
+        "explanation": "十诫帮助以色列人明白神的心意，并学习爱神爱人。"
+    },
+    {
+        "id": 98,
+        "difficulty": "Medium",
+        "category": "Old Testament",
+        "book": "Daniel",
+        "question": "为什么但以理坚持每天向神祷告？",
+        "options": {
+            "A": "为了向王炫耀",
+            "B": "因为别人要求他这样做",
+            "C": "因为这是他一直以来敬拜神的生活",
+            "D": "为了得到财富"
+        },
+        "answer": "C",
+        "verse": "但以理书 6:10",
+        "explanation": "即使面对生命危险，但以理仍然忠心保持祷告的习惯。"
+    },
+    {
+        "id": 99,
+        "difficulty": "Medium",
+        "category": "New Testament",
+        "book": "Matthew",
+        "question": "耶稣为什么呼召十二门徒？",
+        "options": {
+            "A": "帮助祂建立军队",
+            "B": "训练他们传扬天国的福音",
+            "C": "建造圣殿",
+            "D": "管理税收"
+        },
+        "answer": "B",
+        "verse": "马太福音 10:1-8",
+        "explanation": "耶稣呼召门徒跟随祂，并差遣他们传福音、医病赶鬼。"
+    },
+    {
+        "id": 100,
+        "difficulty": "Hard",
+        "category": "Old Testament",
+        "book": "Genesis",
+        "question": "神为什么要亚伯拉罕献上以撒？",
+        "options": {
+            "A": "为了试验亚伯拉罕是否信靠并顺服神",
+            "B": "因为神不要以撒",
+            "C": "因为没有祭物",
+            "D": "为了惩罚亚伯拉罕"
+        },
+        "answer": "A",
+        "verse": "创世记 22:1-18",
+        "explanation": "神借此试验亚伯拉罕的信心，最后预备了公羊代替以撒。"
+    },
+    {
+        "id": 101,
+        "difficulty": "Hard",
+        "category": "New Testament",
+        "book": "John",
+        "question": "耶稣说自己是好牧人，愿意为羊做什么？",
+        "options": {
+            "A": "带领羊寻找青草",
+            "B": "为羊舍命",
+            "C": "每天喂养羊",
+            "D": "建造羊圈"
+        },
+        "answer": "B",
+        "verse": "约翰福音 10:11",
+        "explanation": "耶稣以好牧人比喻自己，愿意为拯救世人献上自己的生命。"
+    },
+    {
+        "id": 102,
+        "difficulty": "Hard",
+        "category": "New Testament",
+        "book": "Acts",
+        "question": "圣灵降临五旬节后，门徒最大的改变是什么？",
+        "options": {
+            "A": "他们变得富有",
+            "B": "他们勇敢传扬福音",
+            "C": "他们搬到罗马",
+            "D": "他们成为祭司"
+        },
+        "answer": "B",
+        "verse": "使徒行传 2:1-14",
+        "explanation": "圣灵充满门徒，使他们勇敢见证耶稣，教会因此迅速增长。"
+    },
+    {
+        "id": 103,
+        "difficulty": "Medium",
+        "category": "Bible Knowledge",
+        "book": "General",
+        "question": "新约圣经一共有多少卷书？",
+        "options": {
+            "A": "27卷",
+            "B": "66卷",
+            "C": "73卷",
+            "D": "39卷"
+        },
+        "answer": "A",
+        "verse": "圣经目录",
+        "explanation": "新约共有27卷，包括四福音书、使徒行传、书信和启示录。"
+    },
+    {
+        "id": 104,
+        "difficulty": "Insane",
+        "category": "New Testament",
+        "book": "Matthew",
+        "question": "耶稣在登山宝训中称什么样的人有福，因为他们必承受地土？",
+        "options": {
+            "A": "富足的人",
+            "B": "聪明的人",
+            "C": "温柔的人",
+            "D": "勇敢的人"
+        },
+        "answer": "C",
+        "verse": "马太福音 5:5",
+        "explanation": "耶稣说：'温柔的人有福了，因为他们必承受地土。'"
+    },
+    {
+        "id": 105,
+        "difficulty": "Easy",
+        "category": "Bible Knowledge",
+        "book": "General",
+        "question": "谁说过：“我和我家，我们必定事奉耶和华”？",
+        "options": {
+            "A": "约书亚",
+            "B": "撒母耳",
+            "C": "摩西",
+            "D": "大卫"
+        },
+        "answer": "A",
+        "verse": "约书亚记 24:15",
+        "explanation": "约书亚在临别时鼓励以色列人选择事奉神，并宣告自己和家人要事奉耶和华。"
+    },
+    {
+        "id": 106,
+        "difficulty": "Medium",
+        "category": "Bible Character",
+        "book": "Genesis",
+        "question": "以下哪一项描述的是约瑟？",
+        "options": {
+            "A": "曾经被哥哥卖到埃及，后来成为埃及宰相",
+            "B": "击败九百个敌人的勇士",
+            "C": "建造方舟拯救家人",
+            "D": "带领以色列人过红海"
+        },
+        "answer": "A",
+        "verse": "创世记 37:28; 41:41-43",
+        "explanation": "约瑟被哥哥卖到埃及，但神使他成为治理埃及的重要人物。"
+    },
+    {
+        "id": 107,
+        "difficulty": "Medium",
+        "category": "Bible Timeline",
+        "book": "General",
+        "question": "以下哪一个事件最早发生？",
+        "options": {
+            "A": "大卫成为以色列王",
+            "B": "摩西带领以色列出埃及",
+            "C": "耶稣降生",
+            "D": "亚伯拉罕被神呼召"
+        },
+        "answer": "D",
+        "verse": "创世记 12:1-4",
+        "explanation": "亚伯拉罕被神呼召发生在摩西出埃及和大卫作王之前，更早于耶稣降生。"
+    },
+    {
+        "id": 108,
+        "difficulty": "Hard",
+        "category": "Bible Knowledge",
+        "book": "General",
+        "question": "以下哪一项是不正确的？",
+        "options": {
+            "A": "彼得是耶稣的十二门徒之一",
+            "B": "保罗曾经迫害基督徒",
+            "C": "摩西带领以色列人出埃及",
+            "D": "大卫建造了圣殿"
+        },
+        "answer": "D",
+        "verse": "历代志上 28:3-6",
+        "explanation": "大卫预备建殿材料，但因为曾经争战流血，神让他的儿子所罗门建造圣殿。"
+    },
+    {
+        "id": 109,
+        "difficulty": "Medium",
+        "category": "Bible Character",
+        "book": "New Testament",
+        "question": "谁曾经否认认识耶稣三次，但后来成为重要的使徒？",
+        "options": {
+            "A": "彼得",
+            "B": "多马",
+            "C": "马太",
+            "D": "约翰"
+        },
+        "answer": "A",
+        "verse": "马太福音 26:69-75; 使徒行传 2:14",
+        "explanation": "彼得虽然曾三次不认耶稣，但后来被圣灵充满，勇敢传扬福音。"
+    },
+    {
+        "id": 110,
+        "difficulty": "Hard",
+        "category": "Bible Timeline",
+        "book": "General",
+        "question": "以下哪一个人物生活的时间最接近耶稣？",
+        "options": {
+            "A": "亚伯拉罕",
+            "B": "施洗约翰",
+            "C": "摩西",
+            "D": "大卫"
+        },
+        "answer": "B",
+        "verse": "路加福音 1:13-17",
+        "explanation": "施洗约翰比耶稣早出生不久，并负责预备主的道路。"
+    },
+    {
+        "id": 111,
+        "difficulty": "Medium",
+        "category": "Bible Teaching",
+        "book": "Matthew",
+        "question": "耶稣说谁是“好撒玛利亚人”故事中的邻舍？",
+        "options": {
+            "A": "认识自己的朋友",
+            "B": "身份最高的人",
+            "C": "帮助有需要的那个人",
+            "D": "宗教领袖"
+        },
+        "answer": "C",
+        "verse": "路加福音 10:36-37",
+        "explanation": "耶稣教导真正的邻舍是愿意怜悯和帮助别人的人。"
+    },
+    {
+        "id": 112,
+        "difficulty": "Hard",
+        "category": "Who Said This",
+        "book": "John",
+        "question": "谁说过：“我的主！我的神！”？",
+        "options": {
+            "A": "尼哥底母",
+            "B": "多马",
+            "C": "马大",
+            "D": "彼得"
+        },
+        "answer": "B",
+        "verse": "约翰福音 20:28",
+        "explanation": "多马看见复活的耶稣后，承认耶稣是他的主和神。"
+    },
+    {
+        "id": 113,
+        "difficulty": "Hard",
+        "category": "Bible Knowledge",
+        "book": "General",
+        "question": "以下哪一项不是耶稣所行的神迹？",
+        "options": {
+            "A": "使水变酒",
+            "B": "医治病人",
+            "C": "建造耶路撒冷圣殿",
+            "D": "使五千人吃饱"
+        },
+        "answer": "C",
+        "verse": "约翰福音 2:1-11; 马太福音 14:13-21",
+        "explanation": "耶稣行过许多神迹，但没有建造圣殿。"
+    },
+    {
+        "id": 114,
+        "difficulty": "Insane",
+        "category": "Bible Timeline",
+        "book": "General",
+        "question": "以下人物的时间顺序，哪一个正确？",
+        "options": {
+            "A": "摩西 → 亚伯拉罕 → 耶稣 → 大卫",
+            "B": "耶稣 → 大卫 → 摩西 → 亚伯拉罕",
+            "C": "亚伯拉罕 → 摩西 → 大卫 → 耶稣",
+            "D": "大卫 → 摩西 → 亚伯拉罕 → 耶稣"
+        },
+        "answer": "C",
+        "verse": "圣经历史时间线",
+        "explanation": "大致顺序为：亚伯拉罕时期 → 摩西出埃及时期 → 大卫王时期 → 耶稣降生。"
+    },
+    {
+        "id": 115,
+        "difficulty": "Easy",
+        "category": "Bible Character",
+        "book": "Genesis",
+        "question": "谁是第一个被神创造的人？",
+        "options": {
+            "A": "亚伯拉罕",
+            "B": "挪亚",
+            "C": "亚当",
+            "D": "亚伯"
+        },
+        "answer": "C",
+        "verse": "创世记 2:7",
+        "explanation": "神用地上的尘土造亚当，并将生命气息吹入他的鼻孔。"
+    },
+    {
+        "id": 116,
+        "difficulty": "Medium",
+        "category": "Bible Character",
+        "book": "Exodus",
+        "question": "以下哪一项描述的是摩西？",
+        "options": {
+            "A": "带领以色列人离开埃及的人",
+            "B": "成为第一位教会领袖的人",
+            "C": "写启示录的人",
+            "D": "建造方舟的人"
+        },
+        "answer": "A",
+        "verse": "出埃及记 3:10",
+        "explanation": "神呼召摩西带领以色列人离开埃及，前往神应许的地方。"
+    },
+    {
+        "id": 117,
+        "difficulty": "Medium",
+        "category": "Who Said This",
+        "book": "John",
+        "question": "谁说过：“我就是道路、真理、生命”？",
+        "options": {
+            "A": "彼得",
+            "B": "施洗约翰",
+            "C": "保罗",
+            "D": "耶稣"
+        },
+        "answer": "D",
+        "verse": "约翰福音 14:6",
+        "explanation": "耶稣宣告自己是人到父神那里去唯一的道路。"
+    },
+    {
+        "id": 118,
+        "difficulty": "Medium",
+        "category": "Bible Teaching",
+        "book": "Matthew",
+        "question": "耶稣为什么教导门徒饶恕别人？",
+        "options": {
+            "A": "因为饶恕能反映神的恩典",
+            "B": "因为法律要求",
+            "C": "因为敌人一定会改变",
+            "D": "因为所有错误都没有影响"
+        },
+        "answer": "A",
+        "verse": "马太福音 6:14-15",
+        "explanation": "耶稣教导门徒要饶恕，因为神也赦免我们的过犯。"
+    },
+    {
+        "id": 119,
+        "difficulty": "Hard",
+        "category": "Bible Character",
+        "book": "Acts",
+        "question": "保罗信主以前主要做什么工作？",
+        "options": {
+            "A": "管理埃及粮食",
+            "B": "迫害基督徒",
+            "C": "带领以色列出埃及",
+            "D": "当渔夫"
+        },
+        "answer": "B",
+        "verse": "使徒行传 8:3; 9:1-2",
+        "explanation": "保罗信主以前名叫扫罗，曾经逼迫跟随耶稣的人。"
+    },
+    {
+        "id": 120,
+        "difficulty": "Hard",
+        "category": "Bible Timeline",
+        "book": "General",
+        "question": "以下哪一个人物最早生活？",
+        "options": {
+            "A": "亚伯拉罕",
+            "B": "摩西",
+            "C": "大卫",
+            "D": "彼得"
+        },
+        "answer": "A",
+        "verse": "圣经历史时间线",
+        "explanation": "亚伯拉罕生活的时期早于摩西、大卫和新约时代的彼得。"
+    },
+    {
+        "id": 121,
+        "difficulty": "Medium",
+        "category": "Bible Story",
+        "book": "Genesis",
+        "question": "约瑟被哥哥卖到埃及后，神如何带领他？",
+        "options": {
+            "A": "让他马上回到家乡",
+            "B": "让他成为士兵",
+            "C": "使他成为埃及的重要官员",
+            "D": "让他逃到其他国家"
+        },
+        "answer": "C",
+        "verse": "创世记 41:41-43",
+        "explanation": "神使约瑟从奴仆成为埃及管理粮食的重要人物。"
+    },
+    {
+        "id": 122,
+        "difficulty": "Hard",
+        "category": "Bible Knowledge",
+        "book": "General",
+        "question": "以下哪一项关于四福音书是正确的？",
+        "options": {
+            "A": "记录耶稣生平和事工",
+            "B": "主要描述末日预言",
+            "C": "全部由保罗写成",
+            "D": "只记录旧约历史"
+        },
+        "answer": "A",
+        "verse": "马太福音; 马可福音; 路加福音; 约翰福音",
+        "explanation": "四福音书分别从不同角度记录耶稣的出生、生平、教导、受死和复活。"
+    },
+    {
+        "id": 123,
+        "difficulty": "Hard",
+        "category": "Who Said This",
+        "book": "Genesis",
+        "question": "谁说过：“我岂是看守我兄弟的吗？”",
+        "options": {
+            "A": "该隐",
+            "B": "以扫",
+            "C": "挪亚",
+            "D": "亚当"
+        },
+        "answer": "A",
+        "verse": "创世记 4:9",
+        "explanation": "该隐杀害弟弟亚伯后，神询问亚伯在哪里，该隐如此回答。"
+    },
+    {
+        "id": 124,
+        "difficulty": "Insane",
+        "category": "Bible Timeline",
+        "book": "General",
+        "question": "以下哪一个事件发生在最早？",
+        "options": {
+            "A": "大卫成为王",
+            "B": "耶稣复活",
+            "C": "摩西领受十诫",
+            "D": "挪亚建造方舟"
+        },
+        "answer": "D",
+        "verse": "创世记 6:13-22",
+        "explanation": "挪亚建造方舟发生在洪水时期，早于摩西、大卫以及耶稣时代。"
+    },
+    {
+        "id": 125,
+        "difficulty": "Easy",
+        "category": "Bible Knowledge",
+        "book": "General",
+        "question": "以下哪一本书不属于圣经中的书卷？",
+        "options": {
+            "A": "智慧篇",
+            "B": "启示录",
+            "C": "马太福音",
+            "D": "创世记"
+        },
+        "answer": "A",
+        "verse": "圣经目录",
+        "explanation": "创世记、马太福音和启示录都是圣经中的书卷，而“智慧篇”不属于基督教新教圣经。"
+    },
+    {
+        "id": 125,
+        "difficulty": "Easy",
+        "category": "Bible Knowledge",
+        "book": "General",
+        "question": "以下哪一本书不属于圣经中的书卷？",
+        "options": {
+            "A": "创世记",
+            "B": "彼得前书下卷",
+            "C": "马太福音",
+            "D": "启示录"
+        },
+        "answer": "B",
+        "verse": "圣经目录",
+        "explanation": "创世记、马太福音和启示录都是圣经中的书卷，而“彼得前书下卷”并不存在于圣经中。"
+    },
+    {
+        "id": 127,
+        "difficulty": "Easy",
+        "category": "Bible Knowledge",
+        "book": "General",
+        "question": "以下哪一本书属于新约圣经？",
+        "options": {
+            "A": "以赛亚书",
+            "B": "罗马书",
+            "C": "出埃及记",
+            "D": "诗篇"
+        },
+        "answer": "B",
+        "verse": "圣经目录",
+        "explanation": "罗马书属于新约，是使徒保罗写给罗马教会的书信。"
+    },
+    {
+        "id": 128,
+        "difficulty": "Easy",
+        "category": "Bible Character",
+        "book": "Genesis",
+        "question": "谁建造了方舟？",
+        "options": {
+            "A": "亚伯拉罕",
+            "B": "摩西",
+            "C": "大卫",
+            "D": "挪亚"
+        },
+        "answer": "D",
+        "verse": "创世记 6:13-22",
+        "explanation": "神吩咐挪亚建造方舟，拯救他的家人和动物脱离洪水。"
+    },
+    {
+        "id": 129,
+        "difficulty": "Medium",
+        "category": "Bible Character",
+        "book": "New Testament",
+        "question": "谁曾经是税吏，后来成为耶稣的门徒？",
+        "options": {
+            "A": "马太",
+            "B": "彼得",
+            "C": "安得烈",
+            "D": "雅各"
+        },
+        "answer": "A",
+        "verse": "马太福音 9:9",
+        "explanation": "马太原本是税吏，后来蒙耶稣呼召成为十二门徒之一。"
+    },
+    {
+        "id": 130,
+        "difficulty": "Medium",
+        "category": "Bible Teaching",
+        "book": "Matthew",
+        "question": "耶稣教导最大的诫命是什么？",
+        "options": {
+            "A": "遵守所有传统",
+            "B": "赚取财富",
+            "C": "爱神并爱人",
+            "D": "成为宗教领袖"
+        },
+        "answer": "C",
+        "verse": "马太福音 22:37-39",
+        "explanation": "耶稣说最大的诫命是尽心、尽性、尽意爱神，并爱人如己。"
+    },
+    {
+        "id": 131,
+        "difficulty": "Medium",
+        "category": "Bible Story",
+        "book": "Exodus",
+        "question": "以色列人离开埃及时，神如何帮助他们通过红海？",
+        "options": {
+            "A": "建造一座桥",
+            "B": "派船接他们过去",
+            "C": "分开海水让他们经过",
+            "D": "让水变成酒"
+        },
+        "answer": "C",
+        "verse": "出埃及记 14:21-22",
+        "explanation": "神使红海分开，让以色列人在干地上走过去。"
+    },
+    {
+        "id": 132,
+        "difficulty": "Hard",
+        "category": "Who Said This",
+        "book": "Matthew",
+        "question": "谁说过：“你是基督，是永生神的儿子”？",
+        "options": {
+            "A": "约翰",
+            "B": "多马",
+            "C": "彼得",
+            "D": "马大"
+        },
+        "answer": "C",
+        "verse": "马太福音 16:16",
+        "explanation": "彼得认出耶稣是基督，是永生神的儿子。"
+    },
+    {
+        "id": 133,
+        "difficulty": "Hard",
+        "category": "Bible Knowledge",
+        "book": "General",
+        "question": "以下哪一本书是圣经最后一卷？",
+        "options": {
+            "A": "启示录",
+            "B": "使徒行传",
+            "C": "希伯来书",
+            "D": "犹大书"
+        },
+        "answer": "A",
+        "verse": "启示录 1:1",
+        "explanation": "启示录是新约和整本圣经排列中的最后一卷书。"
+    },
+    {
+        "id": 134,
+        "difficulty": "Hard",
+        "category": "Bible Character",
+        "book": "Old Testament",
+        "question": "哪位人物因信靠神，被称为信心之父？",
+        "options": {
+            "A": "亚伯拉罕",
+            "B": "以利亚",
+            "C": "扫罗",
+            "D": "所罗门"
+        },
+        "answer": "A",
+        "verse": "罗马书 4:11",
+        "explanation": "亚伯拉罕因信称义，被许多人称为信心的榜样。"
+    },
+    {
+        "id": 135,
+        "difficulty": "Hard",
+        "category": "Bible Timeline",
+        "book": "General",
+        "question": "以下哪一个事件发生在最晚？",
+        "options": {
+            "A": "挪亚建造方舟",
+            "B": "耶稣复活",
+            "C": "摩西领受十诫",
+            "D": "大卫成为王"
+        },
+        "answer": "B",
+        "verse": "马太福音 28:5-6",
+        "explanation": "耶稣复活发生在新约时期，比旧约人物和事件都晚。"
+    },
+    {
+        "id": 136,
+        "difficulty": "Insane",
+        "category": "Bible Knowledge",
+        "book": "General",
+        "question": "以下哪一本书不是保罗所写的书信？",
+        "options": {
+            "A": "腓立比书",
+            "B": "哥林多前书",
+            "C": "罗马书",
+            "D": "彼得前书"
+        },
+        "answer": "D",
+        "verse": "新约书信",
+        "explanation": "哥林多前书、罗马书和腓立比书都是保罗书信，而彼得前书是使徒彼得所写。"
+    },
+    {
+        "id": 137,
+        "difficulty": "Easy",
+        "category": "Bible Knowledge",
+        "book": "General",
+        "question": "以下哪一本书属于旧约圣经？",
+        "options": {
+            "A": "使徒行传",
+            "B": "加拉太书",
+            "C": "启示录",
+            "D": "诗篇"
+        },
+        "answer": "D",
+        "verse": "圣经目录",
+        "explanation": "诗篇属于旧约圣经，是一卷诗歌和敬拜的书。"
+    },
+    {
+        "id": 138,
+        "difficulty": "Easy",
+        "category": "Bible Character",
+        "book": "Judges",
+        "question": "哪一位士师拥有超乎常人的力量？",
+        "options": {
+            "A": "参孙",
+            "B": "俄陀聂",
+            "C": "基甸",
+            "D": "底波拉"
+        },
+        "answer": "A",
+        "verse": "士师记 13-16章",
+        "explanation": "参孙因神赐给他的力量，多次战胜非利士人。"
+    },
+    {
+        "id": 139,
+        "difficulty": "Medium",
+        "category": "Bible Teaching",
+        "book": "Luke",
+        "question": "耶稣讲述浪子的比喻，主要想表达什么？",
+        "options": {
+            "A": "离家越远越好",
+            "B": "哥哥才是故事主角",
+            "C": "财富最重要",
+            "D": "天父乐意接纳真心悔改的人"
+        },
+        "answer": "D",
+        "verse": "路加福音 15:11-32",
+        "explanation": "浪子的比喻显明神乐意赦免并接纳真心悔改的人。"
+    },
+    {
+        "id": 140,
+        "difficulty": "Medium",
+        "category": "Bible Character",
+        "book": "Acts",
+        "question": "以下哪一位不是耶稣十二门徒之一？",
+        "options": {
+            "A": "马太",
+            "B": "保罗",
+            "C": "约翰",
+            "D": "彼得"
+        },
+        "answer": "B",
+        "verse": "马太福音 10:2-4",
+        "explanation": "保罗虽然是伟大的使徒，但并不是耶稣在世时所拣选的十二门徒之一。"
+    },
+    {
+        "id": 141,
+        "difficulty": "Medium",
+        "category": "Who Said This",
+        "book": "Ruth",
+        "question": "谁说过：“你的国就是我的国，你的神就是我的神”？",
+        "options": {
+            "A": "路得",
+            "B": "拿俄米",
+            "C": "以斯帖",
+            "D": "哈拿"
+        },
+        "answer": "A",
+        "verse": "路得记 1:16",
+        "explanation": "路得向婆婆拿俄米表达她对神和家人的忠心。"
+    },
+    {
+        "id": 142,
+        "difficulty": "Hard",
+        "category": "Bible Knowledge",
+        "book": "General",
+        "question": "以下哪一卷不是四福音书？",
+        "options": {
+            "A": "约翰福音",
+            "B": "马太福音",
+            "C": "路加福音",
+            "D": "使徒行传"
+        },
+        "answer": "D",
+        "verse": "圣经目录",
+        "explanation": "四福音书包括马太、马可、路加和约翰福音。"
+    },
+    {
+        "id": 143,
+        "difficulty": "Hard",
+        "category": "Bible Character",
+        "book": "Daniel",
+        "question": "神如何拯救被丢进狮子坑的但以理？",
+        "options": {
+            "A": "让狮子睡着",
+            "B": "降下大雨",
+            "C": "差遣天使封住狮子的口",
+            "D": "地震打开洞口"
+        },
+        "answer": "C",
+        "verse": "但以理书 6:22",
+        "explanation": "神差遣使者封住狮子的口，因此但以理毫发无伤。"
+    },
+    {
+        "id": 144,
+        "difficulty": "Hard",
+        "category": "Bible Teaching",
+        "book": "Matthew",
+        "question": "耶稣说人点灯后，应该怎样处理？",
+        "options": {
+            "A": "放在灯台上照亮众人",
+            "B": "藏起来",
+            "C": "放在斗底下",
+            "D": "马上吹熄"
+        },
+        "answer": "A",
+        "verse": "马太福音 5:15-16",
+        "explanation": "耶稣教导门徒要像光一样照在人前，荣耀天父。"
+    },
+    {
+        "id": 145,
+        "difficulty": "Hard",
+        "category": "Bible Timeline",
+        "book": "General",
+        "question": "以下哪位人物生活在大卫之后？",
+        "options": {
+            "A": "约书亚",
+            "B": "摩西",
+            "C": "亚伯拉罕",
+            "D": "所罗门"
+        },
+        "answer": "D",
+        "verse": "列王纪上 2:12",
+        "explanation": "所罗门是大卫的儿子，在大卫之后作以色列王。"
+    },
+    {
+        "id": 146,
+        "difficulty": "Insane",
+        "category": "Bible Knowledge",
+        "book": "General",
+        "question": "以下哪一卷书主要记录早期教会的发展？",
+        "options": {
+            "A": "启示录",
+            "B": "希伯来书",
+            "C": "使徒行传",
+            "D": "罗马书"
+        },
+        "answer": "C",
+        "verse": "使徒行传 1:8",
+        "explanation": "使徒行传记录圣灵降临后，福音如何从耶路撒冷传到各地。"
+    },
+    {
+        "id": 147,
+        "difficulty": "Easy",
+        "category": "Bible Character",
+        "book": "1 Samuel",
+        "question": "神膏立谁成为以色列第二位君王？",
+        "options": {
+            "A": "扫罗",
+            "B": "所罗门",
+            "C": "大卫",
+            "D": "约西亚"
+        },
+        "answer": "C",
+        "verse": "撒母耳记上 16:13",
+        "explanation": "撒母耳奉神的命膏立大卫，后来他成为以色列第二位君王。"
+    },
+    {
+        "id": 148,
+        "difficulty": "Medium",
+        "category": "Bible Character",
+        "book": "Genesis",
+        "question": "神赐给雅各的新名字是什么？",
+        "options": {
+            "A": "便雅悯",
+            "B": "以撒",
+            "C": "以法莲",
+            "D": "以色列"
+        },
+        "answer": "D",
+        "verse": "创世记 32:28",
+        "explanation": "神将雅各改名为以色列，象征他与神较力并得胜。"
+    },
+    {
+        "id": 149,
+        "difficulty": "Hard",
+        "category": "Bible Knowledge",
+        "book": "General",
+        "question": "以下哪一项不是圣灵所结的果子？",
+        "options": {
+            "A": "节制",
+            "B": "仁爱",
+            "C": "忍耐",
+            "D": "嫉妒"
+        },
+        "answer": "D",
+        "verse": "加拉太书 5:22-23",
+        "explanation": "圣灵所结的果子包括仁爱、喜乐、和平、忍耐、恩慈、良善、信实、温柔和节制，并不包括嫉妒。"
+    },
+    {
+        "id": 150,
+        "difficulty": "Insane",
+        "category": "Bible Knowledge",
+        "book": "General",
+        "question": "以下哪一句话是耶稣所说的？",
+        "options": {
+            "A": "至于我和我家，我们必定事奉耶和华。",
+            "B": "耶和华是我的牧者，我必不致缺乏。",
+            "C": "我就是道路、真理、生命；若不借着我，没有人能到父那里去。",
+            "D": "不要惧怕，我是你的盾牌。"
+        },
+        "answer": "C",
+        "verse": "约翰福音 14:6",
+        "explanation": "这是耶稣在最后晚餐时对门徒所说的话，表明祂是通往父神唯一的道路。"
+    }
+]

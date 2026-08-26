@@ -1,0 +1,50 @@
+# =========================
+# NODE
+# =========================
+
+node_modules/
+client/node_modules/
+server/node_modules/
+
+
+# =========================
+# FIREBASE ADMIN SECRET
+# =========================
+
+server/serviceAccountKey.json
+serviceAccountKey.json
+firebase-adminsdk*.json
+
+
+# =========================
+# ENVIRONMENT VARIABLES
+# =========================
+
+.env
+.env.*
+!.env.example
+
+
+# =========================
+# MAC
+# =========================
+
+.DS_Store
+**/.DS_Store
+
+
+# =========================
+# LOGS
+# =========================
+
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# =========================
+# OTHER
+# =========================
+
+__MACOSX/

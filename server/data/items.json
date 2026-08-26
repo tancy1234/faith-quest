@@ -1,0 +1,59 @@
+[
+  {
+    "id": "fishing_rod",
+    "name": "钓鱼竿",
+    "emoji": "🎣",
+    "price": 50,
+    "buyable": true
+  },
+  {
+    "id": "map",
+    "name": "地图",
+    "emoji": "🗺️",
+    "price": 100,
+    "buyable": true
+  },
+  {
+    "id": "egg",
+    "name": "鸡蛋",
+    "emoji": "🥚",
+    "price": 20,
+    "buyable": false
+  },
+  {
+    "id": "incubator",
+    "name": "孵化器",
+    "emoji": "⏲️",
+    "price": 50,
+    "buyable": true
+  },
+  {
+    "id": "adventure_lens",
+    "name": "放大镜",
+    "emoji": "🔍",
+    "price": 200,
+    "buyable": true
+  },
+  {
+    "id": "hatch_egg",
+    "name": "孵化蛋",
+    "emoji": "🐣",
+    "price": null,
+    "buyable": false
+  },
+  {
+    "id": "diamond",
+    "name": "钻石",
+    "emoji": "💎",
+    "price": null,
+    "buyable": false
+  },
+  {
+  "id": "treasure",
+  "name": "宝箱",
+  "emoji": "🧰",
+  "price": null,
+  "buyable": false,
+  "openable": true
+}
+]

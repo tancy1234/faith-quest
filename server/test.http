@@ -1,0 +1,9 @@
+POST http://localhost:3000/player/create
+Content-Type: application/json
+
+{
+    "uid":"test123",
+    "username":"Peter",
+    "email":"test@gmail.com",
+    "avatar":""
+}

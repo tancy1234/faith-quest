@@ -1,0 +1,80 @@
+[
+  {
+    "id": "1m",
+    "name": "1分钟",
+    "duration": 60,
+    "rewardPower": 1
+  },
+  {
+    "id": "5m",
+    "name": "5分钟",
+    "duration": 300,
+    "rewardPower": 2
+  },
+  {
+    "id": "10m",
+    "name": "10分钟",
+    "duration": 600,
+    "rewardPower": 3
+  },
+  {
+    "id": "15m",
+    "name": "15分钟",
+    "duration": 900,
+    "rewardPower": 4
+  },
+  {
+    "id": "30m",
+    "name": "30分钟",
+    "duration": 1800,
+    "rewardPower": 6
+  },
+  {
+    "id": "1h",
+    "name": "1小时",
+    "duration": 3600,
+    "rewardPower": 10
+  },
+  {
+    "id": "2h",
+    "name": "2小时",
+    "duration": 7200,
+    "rewardPower": 15
+  },
+  {
+    "id": "4h",
+    "name": "4小时",
+    "duration": 14400,
+    "rewardPower": 22
+  },
+  {
+    "id": "8h",
+    "name": "8小时",
+    "duration": 28800,
+    "rewardPower": 32
+  },
+  {
+    "id": "12h",
+    "name": "12小时",
+    "duration": 43200,
+    "rewardPower": 42
+  },
+  {
+    "id": "16h",
+    "name": "16小时",
+    "duration": 57600,
+    "rewardPower": 52
+  },
+  {
+    "id": "20h",
+    "name": "20小时",
+    "duration": 72000,
+    "rewardPower": 62
+  },
+  {
+    "id": "24h",
+    "name": "24小时",
+    "duration": 86400,
+    "rewardPower": 75
+  }
+]

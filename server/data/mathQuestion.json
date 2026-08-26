@@ -1,0 +1,2282 @@
+[
+  {
+    "id": 1,
+    "field": {
+      "id": "algebra",
+      "en": "Algebra",
+      "zh": "代数"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "If 3x + 5 = 20, what is the value of x?",
+      "zh": "如果 3x + 5 = 20，那么 x 的值是多少？"
+    },
+    "options": {
+      "A": {
+        "en": "3",
+        "zh": "3"
+      },
+      "B": {
+        "en": "5",
+        "zh": "5"
+      },
+      "C": {
+        "en": "7",
+        "zh": "7"
+      },
+      "D": {
+        "en": "10",
+        "zh": "10"
+      }
+    },
+    "answer": "B",
+    "explanation": {
+      "en": "Subtract 5 from both sides: 3x = 15. Divide by 3, so x = 5.",
+      "zh": "两边同时减去 5，得到 3x = 15。再除以 3，所以 x = 5。"
+    },
+    "points": 10,
+    "xp": 10
+  },
+  {
+    "id": 2,
+    "field": {
+      "id": "trigo",
+      "en": "Trigonometry",
+      "zh": "三角函数"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "What is sin(30°)?",
+      "zh": "sin(30°) 的值是多少？"
+    },
+    "options": {
+      "A": {
+        "en": "0",
+        "zh": "0"
+      },
+      "B": {
+        "en": "1/2",
+        "zh": "1/2"
+      },
+      "C": {
+        "en": "√2/2",
+        "zh": "√2/2"
+      },
+      "D": {
+        "en": "1",
+        "zh": "1"
+      }
+    },
+    "answer": "B",
+    "explanation": {
+      "en": "The standard trigonometric value is sin(30°) = 1/2.",
+      "zh": "常见的三角函数值中，sin(30°) = 1/2。"
+    },
+    "points": 10,
+    "xp": 10
+  },
+  {
+    "id": 3,
+    "field": {
+      "id": "geometry",
+      "en": "Geometry",
+      "zh": "几何"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "A rectangle has a length of 8 cm and a width of 5 cm. What is its area?",
+      "zh": "一个长方形的长是 8 厘米，宽是 5 厘米。它的面积是多少？"
+    },
+    "options": {
+      "A": {
+        "en": "13 cm²",
+        "zh": "13 平方厘米"
+      },
+      "B": {
+        "en": "26 cm²",
+        "zh": "26 平方厘米"
+      },
+      "C": {
+        "en": "40 cm²",
+        "zh": "40 平方厘米"
+      },
+      "D": {
+        "en": "80 cm²",
+        "zh": "80 平方厘米"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "The area of a rectangle is length × width. Therefore, 8 × 5 = 40 cm².",
+      "zh": "长方形的面积公式是长 × 宽。因此，8 × 5 = 40 平方厘米。"
+    },
+    "points": 10,
+    "xp": 10
+  },
+  {
+    "id": 4,
+    "field": {
+      "id": "probability",
+      "en": "Probability",
+      "zh": "概率"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "A fair coin is flipped once. What is the probability of getting heads?",
+      "zh": "一枚公平的硬币抛一次，得到正面的概率是多少？"
+    },
+    "options": {
+      "A": {
+        "en": "0",
+        "zh": "0"
+      },
+      "B": {
+        "en": "1/4",
+        "zh": "1/4"
+      },
+      "C": {
+        "en": "1/2",
+        "zh": "1/2"
+      },
+      "D": {
+        "en": "1",
+        "zh": "1"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "A fair coin has two equally likely outcomes: heads and tails. Therefore, the probability of heads is 1/2.",
+      "zh": "公平的硬币有两个等可能的结果：正面和反面。因此，得到正面的概率是 1/2。"
+    },
+    "points": 10,
+    "xp": 10
+  },
+  {
+    "id": 5,
+    "field": {
+      "id": "calculus",
+      "en": "Calculus",
+      "zh": "微积分"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "What does the derivative of a function mainly describe?",
+      "zh": "一个函数的导数主要描述什么？"
+    },
+    "options": {
+      "A": {
+        "en": "The rate of change",
+        "zh": "变化率"
+      },
+      "B": {
+        "en": "The total area",
+        "zh": "总面积"
+      },
+      "C": {
+        "en": "The probability of an event",
+        "zh": "事件发生的概率"
+      },
+      "D": {
+        "en": "The number of factors",
+        "zh": "因数的数量"
+      }
+    },
+    "answer": "A",
+    "explanation": {
+      "en": "A derivative describes the instantaneous rate of change of a function.",
+      "zh": "导数描述函数在某一点的瞬时变化率，也可以理解为曲线在该点的切线斜率。"
+    },
+    "points": 10,
+    "xp": 10
+  },
+  {
+    "id": 6,
+    "field": {
+      "id": "statistics",
+      "en": "Statistics",
+      "zh": "统计"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "What is the mean of 4, 6, 8, and 10?",
+      "zh": "4、6、8 和 10 的平均数是多少？"
+    },
+    "options": {
+      "A": {
+        "en": "6",
+        "zh": "6"
+      },
+      "B": {
+        "en": "7",
+        "zh": "7"
+      },
+      "C": {
+        "en": "8",
+        "zh": "8"
+      },
+      "D": {
+        "en": "9",
+        "zh": "9"
+      }
+    },
+    "answer": "B",
+    "explanation": {
+      "en": "Add the numbers: 4 + 6 + 8 + 10 = 28. Divide by 4 values: 28 ÷ 4 = 7.",
+      "zh": "先把所有数字相加：4 + 6 + 8 + 10 = 28。共有 4 个数字，所以 28 ÷ 4 = 7。"
+    },
+    "points": 20,
+    "xp": 20
+  },
+  {
+    "id": 7,
+    "field": {
+      "id": "number_theory",
+      "en": "Number Theory",
+      "zh": "数论"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "Which of the following numbers is a prime number?",
+      "zh": "以下哪个数字是质数？"
+    },
+    "options": {
+      "A": {
+        "en": "21",
+        "zh": "21"
+      },
+      "B": {
+        "en": "27",
+        "zh": "27"
+      },
+      "C": {
+        "en": "29",
+        "zh": "29"
+      },
+      "D": {
+        "en": "33",
+        "zh": "33"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "29 has only two positive factors: 1 and 29, so it is a prime number.",
+      "zh": "29 只有 1 和 29 两个正因数，因此 29 是质数。"
+    },
+    "points": 20,
+    "xp": 20
+  },
+  {
+    "id": 8,
+    "field": {
+      "id": "logic",
+      "en": "Mathematical Logic",
+      "zh": "数学逻辑"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "If all cats are animals, and Mimi is a cat, what can we conclude?",
+      "zh": "如果所有猫都是动物，而 Mimi 是一只猫，那么我们可以得出什么结论？"
+    },
+    "options": {
+      "A": {
+        "en": "Mimi is a plant.",
+        "zh": "Mimi 是植物。"
+      },
+      "B": {
+        "en": "Mimi is an animal.",
+        "zh": "Mimi 是动物。"
+      },
+      "C": {
+        "en": "All animals are cats.",
+        "zh": "所有动物都是猫。"
+      },
+      "D": {
+        "en": "Mimi cannot be a cat.",
+        "zh": "Mimi 不可能是猫。"
+      }
+    },
+    "answer": "B",
+    "explanation": {
+      "en": "Since all cats are animals and Mimi is a cat, Mimi must be an animal.",
+      "zh": "因为所有猫都是动物，而 Mimi 是猫，所以可以确定 Mimi 是动物。"
+    },
+    "points": 20,
+    "xp": 20
+  },
+  {
+    "id": 9,
+    "field": {
+      "id": "arithmetic",
+      "en": "Arithmetic",
+      "zh": "基础运算"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "What is 15% of 200?",
+      "zh": "200 的 15% 是多少？"
+    },
+    "options": {
+      "A": {
+        "en": "15",
+        "zh": "15"
+      },
+      "B": {
+        "en": "20",
+        "zh": "20"
+      },
+      "C": {
+        "en": "30",
+        "zh": "30"
+      },
+      "D": {
+        "en": "35",
+        "zh": "35"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "15% = 0.15. Therefore, 0.15 × 200 = 30.",
+      "zh": "15% = 0.15。因此，0.15 × 200 = 30。"
+    },
+    "points": 20,
+    "xp": 20
+  },
+  {
+    "id": 10,
+    "field": {
+      "id": "general",
+      "en": "General Mathematics",
+      "zh": "综合数学"
+    },
+    "difficulty": "hard",
+    "question": {
+      "en": "A sequence follows the pattern 2, 6, 12, 20, 30. What is the next number?",
+      "zh": "一个数列按照 2、6、12、20、30 的规律排列。下一个数字是多少？"
+    },
+    "options": {
+      "A": {
+        "en": "36",
+        "zh": "36"
+      },
+      "B": {
+        "en": "40",
+        "zh": "40"
+      },
+      "C": {
+        "en": "42",
+        "zh": "42"
+      },
+      "D": {
+        "en": "44",
+        "zh": "44"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "The differences are +4, +6, +8, and +10. The next difference is +12, so 30 + 12 = 42.",
+      "zh": "相邻数字之间的差分别是 +4、+6、+8 和 +10。下一个差应该是 +12，所以 30 + 12 = 42。"
+    },
+    "points": 35,
+    "xp": 35
+  },
+  {
+    "id": 11,
+    "field": {
+      "id": "algebra",
+      "en": "Algebra",
+      "zh": "代数"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "Which expression is equivalent to 2(x + 3)?",
+      "zh": "以下哪个式子与 2(x + 3) 等价？"
+    },
+    "options": {
+      "A": {
+        "en": "2x + 3",
+        "zh": "2x + 3"
+      },
+      "B": {
+        "en": "2x + 6",
+        "zh": "2x + 6"
+      },
+      "C": {
+        "en": "x + 6",
+        "zh": "x + 6"
+      },
+      "D": {
+        "en": "2x + 9",
+        "zh": "2x + 9"
+      }
+    },
+    "answer": "B",
+    "explanation": {
+      "en": "Using the distributive property, 2(x + 3) = 2x + 6.",
+      "zh": "利用分配律，将 2 乘入括号，得到 2(x + 3) = 2x + 6。"
+    },
+    "points": 10,
+    "xp": 10
+  },
+  {
+    "id": 12,
+    "field": {
+      "id": "trigo",
+      "en": "Trigonometry",
+      "zh": "三角函数"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "What is cos(0°)?",
+      "zh": "cos(0°) 的值是多少？"
+    },
+    "options": {
+      "A": {
+        "en": "0",
+        "zh": "0"
+      },
+      "B": {
+        "en": "1/2",
+        "zh": "1/2"
+      },
+      "C": {
+        "en": "√2/2",
+        "zh": "√2/2"
+      },
+      "D": {
+        "en": "1",
+        "zh": "1"
+      }
+    },
+    "answer": "D",
+    "explanation": {
+      "en": "The standard value of cos(0°) is 1.",
+      "zh": "常见的三角函数值中，cos(0°) = 1。"
+    },
+    "points": 10,
+    "xp": 10
+  },
+  {
+    "id": 13,
+    "field": {
+      "id": "geometry",
+      "en": "Geometry",
+      "zh": "几何"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "How many degrees are there in the interior angles of a triangle altogether?",
+      "zh": "一个三角形的三个内角加起来一共是多少度？"
+    },
+    "options": {
+      "A": {
+        "en": "90°",
+        "zh": "90°"
+      },
+      "B": {
+        "en": "180°",
+        "zh": "180°"
+      },
+      "C": {
+        "en": "270°",
+        "zh": "270°"
+      },
+      "D": {
+        "en": "360°",
+        "zh": "360°"
+      }
+    },
+    "answer": "B",
+    "explanation": {
+      "en": "The interior angles of every triangle add up to 180°.",
+      "zh": "任何三角形的三个内角和都是 180°。"
+    },
+    "points": 10,
+    "xp": 10
+  },
+  {
+    "id": 14,
+    "field": {
+      "id": "probability",
+      "en": "Probability",
+      "zh": "概率"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "A bag contains 3 red balls and 1 blue ball. What is the probability of picking a blue ball?",
+      "zh": "一个袋子里有 3 个红球和 1 个蓝球。随机取出一个球，取到蓝球的概率是多少？"
+    },
+    "options": {
+      "A": {
+        "en": "1/2",
+        "zh": "1/2"
+      },
+      "B": {
+        "en": "1/3",
+        "zh": "1/3"
+      },
+      "C": {
+        "en": "1/4",
+        "zh": "1/4"
+      },
+      "D": {
+        "en": "3/4",
+        "zh": "3/4"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "There are 4 balls in total and 1 is blue, so the probability is 1/4.",
+      "zh": "袋子里一共有 4 个球，其中 1 个是蓝球，所以概率是 1/4。"
+    },
+    "points": 10,
+    "xp": 10
+  },
+  {
+    "id": 15,
+    "field": {
+      "id": "calculus",
+      "en": "Calculus",
+      "zh": "微积分"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "What is the derivative of x²?",
+      "zh": "x² 的导数是多少？"
+    },
+    "options": {
+      "A": {
+        "en": "x",
+        "zh": "x"
+      },
+      "B": {
+        "en": "2x",
+        "zh": "2x"
+      },
+      "C": {
+        "en": "x³",
+        "zh": "x³"
+      },
+      "D": {
+        "en": "2",
+        "zh": "2"
+      }
+    },
+    "answer": "B",
+    "explanation": {
+      "en": "Using the power rule, the derivative of x² is 2x.",
+      "zh": "根据幂函数求导法则，x² 的导数是 2x。"
+    },
+    "points": 10,
+    "xp": 10
+  },
+  {
+    "id": 16,
+    "field": {
+      "id": "statistics",
+      "en": "Statistics",
+      "zh": "统计"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "What is the median of 3, 7, 9, 12, and 15?",
+      "zh": "3、7、9、12 和 15 的中位数是多少？"
+    },
+    "options": {
+      "A": {
+        "en": "7",
+        "zh": "7"
+      },
+      "B": {
+        "en": "8",
+        "zh": "8"
+      },
+      "C": {
+        "en": "9",
+        "zh": "9"
+      },
+      "D": {
+        "en": "12",
+        "zh": "12"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "The numbers are already ordered. The middle value is 9, so the median is 9.",
+      "zh": "这些数字已经按照从小到大排列，中间的数字是 9，所以中位数是 9。"
+    },
+    "points": 20,
+    "xp": 20
+  },
+  {
+    "id": 17,
+    "field": {
+      "id": "number_theory",
+      "en": "Number Theory",
+      "zh": "数论"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "Which number is divisible by both 2 and 3?",
+      "zh": "以下哪个数字同时能被 2 和 3 整除？"
+    },
+    "options": {
+      "A": {
+        "en": "14",
+        "zh": "14"
+      },
+      "B": {
+        "en": "18",
+        "zh": "18"
+      },
+      "C": {
+        "en": "25",
+        "zh": "25"
+      },
+      "D": {
+        "en": "35",
+        "zh": "35"
+      }
+    },
+    "answer": "B",
+    "explanation": {
+      "en": "18 is even, so it is divisible by 2, and 1 + 8 = 9, which is divisible by 3.",
+      "zh": "18 是偶数，所以能被 2 整除；同时 1 + 8 = 9，9 能被 3 整除，因此 18 同时能被 2 和 3 整除。"
+    },
+    "points": 20,
+    "xp": 20
+  },
+  {
+    "id": 18,
+    "field": {
+      "id": "logic",
+      "en": "Mathematical Logic",
+      "zh": "数学逻辑"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "If a statement is true, what is the truth value of its negation?",
+      "zh": "如果一个命题是真的，那么它的否定命题是什么？"
+    },
+    "options": {
+      "A": {
+        "en": "Always true",
+        "zh": "一定为真"
+      },
+      "B": {
+        "en": "Always false",
+        "zh": "一定为假"
+      },
+      "C": {
+        "en": "Sometimes true",
+        "zh": "有时为真"
+      },
+      "D": {
+        "en": "Cannot be determined",
+        "zh": "无法确定"
+      }
+    },
+    "answer": "B",
+    "explanation": {
+      "en": "The negation of a true statement is false.",
+      "zh": "一个真实命题的否定命题一定是假的。"
+    },
+    "points": 20,
+    "xp": 20
+  },
+  {
+    "id": 19,
+    "field": {
+      "id": "arithmetic",
+      "en": "Arithmetic",
+      "zh": "基础运算"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "Which is larger: 3/4 or 2/3?",
+      "zh": "以下哪个分数比较大：3/4 还是 2/3？"
+    },
+    "options": {
+      "A": {
+        "en": "3/4",
+        "zh": "3/4"
+      },
+      "B": {
+        "en": "2/3",
+        "zh": "2/3"
+      },
+      "C": {
+        "en": "They are equal",
+        "zh": "两者相等"
+      },
+      "D": {
+        "en": "Cannot be compared",
+        "zh": "无法比较"
+      }
+    },
+    "answer": "A",
+    "explanation": {
+      "en": "3/4 = 0.75 while 2/3 is about 0.67, so 3/4 is larger.",
+      "zh": "3/4 = 0.75，而 2/3 约等于 0.67，所以 3/4 比较大。"
+    },
+    "points": 20,
+    "xp": 20
+  },
+  {
+    "id": 20,
+    "field": {
+      "id": "general",
+      "en": "General Mathematics",
+      "zh": "综合数学"
+    },
+    "difficulty": "hard",
+    "question": {
+      "en": "A clock shows exactly 3:00. What is the angle between the hour hand and the minute hand?",
+      "zh": "时钟正好显示 3:00 时，时针和分针之间的夹角是多少？"
+    },
+    "options": {
+      "A": {
+        "en": "45°",
+        "zh": "45°"
+      },
+      "B": {
+        "en": "90°",
+        "zh": "90°"
+      },
+      "C": {
+        "en": "120°",
+        "zh": "120°"
+      },
+      "D": {
+        "en": "180°",
+        "zh": "180°"
+      }
+    },
+    "answer": "B",
+    "explanation": {
+      "en": "At 3:00, the minute hand points at 12 and the hour hand points at 3. The angle between them is 90°.",
+      "zh": "3:00 时，分针指向 12，时针指向 3。12 和 3 之间相差四分之一圆，所以夹角是 90°。"
+    },
+    "points": 35,
+    "xp": 35
+  },
+  {
+    "id": 21,
+    "field": {
+      "id": "algebra",
+      "en": "Algebra",
+      "zh": "代数"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "What is the value of 5²?",
+      "zh": "5² 的值是多少？"
+    },
+    "options": {
+      "A": {
+        "en": "10",
+        "zh": "10"
+      },
+      "B": {
+        "en": "15",
+        "zh": "15"
+      },
+      "C": {
+        "en": "20",
+        "zh": "20"
+      },
+      "D": {
+        "en": "25",
+        "zh": "25"
+      }
+    },
+    "answer": "D",
+    "explanation": {
+      "en": "5² means 5 × 5, which equals 25.",
+      "zh": "5² 表示 5 × 5，所以结果是 25。"
+    },
+    "points": 10,
+    "xp": 10
+  },
+  {
+    "id": 22,
+    "field": {
+      "id": "trigo",
+      "en": "Trigonometry",
+      "zh": "三角函数"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "In a right triangle, which ratio represents sine?",
+      "zh": "在直角三角形中，哪个比值代表正弦（sine）？"
+    },
+    "options": {
+      "A": {
+        "en": "Adjacent ÷ Hypotenuse",
+        "zh": "邻边 ÷ 斜边"
+      },
+      "B": {
+        "en": "Opposite ÷ Hypotenuse",
+        "zh": "对边 ÷ 斜边"
+      },
+      "C": {
+        "en": "Opposite ÷ Adjacent",
+        "zh": "对边 ÷ 邻边"
+      },
+      "D": {
+        "en": "Hypotenuse ÷ Opposite",
+        "zh": "斜边 ÷ 对边"
+      }
+    },
+    "answer": "B",
+    "explanation": {
+      "en": "Sine follows the SOH rule: sin(θ) = Opposite ÷ Hypotenuse.",
+      "zh": "正弦遵循 SOH 规则：sin(θ) = 对边 ÷ 斜边。"
+    },
+    "points": 10,
+    "xp": 10
+  },
+  {
+    "id": 23,
+    "field": {
+      "id": "geometry",
+      "en": "Geometry",
+      "zh": "几何"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "How many sides does a hexagon have?",
+      "zh": "六边形有多少条边？"
+    },
+    "options": {
+      "A": {
+        "en": "5",
+        "zh": "5"
+      },
+      "B": {
+        "en": "6",
+        "zh": "6"
+      },
+      "C": {
+        "en": "7",
+        "zh": "7"
+      },
+      "D": {
+        "en": "8",
+        "zh": "8"
+      }
+    },
+    "answer": "B",
+    "explanation": {
+      "en": "A hexagon is a polygon with six sides.",
+      "zh": "六边形是一种具有六条边的多边形。"
+    },
+    "points": 10,
+    "xp": 10
+  },
+  {
+    "id": 24,
+    "field": {
+      "id": "probability",
+      "en": "Probability",
+      "zh": "概率"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "What is the probability of rolling a 6 on a fair six-sided die?",
+      "zh": "掷一个公平的六面骰子，掷出 6 的概率是多少？"
+    },
+    "options": {
+      "A": {
+        "en": "1/2",
+        "zh": "1/2"
+      },
+      "B": {
+        "en": "1/3",
+        "zh": "1/3"
+      },
+      "C": {
+        "en": "1/6",
+        "zh": "1/6"
+      },
+      "D": {
+        "en": "1/12",
+        "zh": "1/12"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "There is one desired outcome out of six equally likely outcomes, so the probability is 1/6.",
+      "zh": "六面骰子有 6 个等可能的结果，其中只有 1 个是 6，所以概率是 1/6。"
+    },
+    "points": 10,
+    "xp": 10
+  },
+  {
+    "id": 25,
+    "field": {
+      "id": "calculus",
+      "en": "Calculus",
+      "zh": "微积分"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "What is the derivative of 3x?",
+      "zh": "3x 的导数是多少？"
+    },
+    "options": {
+      "A": {
+        "en": "3",
+        "zh": "3"
+      },
+      "B": {
+        "en": "3x",
+        "zh": "3x"
+      },
+      "C": {
+        "en": "x",
+        "zh": "x"
+      },
+      "D": {
+        "en": "0",
+        "zh": "0"
+      }
+    },
+    "answer": "A",
+    "explanation": {
+      "en": "The derivative of ax is a, so the derivative of 3x is 3.",
+      "zh": "ax 的导数是 a，因此 3x 的导数是 3。"
+    },
+    "points": 20,
+    "xp": 20
+  },
+  {
+    "id": 26,
+    "field": {
+      "id": "statistics",
+      "en": "Statistics",
+      "zh": "统计"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "Which measure represents the most frequently occurring value in a data set?",
+      "zh": "在一组数据中，哪个统计量表示出现次数最多的数值？"
+    },
+    "options": {
+      "A": {
+        "en": "Mean",
+        "zh": "平均数"
+      },
+      "B": {
+        "en": "Median",
+        "zh": "中位数"
+      },
+      "C": {
+        "en": "Mode",
+        "zh": "众数"
+      },
+      "D": {
+        "en": "Range",
+        "zh": "极差"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "The mode is the value that occurs most frequently in a data set.",
+      "zh": "众数是数据集中出现次数最多的数值。"
+    },
+    "points": 20,
+    "xp": 20
+  },
+  {
+    "id": 27,
+    "field": {
+      "id": "number_theory",
+      "en": "Number Theory",
+      "zh": "数论"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "What is the greatest common factor of 12 and 18?",
+      "zh": "12 和 18 的最大公因数是多少？"
+    },
+    "options": {
+      "A": {
+        "en": "3",
+        "zh": "3"
+      },
+      "B": {
+        "en": "4",
+        "zh": "4"
+      },
+      "C": {
+        "en": "6",
+        "zh": "6"
+      },
+      "D": {
+        "en": "9",
+        "zh": "9"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "The common factors include 1, 2, 3, and 6. The greatest is 6.",
+      "zh": "12 和 18 的公因数包括 1、2、3 和 6，其中最大的是 6。"
+    },
+    "points": 20,
+    "xp": 20
+  },
+  {
+    "id": 28,
+    "field": {
+      "id": "logic",
+      "en": "Mathematical Logic",
+      "zh": "数学逻辑"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "Which statement is logically equivalent to 'If it rains, the ground gets wet'?",
+      "zh": "“如果下雨，那么地面会湿”在逻辑上等价于以下哪个说法？"
+    },
+    "options": {
+      "A": {
+        "en": "If the ground is wet, then it rains.",
+        "zh": "如果地面湿了，那么一定下雨。"
+      },
+      "B": {
+        "en": "If it does not rain, the ground does not get wet.",
+        "zh": "如果不下雨，那么地面不会湿。"
+      },
+      "C": {
+        "en": "If the ground is not wet, then it did not rain.",
+        "zh": "如果地面没有湿，那么没有下雨。"
+      },
+      "D": {
+        "en": "If the ground gets wet, it must have rained.",
+        "zh": "如果地面湿了，那么一定是下过雨。"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "The contrapositive of 'If P, then Q' is 'If not Q, then not P', and it is logically equivalent.",
+      "zh": "“如果 P，那么 Q”的逆否命题是“如果非 Q，那么非 P”，两者在逻辑上等价。"
+    },
+    "points": 20,
+    "xp": 20
+  },
+  {
+    "id": 29,
+    "field": {
+      "id": "arithmetic",
+      "en": "Arithmetic",
+      "zh": "基础运算"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "What is 0.5 × 0.2?",
+      "zh": "0.5 × 0.2 等于多少？"
+    },
+    "options": {
+      "A": {
+        "en": "0.01",
+        "zh": "0.01"
+      },
+      "B": {
+        "en": "0.1",
+        "zh": "0.1"
+      },
+      "C": {
+        "en": "0.2",
+        "zh": "0.2"
+      },
+      "D": {
+        "en": "1",
+        "zh": "1"
+      }
+    },
+    "answer": "B",
+    "explanation": {
+      "en": "0.5 × 0.2 = 0.10, which is equal to 0.1.",
+      "zh": "0.5 × 0.2 = 0.10，也就是 0.1。"
+    },
+    "points": 20,
+    "xp": 20
+  },
+  {
+    "id": 30,
+    "field": {
+      "id": "general",
+      "en": "General Mathematics",
+      "zh": "综合数学"
+    },
+    "difficulty": "hard",
+    "question": {
+      "en": "A number is increased by 20% and then decreased by 20%. Is the final number the same as the original?",
+      "zh": "一个数字先增加 20%，然后再减少 20%。最后的数字会和原来的数字一样吗？"
+    },
+    "options": {
+      "A": {
+        "en": "Yes, exactly the same",
+        "zh": "是，完全相同"
+      },
+      "B": {
+        "en": "No, it is slightly smaller",
+        "zh": "不是，会稍微变小"
+      },
+      "C": {
+        "en": "No, it is slightly larger",
+        "zh": "不是，会稍微变大"
+      },
+      "D": {
+        "en": "It depends on the original number",
+        "zh": "取决于原来的数字"
+      }
+    },
+    "answer": "B",
+    "explanation": {
+      "en": "For example, 100 becomes 120 after increasing by 20%. Decreasing 120 by 20% gives 96, which is smaller than 100.",
+      "zh": "例如，100 增加 20% 后变成 120。再减少 20% 是 96，所以最终结果比原来的 100 小。"
+    },
+    "points": 35,
+    "xp": 35
+  },
+  {
+    "id": 31,
+    "field": {
+      "id": "algebra",
+      "en": "Algebra",
+      "zh": "代数"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "If y = 2x + 1, what is y when x = 3?",
+      "zh": "如果 y = 2x + 1，当 x = 3 时，y 等于多少？"
+    },
+    "options": {
+      "A": {
+        "en": "5",
+        "zh": "5"
+      },
+      "B": {
+        "en": "6",
+        "zh": "6"
+      },
+      "C": {
+        "en": "7",
+        "zh": "7"
+      },
+      "D": {
+        "en": "8",
+        "zh": "8"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "Substitute x = 3: y = 2(3) + 1 = 7.",
+      "zh": "把 x = 3 代入：y = 2(3) + 1 = 7。"
+    },
+    "points": 10,
+    "xp": 10
+  },
+  {
+    "id": 32,
+    "field": {
+      "id": "trigo",
+      "en": "Trigonometry",
+      "zh": "三角函数"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "What is tan(45°)?",
+      "zh": "tan(45°) 的值是多少？"
+    },
+    "options": {
+      "A": {
+        "en": "0",
+        "zh": "0"
+      },
+      "B": {
+        "en": "1/2",
+        "zh": "1/2"
+      },
+      "C": {
+        "en": "1",
+        "zh": "1"
+      },
+      "D": {
+        "en": "√3",
+        "zh": "√3"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "The standard value of tan(45°) is 1.",
+      "zh": "常见的三角函数值中，tan(45°) = 1。"
+    },
+    "points": 10,
+    "xp": 10
+  },
+  {
+    "id": 33,
+    "field": {
+      "id": "geometry",
+      "en": "Geometry",
+      "zh": "几何"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "What is the perimeter of a square with a side length of 6 cm?",
+      "zh": "一个边长为 6 厘米的正方形，周长是多少？"
+    },
+    "options": {
+      "A": {
+        "en": "12 cm",
+        "zh": "12 厘米"
+      },
+      "B": {
+        "en": "18 cm",
+        "zh": "18 厘米"
+      },
+      "C": {
+        "en": "24 cm",
+        "zh": "24 厘米"
+      },
+      "D": {
+        "en": "36 cm",
+        "zh": "36 厘米"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "A square has four equal sides, so the perimeter is 4 × 6 = 24 cm.",
+      "zh": "正方形有四条相等的边，所以周长是 4 × 6 = 24 厘米。"
+    },
+    "points": 10,
+    "xp": 10
+  },
+  {
+    "id": 34,
+    "field": {
+      "id": "probability",
+      "en": "Probability",
+      "zh": "概率"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "If an event is impossible, what is its probability?",
+      "zh": "如果一个事件是不可能发生的，那么它的概率是多少？"
+    },
+    "options": {
+      "A": {
+        "en": "0",
+        "zh": "0"
+      },
+      "B": {
+        "en": "1/2",
+        "zh": "1/2"
+      },
+      "C": {
+        "en": "1",
+        "zh": "1"
+      },
+      "D": {
+        "en": "100",
+        "zh": "100"
+      }
+    },
+    "answer": "A",
+    "explanation": {
+      "en": "An impossible event has a probability of 0.",
+      "zh": "不可能发生的事件，其概率为 0。"
+    },
+    "points": 10,
+    "xp": 10
+  },
+  {
+    "id": 35,
+    "field": {
+      "id": "calculus",
+      "en": "Calculus",
+      "zh": "微积分"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "What is the derivative of a constant such as 7?",
+      "zh": "像 7 这样的常数，它的导数是多少？"
+    },
+    "options": {
+      "A": {
+        "en": "0",
+        "zh": "0"
+      },
+      "B": {
+        "en": "1",
+        "zh": "1"
+      },
+      "C": {
+        "en": "7",
+        "zh": "7"
+      },
+      "D": {
+        "en": "x",
+        "zh": "x"
+      }
+    },
+    "answer": "A",
+    "explanation": {
+      "en": "The derivative of any constant is 0 because the constant does not change.",
+      "zh": "任何常数的导数都是 0，因为常数不会随着变量变化。"
+    },
+    "points": 20,
+    "xp": 20
+  },
+  {
+    "id": 36,
+    "field": {
+      "id": "statistics",
+      "en": "Statistics",
+      "zh": "统计"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "Which measure is most affected by an extremely large or small value?",
+      "zh": "如果数据中出现一个特别大或特别小的数值，哪个统计量最容易受到影响？"
+    },
+    "options": {
+      "A": {
+        "en": "Mean",
+        "zh": "平均数"
+      },
+      "B": {
+        "en": "Median",
+        "zh": "中位数"
+      },
+      "C": {
+        "en": "Mode",
+        "zh": "众数"
+      },
+      "D": {
+        "en": "None of them",
+        "zh": "都不会"
+      }
+    },
+    "answer": "A",
+    "explanation": {
+      "en": "The mean uses every value in the calculation, so an extreme value can change it significantly.",
+      "zh": "平均数的计算会使用所有数据，因此一个特别大或特别小的数值可能会明显影响平均数。"
+    },
+    "points": 20,
+    "xp": 20
+  },
+  {
+    "id": 37,
+    "field": {
+      "id": "number_theory",
+      "en": "Number Theory",
+      "zh": "数论"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "What is the least common multiple of 4 and 6?",
+      "zh": "4 和 6 的最小公倍数是多少？"
+    },
+    "options": {
+      "A": {
+        "en": "8",
+        "zh": "8"
+      },
+      "B": {
+        "en": "10",
+        "zh": "10"
+      },
+      "C": {
+        "en": "12",
+        "zh": "12"
+      },
+      "D": {
+        "en": "24",
+        "zh": "24"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "The multiples of 4 include 4, 8, 12, while the multiples of 6 include 6, 12. The smallest common multiple is 12.",
+      "zh": "4 的倍数有 4、8、12……，6 的倍数有 6、12……，所以最小公倍数是 12。"
+    },
+    "points": 20,
+    "xp": 20
+  },
+  {
+    "id": 38,
+    "field": {
+      "id": "logic",
+      "en": "Mathematical Logic",
+      "zh": "数学逻辑"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "What comes next in the pattern: 1, 4, 9, 16, ?",
+      "zh": "以下数列的下一个数字是多少：1、4、9、16、？"
+    },
+    "options": {
+      "A": {
+        "en": "20",
+        "zh": "20"
+      },
+      "B": {
+        "en": "24",
+        "zh": "24"
+      },
+      "C": {
+        "en": "25",
+        "zh": "25"
+      },
+      "D": {
+        "en": "30",
+        "zh": "30"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "The numbers are consecutive squares: 1², 2², 3², 4². The next is 5² = 25.",
+      "zh": "这些数字分别是 1²、2²、3²、4²。下一个是 5² = 25。"
+    },
+    "points": 20,
+    "xp": 20
+  },
+  {
+    "id": 39,
+    "field": {
+      "id": "arithmetic",
+      "en": "Arithmetic",
+      "zh": "基础运算"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "What is 3/5 written as a decimal?",
+      "zh": "3/5 写成小数是多少？"
+    },
+    "options": {
+      "A": {
+        "en": "0.3",
+        "zh": "0.3"
+      },
+      "B": {
+        "en": "0.5",
+        "zh": "0.5"
+      },
+      "C": {
+        "en": "0.6",
+        "zh": "0.6"
+      },
+      "D": {
+        "en": "0.8",
+        "zh": "0.8"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "3 divided by 5 equals 0.6, so 3/5 = 0.6.",
+      "zh": "3 ÷ 5 = 0.6，所以 3/5 = 0.6。"
+    },
+    "points": 20,
+    "xp": 20
+  },
+  {
+    "id": 40,
+    "field": {
+      "id": "general",
+      "en": "General Mathematics",
+      "zh": "综合数学"
+    },
+    "difficulty": "hard",
+    "question": {
+      "en": "A square and a rectangle have the same perimeter. Which statement must be true?",
+      "zh": "一个正方形和一个长方形的周长相同。以下哪个说法一定正确？"
+    },
+    "options": {
+      "A": {
+        "en": "They must have the same area.",
+        "zh": "它们的面积一定相同。"
+      },
+      "B": {
+        "en": "They must have the same side lengths.",
+        "zh": "它们的边长一定相同。"
+      },
+      "C": {
+        "en": "Their areas can be different.",
+        "zh": "它们的面积可以不同。"
+      },
+      "D": {
+        "en": "The rectangle must have a larger area.",
+        "zh": "长方形的面积一定更大。"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "Having the same perimeter does not guarantee the same area. Different shapes can have the same perimeter but different areas.",
+      "zh": "周长相同并不代表面积相同。不同形状可以拥有相同的周长，但面积不同。"
+    },
+    "points": 35,
+    "xp": 35
+  },
+  {
+    "id": 41,
+    "field": {
+      "id": "algebra",
+      "en": "Algebra",
+      "zh": "代数"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "If x = 4, what is 2x - 3?",
+      "zh": "如果 x = 4，那么 2x - 3 等于多少？"
+    },
+    "options": {
+      "A": {
+        "en": "3",
+        "zh": "3"
+      },
+      "B": {
+        "en": "5",
+        "zh": "5"
+      },
+      "C": {
+        "en": "7",
+        "zh": "7"
+      },
+      "D": {
+        "en": "8",
+        "zh": "8"
+      }
+    },
+    "answer": "B",
+    "explanation": {
+      "en": "Substitute x = 4: 2(4) - 3 = 8 - 3 = 5.",
+      "zh": "把 x = 4 代入：2(4) - 3 = 8 - 3 = 5。"
+    },
+    "points": 10,
+    "xp": 10
+  },
+  {
+    "id": 42,
+    "field": {
+      "id": "trigo",
+      "en": "Trigonometry",
+      "zh": "三角函数"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "In a right triangle, which ratio represents cosine?",
+      "zh": "在直角三角形中，哪个比值代表余弦（cosine）？"
+    },
+    "options": {
+      "A": {
+        "en": "Opposite ÷ Hypotenuse",
+        "zh": "对边 ÷ 斜边"
+      },
+      "B": {
+        "en": "Adjacent ÷ Hypotenuse",
+        "zh": "邻边 ÷ 斜边"
+      },
+      "C": {
+        "en": "Opposite ÷ Adjacent",
+        "zh": "对边 ÷ 邻边"
+      },
+      "D": {
+        "en": "Hypotenuse ÷ Adjacent",
+        "zh": "斜边 ÷ 邻边"
+      }
+    },
+    "answer": "B",
+    "explanation": {
+      "en": "Cosine follows the CAH rule: cos(θ) = Adjacent ÷ Hypotenuse.",
+      "zh": "余弦遵循 CAH 规则：cos(θ) = 邻边 ÷ 斜边。"
+    },
+    "points": 20,
+    "xp": 20
+  },
+  {
+    "id": 43,
+    "field": {
+      "id": "geometry",
+      "en": "Geometry",
+      "zh": "几何"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "A circle has a radius of 5 cm. What is its diameter?",
+      "zh": "一个圆的半径是 5 厘米，它的直径是多少？"
+    },
+    "options": {
+      "A": {
+        "en": "2.5 cm",
+        "zh": "2.5 厘米"
+      },
+      "B": {
+        "en": "5 cm",
+        "zh": "5 厘米"
+      },
+      "C": {
+        "en": "10 cm",
+        "zh": "10 厘米"
+      },
+      "D": {
+        "en": "25 cm",
+        "zh": "25 厘米"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "The diameter is twice the radius: 2 × 5 = 10 cm.",
+      "zh": "直径是半径的两倍：2 × 5 = 10 厘米。"
+    },
+    "points": 20,
+    "xp": 20
+  },
+  {
+    "id": 44,
+    "field": {
+      "id": "probability",
+      "en": "Probability",
+      "zh": "概率"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "A fair die is rolled once. What is the probability of getting an even number?",
+      "zh": "一个公平的骰子掷一次，得到偶数的概率是多少？"
+    },
+    "options": {
+      "A": {
+        "en": "1/6",
+        "zh": "1/6"
+      },
+      "B": {
+        "en": "1/3",
+        "zh": "1/3"
+      },
+      "C": {
+        "en": "1/2",
+        "zh": "1/2"
+      },
+      "D": {
+        "en": "2/3",
+        "zh": "2/3"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "The even outcomes are 2, 4, and 6. There are 3 favorable outcomes out of 6, so the probability is 3/6 = 1/2.",
+      "zh": "偶数结果有 2、4、6，共 3 个有利结果，总共有 6 个结果，所以概率是 3/6 = 1/2。"
+    },
+    "points": 20,
+    "xp": 20
+  },
+  {
+    "id": 45,
+    "field": {
+      "id": "calculus",
+      "en": "Calculus",
+      "zh": "微积分"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "What does an integral generally represent in geometry?",
+      "zh": "在几何中，积分通常可以用来表示什么？"
+    },
+    "options": {
+      "A": {
+        "en": "Area under a curve",
+        "zh": "曲线下的面积"
+      },
+      "B": {
+        "en": "The number of angles",
+        "zh": "角的数量"
+      },
+      "C": {
+        "en": "The number of prime numbers",
+        "zh": "质数的数量"
+      },
+      "D": {
+        "en": "The slope of a line only",
+        "zh": "仅表示直线的斜率"
+      }
+    },
+    "answer": "A",
+    "explanation": {
+      "en": "A definite integral can represent the area between a curve and the x-axis over an interval.",
+      "zh": "定积分可以用来表示某个区间内曲线与 x 轴之间的面积。"
+    },
+    "points": 20,
+    "xp": 20
+  },
+  {
+    "id": 46,
+    "field": {
+      "id": "statistics",
+      "en": "Statistics",
+      "zh": "统计"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "What is the range of the data set 3, 7, 10, 12?",
+      "zh": "数据组 3、7、10、12 的极差是多少？"
+    },
+    "options": {
+      "A": {
+        "en": "7",
+        "zh": "7"
+      },
+      "B": {
+        "en": "8",
+        "zh": "8"
+      },
+      "C": {
+        "en": "9",
+        "zh": "9"
+      },
+      "D": {
+        "en": "10",
+        "zh": "10"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "Range = largest value - smallest value = 12 - 3 = 9.",
+      "zh": "极差 = 最大值 − 最小值 = 12 − 3 = 9。"
+    },
+    "points": 10,
+    "xp": 10
+  },
+  {
+    "id": 47,
+    "field": {
+      "id": "number_theory",
+      "en": "Number Theory",
+      "zh": "数论"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "Which number is an even number?",
+      "zh": "以下哪个数字是偶数？"
+    },
+    "options": {
+      "A": {
+        "en": "17",
+        "zh": "17"
+      },
+      "B": {
+        "en": "23",
+        "zh": "23"
+      },
+      "C": {
+        "en": "31",
+        "zh": "31"
+      },
+      "D": {
+        "en": "42",
+        "zh": "42"
+      }
+    },
+    "answer": "D",
+    "explanation": {
+      "en": "An even number is divisible by 2 without a remainder. 42 is even.",
+      "zh": "偶数可以被 2 整除而没有余数。42 可以被 2 整除，所以是偶数。"
+    },
+    "points": 10,
+    "xp": 10
+  },
+  {
+    "id": 48,
+    "field": {
+      "id": "logic",
+      "en": "Mathematical Logic",
+      "zh": "数学逻辑"
+    },
+    "difficulty": "hard",
+    "question": {
+      "en": "If all squares are rectangles, and shape A is a square, what must be true?",
+      "zh": "如果所有正方形都是长方形，而图形 A 是正方形，那么以下哪个说法一定正确？"
+    },
+    "options": {
+      "A": {
+        "en": "Shape A is a rectangle.",
+        "zh": "图形 A 是长方形。"
+      },
+      "B": {
+        "en": "Shape A is a triangle.",
+        "zh": "图形 A 是三角形。"
+      },
+      "C": {
+        "en": "All rectangles are squares.",
+        "zh": "所有长方形都是正方形。"
+      },
+      "D": {
+        "en": "Shape A has no right angles.",
+        "zh": "图形 A 没有直角。"
+      }
+    },
+    "answer": "A",
+    "explanation": {
+      "en": "Since every square is a rectangle and A is a square, A must also be a rectangle.",
+      "zh": "因为所有正方形都是长方形，而 A 是正方形，所以 A 一定也是长方形。"
+    },
+    "points": 35,
+    "xp": 35
+  },
+  {
+    "id": 49,
+    "field": {
+      "id": "arithmetic",
+      "en": "Arithmetic",
+      "zh": "基础运算"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "What is 7 × 8?",
+      "zh": "7 × 8 等于多少？"
+    },
+    "options": {
+      "A": {
+        "en": "48",
+        "zh": "48"
+      },
+      "B": {
+        "en": "54",
+        "zh": "54"
+      },
+      "C": {
+        "en": "56",
+        "zh": "56"
+      },
+      "D": {
+        "en": "64",
+        "zh": "64"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "7 × 8 = 56.",
+      "zh": "7 × 8 = 56。"
+    },
+    "points": 10,
+    "xp": 10
+  },
+  {
+    "id": 50,
+    "field": {
+      "id": "general",
+      "en": "General Mathematics",
+      "zh": "综合数学"
+    },
+    "difficulty": "hard",
+    "question": {
+      "en": "A number is divisible by 5. Which digit must it end with?",
+      "zh": "一个数字可以被 5 整除，那么它的个位数一定是什么？"
+    },
+    "options": {
+      "A": {
+        "en": "0 or 5",
+        "zh": "0 或 5"
+      },
+      "B": {
+        "en": "2 or 4",
+        "zh": "2 或 4"
+      },
+      "C": {
+        "en": "1 or 9",
+        "zh": "1 或 9"
+      },
+      "D": {
+        "en": "3 or 6",
+        "zh": "3 或 6"
+      }
+    },
+    "answer": "A",
+    "explanation": {
+      "en": "A whole number is divisible by 5 if its last digit is 0 or 5.",
+      "zh": "一个整数如果能被 5 整除，那么它的个位数一定是 0 或 5。"
+    },
+    "points": 35,
+    "xp": 35
+  },
+  {
+    "id": 51,
+    "field": {
+      "id": "arithmetic",
+      "en": "Arithmetic",
+      "zh": "基础运算"
+    },
+    "difficulty": "hard",
+    "question": {
+      "en": "What is 6!?",
+      "zh": "6! 等于多少？"
+    },
+    "options": {
+      "A": {
+        "en": "120",
+        "zh": "120"
+      },
+      "B": {
+        "en": "360",
+        "zh": "360"
+      },
+      "C": {
+        "en": "720",
+        "zh": "720"
+      },
+      "D": {
+        "en": "840",
+        "zh": "840"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "6! = 6 × 5 × 4 × 3 × 2 × 1 = 720.",
+      "zh": "6! = 6 × 5 × 4 × 3 × 2 × 1 = 720。"
+    },
+    "points": 35,
+    "xp": 35
+  },
+  {
+    "id": 52,
+    "field": {
+      "id": "algebra",
+      "en": "Algebra",
+      "zh": "代数"
+    },
+    "difficulty": "hard",
+    "question": {
+      "en": "If x² = 49, which values can x have?",
+      "zh": "如果 x² = 49，那么 x 可能是多少？"
+    },
+    "options": {
+      "A": {
+        "en": "7 only",
+        "zh": "只有 7"
+      },
+      "B": {
+        "en": "-7 only",
+        "zh": "只有 -7"
+      },
+      "C": {
+        "en": "7 or -7",
+        "zh": "7 或 -7"
+      },
+      "D": {
+        "en": "49 or -49",
+        "zh": "49 或 -49"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "Both 7² and (-7)² equal 49, so x can be 7 or -7.",
+      "zh": "因为 7² 和 (-7)² 都等于 49，所以 x 可以是 7 或 -7。"
+    },
+    "points": 35,
+    "xp": 35
+  },
+  {
+    "id": 53,
+    "field": {
+      "id": "trigo",
+      "en": "Trigonometry",
+      "zh": "三角函数"
+    },
+    "difficulty": "hard",
+    "question": {
+      "en": "What is sin(90°)?",
+      "zh": "sin(90°) 等于多少？"
+    },
+    "options": {
+      "A": {
+        "en": "0",
+        "zh": "0"
+      },
+      "B": {
+        "en": "1/2",
+        "zh": "1/2"
+      },
+      "C": {
+        "en": "√2/2",
+        "zh": "√2/2"
+      },
+      "D": {
+        "en": "1",
+        "zh": "1"
+      }
+    },
+    "answer": "D",
+    "explanation": {
+      "en": "The standard value of sin(90°) is 1.",
+      "zh": "常见的三角函数值中，sin(90°) = 1。"
+    },
+    "points": 35,
+    "xp": 35
+  },
+  {
+    "id": 54,
+    "field": {
+      "id": "geometry",
+      "en": "Geometry",
+      "zh": "几何"
+    },
+    "difficulty": "hard",
+    "question": {
+      "en": "How many diagonals does a square have?",
+      "zh": "一个正方形有多少条对角线？"
+    },
+    "options": {
+      "A": {
+        "en": "1",
+        "zh": "1"
+      },
+      "B": {
+        "en": "2",
+        "zh": "2"
+      },
+      "C": {
+        "en": "3",
+        "zh": "3"
+      },
+      "D": {
+        "en": "4",
+        "zh": "4"
+      }
+    },
+    "answer": "B",
+    "explanation": {
+      "en": "A square has two diagonals, connecting opposite corners.",
+      "zh": "正方形有两条对角线，分别连接两组相对的顶点。"
+    },
+    "points": 35,
+    "xp": 35
+  },
+  {
+    "id": 55,
+    "field": {
+      "id": "probability",
+      "en": "Probability",
+      "zh": "概率"
+    },
+    "difficulty": "hard",
+    "question": {
+      "en": "What is the probability of getting two heads when a fair coin is flipped twice?",
+      "zh": "一枚公平的硬币连续抛两次，两次都得到正面的概率是多少？"
+    },
+    "options": {
+      "A": {
+        "en": "1/2",
+        "zh": "1/2"
+      },
+      "B": {
+        "en": "1/3",
+        "zh": "1/3"
+      },
+      "C": {
+        "en": "1/4",
+        "zh": "1/4"
+      },
+      "D": {
+        "en": "1/8",
+        "zh": "1/8"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "The probability of heads on each flip is 1/2. Therefore, 1/2 × 1/2 = 1/4.",
+      "zh": "每次抛到正面的概率都是 1/2，因此两次都是正面的概率是 1/2 × 1/2 = 1/4。"
+    },
+    "points": 35,
+    "xp": 35
+  },
+  {
+    "id": 56,
+    "field": {
+      "id": "calculus",
+      "en": "Calculus",
+      "zh": "微积分"
+    },
+    "difficulty": "hard",
+    "question": {
+      "en": "What is the derivative of x³?",
+      "zh": "x³ 的导数是多少？"
+    },
+    "options": {
+      "A": {
+        "en": "x²",
+        "zh": "x²"
+      },
+      "B": {
+        "en": "2x²",
+        "zh": "2x²"
+      },
+      "C": {
+        "en": "3x²",
+        "zh": "3x²"
+      },
+      "D": {
+        "en": "3x",
+        "zh": "3x"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "Using the power rule, the derivative of x³ is 3x².",
+      "zh": "根据幂函数求导法则，x³ 的导数是 3x²。"
+    },
+    "points": 35,
+    "xp": 35
+  },
+  {
+    "id": 57,
+    "field": {
+      "id": "statistics",
+      "en": "Statistics",
+      "zh": "统计"
+    },
+    "difficulty": "hard",
+    "question": {
+      "en": "If every value in a data set is increased by 5, what happens to the mean?",
+      "zh": "如果一组数据中的每一个数都增加 5，那么平均数会怎样？"
+    },
+    "options": {
+      "A": {
+        "en": "It stays the same",
+        "zh": "保持不变"
+      },
+      "B": {
+        "en": "It increases by 5",
+        "zh": "增加 5"
+      },
+      "C": {
+        "en": "It increases by 10",
+        "zh": "增加 10"
+      },
+      "D": {
+        "en": "It becomes 5 times larger",
+        "zh": "变成原来的 5 倍"
+      }
+    },
+    "answer": "B",
+    "explanation": {
+      "en": "Adding the same amount to every value increases the mean by that same amount.",
+      "zh": "每个数据都增加相同的数值时，平均数也会增加相同的数值，所以平均数增加 5。"
+    },
+    "points": 35,
+    "xp": 35
+  },
+  {
+    "id": 58,
+    "field": {
+      "id": "number_theory",
+      "en": "Number Theory",
+      "zh": "数论"
+    },
+    "difficulty": "hard",
+    "question": {
+      "en": "What is 2⁵?",
+      "zh": "2⁵ 等于多少？"
+    },
+    "options": {
+      "A": {
+        "en": "16",
+        "zh": "16"
+      },
+      "B": {
+        "en": "25",
+        "zh": "25"
+      },
+      "C": {
+        "en": "32",
+        "zh": "32"
+      },
+      "D": {
+        "en": "64",
+        "zh": "64"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "2⁵ = 2 × 2 × 2 × 2 × 2 = 32.",
+      "zh": "2⁵ = 2 × 2 × 2 × 2 × 2 = 32。"
+    },
+    "points": 35,
+    "xp": 35
+  },
+  {
+    "id": 59,
+    "field": {
+      "id": "logic",
+      "en": "Mathematical Logic",
+      "zh": "数学逻辑"
+    },
+    "difficulty": "hard",
+    "question": {
+      "en": "What is the next number in the sequence: 2, 4, 8, 16, ?",
+      "zh": "数列 2、4、8、16、？ 的下一个数字是多少？"
+    },
+    "options": {
+      "A": {
+        "en": "20",
+        "zh": "20"
+      },
+      "B": {
+        "en": "24",
+        "zh": "24"
+      },
+      "C": {
+        "en": "30",
+        "zh": "30"
+      },
+      "D": {
+        "en": "32",
+        "zh": "32"
+      }
+    },
+    "answer": "D",
+    "explanation": {
+      "en": "Each number is multiplied by 2: 2 → 4 → 8 → 16 → 32.",
+      "zh": "每个数字都是前一个数字的 2 倍：2 → 4 → 8 → 16 → 32。"
+    },
+    "points": 35,
+    "xp": 35
+  },
+  {
+    "id": 60,
+    "field": {
+      "id": "general",
+      "en": "General Mathematics",
+      "zh": "综合数学"
+    },
+    "difficulty": "hard",
+    "question": {
+      "en": "What is √144?",
+      "zh": "√144 等于多少？"
+    },
+    "options": {
+      "A": {
+        "en": "10",
+        "zh": "10"
+      },
+      "B": {
+        "en": "11",
+        "zh": "11"
+      },
+      "C": {
+        "en": "12",
+        "zh": "12"
+      },
+      "D": {
+        "en": "14",
+        "zh": "14"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "12 × 12 = 144, so √144 = 12.",
+      "zh": "因为 12 × 12 = 144，所以 √144 = 12。"
+    },
+    "points": 35,
+    "xp": 35
+  }
+]

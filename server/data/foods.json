@@ -1,0 +1,564 @@
+
+[
+  {
+    "id": "bread",
+    "name": "面包",
+    "emoji": "🍞",
+    "price": 30,
+    "blessChance": 5
+  },
+  {
+    "id": "apple",
+    "name": "苹果",
+    "emoji": "🍎",
+    "price": 25,
+    "blessChance": 5
+  },
+  {
+    "id": "banana",
+    "name": "香蕉",
+    "emoji": "🍌",
+    "price": 25,
+    "blessChance": 5
+  },
+  {
+    "id": "orange",
+    "name": "橙子",
+    "emoji": "🍊",
+    "price": 25,
+    "blessChance": 5
+  },
+  {
+    "id": "watermelon",
+    "name": "西瓜",
+    "emoji": "🍉",
+    "price": 40,
+    "blessChance": 5
+  },
+  {
+    "id": "grapes",
+    "name": "葡萄",
+    "emoji": "🍇",
+    "price": 35,
+    "blessChance": 5
+  },
+  {
+    "id": "strawberry",
+    "name": "草莓",
+    "emoji": "🍓",
+    "price": 35,
+    "blessChance": 5
+  },
+  {
+    "id": "pineapple",
+    "name": "菠萝",
+    "emoji": "🍍",
+    "price": 40,
+    "blessChance": 5
+  },
+  {
+    "id": "peach",
+    "name": "桃子",
+    "emoji": "🍑",
+    "price": 30,
+    "blessChance": 5
+  },
+  {
+    "id": "cherries",
+    "name": "樱桃",
+    "emoji": "🍒",
+    "price": 40,
+    "blessChance": 5
+  },
+  {
+    "id": "coconut",
+    "name": "椰子",
+    "emoji": "🥥",
+    "price": 40,
+    "blessChance": 5
+  },
+  {
+    "id": "melon",
+    "name": "甜瓜",
+    "emoji": "🍈",
+    "price": 35,
+    "blessChance": 5
+  },
+  {
+    "id": "lemon",
+    "name": "柠檬",
+    "emoji": "🍋",
+    "price": 20,
+    "blessChance": 5
+  },
+  {
+    "id": "kiwi",
+    "name": "猕猴桃",
+    "emoji": "🥝",
+    "price": 35,
+    "blessChance": 5
+  },
+  {
+    "id": "mango",
+    "name": "芒果",
+    "emoji": "🥭",
+    "price": 40,
+    "blessChance": 5
+  },
+  {
+    "id": "blueberries",
+    "name": "蓝莓",
+    "emoji": "🫐",
+    "price": 45,
+    "blessChance": 5
+  },
+  {
+    "id": "avocado",
+    "name": "牛油果",
+    "emoji": "🥑",
+    "price": 40,
+    "blessChance": 5
+  },
+  {
+    "id": "corn",
+    "name": "玉米",
+    "emoji": "🌽",
+    "price": 25,
+    "blessChance": 5
+  },
+  {
+    "id": "carrot",
+    "name": "胡萝卜",
+    "emoji": "🥕",
+    "price": 20,
+    "blessChance": 5
+  },
+  {
+    "id": "tomato",
+    "name": "番茄",
+    "emoji": "🍅",
+    "price": 20,
+    "blessChance": 5
+  },
+  {
+    "id": "cucumber",
+    "name": "黄瓜",
+    "emoji": "🥒",
+    "price": 20,
+    "blessChance": 5
+  },
+  {
+    "id": "cheese",
+    "name": "奶酪",
+    "emoji": "🧀",
+    "price": 35,
+    "blessChance": 5
+  },
+  {
+    "id": "croissant",
+    "name": "牛角包",
+    "emoji": "🥐",
+    "price": 35,
+    "blessChance": 5
+  },
+  {
+    "id": "pizza",
+    "name": "披萨",
+    "emoji": "🍕",
+    "price": 60,
+    "blessChance": 5
+  },
+  {
+    "id": "hamburger",
+    "name": "汉堡",
+    "emoji": "🍔",
+    "price": 55,
+    "blessChance": 5
+  },
+  {
+    "id": "fries",
+    "name": "薯条",
+    "emoji": "🍟",
+    "price": 35,
+    "blessChance": 5
+  },
+  {
+    "id": "hotdog",
+    "name": "热狗",
+    "emoji": "🌭",
+    "price": 40,
+    "blessChance": 5
+  },
+  {
+    "id": "fried_chicken",
+    "name": "炸鸡",
+    "emoji": "🍗",
+    "price": 50,
+    "blessChance": 5
+  },
+  {
+    "id": "bacon",
+    "name": "培根",
+    "emoji": "🥓",
+    "price": 40,
+    "blessChance": 5
+  },
+  {
+    "id": "egg",
+    "name": "鸡蛋",
+    "emoji": "🥚",
+    "price": 20,
+    "blessChance": 5
+  },
+  {
+    "id": "rice",
+    "name": "米饭",
+    "emoji": "🍚",
+    "price": 25,
+    "blessChance": 5
+  },
+  {
+    "id": "fried_rice",
+    "name": "炒饭",
+    "emoji": "🍳",
+    "price": 40,
+    "blessChance": 5
+  },
+  {
+    "id": "ramen",
+    "name": "拉面",
+    "emoji": "🍜",
+    "price": 50,
+    "blessChance": 5
+  },
+  {
+    "id": "spaghetti",
+    "name": "意大利面",
+    "emoji": "🍝",
+    "price": 50,
+    "blessChance": 5
+  },
+  {
+    "id": "sushi",
+    "name": "寿司",
+    "emoji": "🍣",
+    "price": 60,
+    "blessChance": 5
+  },
+  {
+    "id": "rice_ball",
+    "name": "饭团",
+    "emoji": "🍙",
+    "price": 35,
+    "blessChance": 5
+  },
+  {
+    "id": "dumplings",
+    "name": "饺子",
+    "emoji": "🥟",
+    "price": 40,
+    "blessChance": 5
+  },
+  {
+    "id": "steamed_bun",
+    "name": "包子",
+    "emoji": "🥮",
+    "price": 30,
+    "blessChance": 5
+  },
+  {
+    "id": "pancake",
+    "name": "煎饼",
+    "emoji": "🥞",
+    "price": 35,
+    "blessChance": 5
+  },
+  {
+    "id": "waffle",
+    "name": "华夫饼",
+    "emoji": "🧇",
+    "price": 40,
+    "blessChance": 5
+  },
+  {
+    "id": "popcorn",
+    "name": "爆米花",
+    "emoji": "🍿",
+    "price": 30,
+    "blessChance": 5
+  },
+  {
+    "id": "bento",
+    "name": "便当",
+    "emoji": "🍱",
+    "price": 55,
+    "blessChance": 5
+  },
+  {
+    "id": "rice_cracker",
+    "name": "仙贝",
+    "emoji": "🍘",
+    "price": 30,
+    "blessChance": 5
+  },
+  {
+    "id": "curry_rice",
+    "name": "咖喱饭",
+    "emoji": "🍛",
+    "price": 50,
+    "blessChance": 5
+  },
+  {
+    "id": "sweet_potato",
+    "name": "烤地瓜",
+    "emoji": "🍠",
+    "price": 30,
+    "blessChance": 5
+  },
+  {
+    "id": "oden",
+    "name": "关东煮",
+    "emoji": "🍢",
+    "price": 45,
+    "blessChance": 5
+  },
+  {
+    "id": "fish_cake",
+    "name": "鱼糕",
+    "emoji": "🍥",
+    "price": 35,
+    "blessChance": 5
+  },
+  {
+    "id": "dango",
+    "name": "团子",
+    "emoji": "🍡",
+    "price": 35,
+    "blessChance": 5
+  },
+  {
+    "id": "beef_steak",
+    "name": "牛排",
+    "emoji": "🥩",
+    "price": 70,
+    "blessChance": 5
+  },
+  {
+    "id": "fried_shrimp",
+    "name": "炸虾",
+    "emoji": "🍤",
+    "price": 60,
+    "blessChance": 5
+  },
+  {
+    "id": "crab",
+    "name": "螃蟹",
+    "emoji": "🦀",
+    "price": 65,
+    "blessChance": 5
+  },
+  {
+    "id": "ice_cream",
+    "name": "冰淇淋",
+    "emoji": "🍦",
+    "price": 35,
+    "blessChance": 5
+  },
+  {
+    "id": "shaved_ice",
+    "name": "刨冰",
+    "emoji": "🍧",
+    "price": 35,
+    "blessChance": 5
+  },
+  {
+    "id": "gelato",
+    "name": "意式冰淇淋",
+    "emoji": "🍨",
+    "price": 40,
+    "blessChance": 5
+  },
+  {
+    "id": "donut",
+    "name": "甜甜圈",
+    "emoji": "🍩",
+    "price": 35,
+    "blessChance": 5
+  },
+  {
+    "id": "cookie",
+    "name": "曲奇",
+    "emoji": "🍪",
+    "price": 30,
+    "blessChance": 5
+  },
+  {
+    "id": "cake",
+    "name": "蛋糕",
+    "emoji": "🍰",
+    "price": 50,
+    "blessChance": 5
+  },
+  {
+    "id": "birthday_cake",
+    "name": "生日蛋糕",
+    "emoji": "🎂",
+    "price": 60,
+    "blessChance": 5
+  },
+  {
+    "id": "cupcake",
+    "name": "纸杯蛋糕",
+    "emoji": "🧁",
+    "price": 40,
+    "blessChance": 5
+  },
+  {
+    "id": "pie",
+    "name": "派",
+    "emoji": "🥧",
+    "price": 45,
+    "blessChance": 5
+  },
+  {
+    "id": "chocolate",
+    "name": "巧克力",
+    "emoji": "🍫",
+    "price": 40,
+    "blessChance": 5
+  },
+  {
+    "id": "candy",
+    "name": "糖果",
+    "emoji": "🍬",
+    "price": 20,
+    "blessChance": 5
+  },
+  {
+    "id": "lollipop",
+    "name": "棒棒糖",
+    "emoji": "🍭",
+    "price": 20,
+    "blessChance": 5
+  },
+  {
+    "id": "pudding",
+    "name": "布丁",
+    "emoji": "🍮",
+    "price": 35,
+    "blessChance": 5
+  },
+  {
+    "id": "honey",
+    "name": "蜂蜜",
+    "emoji": "🍯",
+    "price": 40,
+    "blessChance": 5
+  },
+  {
+    "id": "milk",
+    "name": "牛奶",
+    "emoji": "🥛",
+    "price": 25,
+    "blessChance": 5
+  },
+  {
+    "id": "coffee",
+    "name": "咖啡",
+    "emoji": "☕",
+    "price": 30,
+    "blessChance": 5
+  },
+  {
+    "id": "tea",
+    "name": "茶",
+    "emoji": "🍵",
+    "price": 25,
+    "blessChance": 5
+  },
+  {
+    "id": "bubble_tea",
+    "name": "奶茶",
+    "emoji": "🧋",
+    "price": 40,
+    "blessChance": 5
+  },
+  {
+    "id": "juice",
+    "name": "果汁",
+    "emoji": "🧃",
+    "price": 30,
+    "blessChance": 5
+  },
+  {
+    "id": "soda",
+    "name": "汽水",
+    "emoji": "🥤",
+    "price": 25,
+    "blessChance": 5
+  },
+  {
+    "id": "hot_chocolate",
+    "name": "热巧克力",
+    "emoji": "🫖",
+    "price": 40,
+    "blessChance": 5
+  },
+  {
+    "id": "chestnut",
+    "name": "栗子",
+    "emoji": "🌰",
+    "price": 30,
+    "blessChance": 5
+  },
+  {
+    "id": "peanuts",
+    "name": "花生",
+    "emoji": "🥜",
+    "price": 25,
+    "blessChance": 5
+  },
+  {
+    "id": "olives",
+    "name": "橄榄",
+    "emoji": "🫒",
+    "price": 30,
+    "blessChance": 5
+  },
+  {
+    "id": "edamame",
+    "name": "毛豆",
+    "emoji": "🫛",
+    "price": 30,
+    "blessChance": 5
+  },
+  {
+    "id": "mushroom_dish",
+    "name": "烤蘑菇",
+    "emoji": "🍄",
+    "price": 35,
+    "blessChance": 5
+  },
+  {
+    "id": "taco",
+    "name": "墨西哥卷饼",
+    "emoji": "🌮",
+    "price": 50,
+    "blessChance": 5
+  },
+  {
+    "id": "burrito",
+    "name": "墨西哥卷",
+    "emoji": "🌯",
+    "price": 55,
+    "blessChance": 5
+  },
+  {
+    "id": "falafel",
+    "name": "炸豆丸子",
+    "emoji": "🧆",
+    "price": 45,
+    "blessChance": 5
+  }
+]
+

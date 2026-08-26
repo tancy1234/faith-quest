@@ -1,0 +1,19 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyC5ipvCJS-MiNMe08RUhbc8jCqpmM_J2ac",
+  authDomain: "bibleques.firebaseapp.com",
+  projectId: "bibleques",
+  storageBucket: "bibleques.firebasestorage.app",
+  messagingSenderId: "199312681971",
+  appId: "1:199312681971:web:c04b19e4cd972ea0198086"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
+npm run dev

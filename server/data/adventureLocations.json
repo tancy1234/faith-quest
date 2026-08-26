@@ -1,0 +1,192 @@
+[
+  {
+    "id": "eden_garden",
+    "name": "伊甸园",
+    "collection": [
+      "apple",
+      "ram",
+      "strawberry",
+      "rose",
+      "snake",
+      "grasshopper"
+    ]
+  },
+  {
+    "id": "noahs_land",
+    "name": "挪亚之地",
+    "collection": [
+      "cricket",
+      "kiwi",
+      "scorpion",
+      "sloth",
+      "peach",
+      "camel",
+      "chestnut",
+      "beetle",
+      "pig"
+    ]
+  },
+  {
+    "id": "mount_ararat",
+    "name": "亚拉腊山",
+    "collection": [
+      "horse",
+      "mango",
+      "olives",
+      "koala",
+      "mammoth",
+      "melon"
+    ]
+  },
+  {
+    "id": "wilderness_of_sinai",
+    "name": "西奈旷野",
+    "collection": [
+      "bat",
+      "lizard",
+      "rhinoceros",
+      "goat",
+      "herb",
+      "bee"
+    ]
+  },
+  {
+    "id": "mount_sinai",
+    "name": "西奈山",
+    "collection": [
+      "hibiscus",
+      "turtle",
+      "blueberries",
+      "squirrel",
+      "watermelon",
+      "banana",
+      "kangaroo",
+      "pineapple",
+      "fallen_leaf"
+    ]
+  },
+  {
+    "id": "jordan_river",
+    "name": "约旦河",
+    "collection": [
+      "coconut",
+      "frog",
+      "carrot",
+      "seedling",
+      "deer"
+    ]
+  },
+  {
+    "id": "bethlehem",
+    "name": "伯利恒",
+    "collection": [
+      "evergreen_tree",
+      "tomato",
+      "beaver",
+      "hippopotamus",
+      "hedgehog",
+      "wheat",
+      "deciduous_tree"
+    ]
+  },
+  {
+    "id": "nazareth",
+    "name": "拿撒勒",
+    "collection": [
+      "panda",
+      "four_leaf_clover",
+      "elephant",
+      "ant",
+      "badger",
+      "donkey",
+      "cucumber",
+      "snail",
+      "leopard",
+      "avocado"
+    ]
+  },
+  {
+    "id": "sea_of_galilee",
+    "name": "加利利海",
+    "collection": [
+      "shamrock",
+      "grapes",
+      "bamboo",
+      "blossom",
+      "llama",
+      "bison"
+    ]
+  },
+  {
+    "id": "garden_of_gethsemane",
+    "name": "客西马尼园",
+    "collection": [
+      "maple_leaf",
+      "tulip",
+      "giraffe",
+      "worm",
+      "rabbit"
+    ]
+  },
+  {
+    "id": "jerusalem",
+    "name": "耶路撒冷",
+    "collection": [
+      "hyacinth",
+      "orangutan",
+      "wilted_flower",
+      "leaf"
+    ]
+  },
+  {
+    "id": "jericho",
+    "name": "耶利哥",
+    "collection": [
+      "seal",
+      "cactus",
+      "crocodile",
+      "sunflower"
+    ]
+  },
+  {
+    "id": "mount_carmel",
+    "name": "迦密山",
+    "collection": [
+      "zebra",
+      "cherry_blossom",
+      "butterfly",
+      "ox",
+      "potted_plant"
+    ]
+  },
+  {
+    "id": "valley_of_elah",
+    "name": "以拉谷",
+    "collection": [
+      "mosquito",
+      "spider",
+      "otter",
+      "lotus",
+      "cherries",
+      "lemon",
+      "fly",
+      "skunk",
+      "corn",
+      "palm_tree"
+    ]
+  },
+  {
+    "id": "land_of_canaan",
+    "name": "迦南地",
+    "collection": [
+      "water_buffalo",
+      "caterpillar",
+      "sheep",
+      "ladybug",
+      "peanuts",
+      "edamame",
+      "black_cat",
+      "orange"
+    ]
+  }
+]

@@ -1,0 +1,146 @@
+[
+    {
+        "id": "old_boot",
+        "name": "旧靴子",
+        "emoji": "👢",
+        "rarity": "trash",
+        "chance": 30
+    },
+    {
+        "id": "tin_can",
+        "name": "铁罐",
+        "emoji": "🥫",
+        "rarity": "trash",
+        "chance": 30
+    },
+    {
+        "id": "plastic_bottle",
+        "name": "塑料瓶",
+        "emoji": "🧴",
+        "rarity": "trash",
+        "chance": 30
+    },
+    {
+        "id": "broken_glass",
+        "name": "碎玻璃",
+        "emoji": "🪟",
+        "rarity": "trash",
+        "chance": 30
+    },
+    {
+        "id": "old_tire",
+        "name": "旧轮胎",
+        "emoji": "🛞",
+        "rarity": "trash",
+        "chance": 30
+    },
+    {
+        "id": "rusty_chain",
+        "name": "生锈铁链",
+        "emoji": "⛓️",
+        "rarity": "trash",
+        "chance": 30
+    },
+
+    {
+        "id": "sardine",
+        "name": "沙丁鱼",
+        "emoji": "🐟",
+        "rarity": "normal",
+        "chance": 50
+    },
+    {
+        "id": "shrimp",
+        "name": "虾",
+        "emoji": "🦐",
+        "rarity": "normal",
+        "chance": 50
+    },
+    {
+        "id": "crab",
+        "name": "螃蟹",
+        "emoji": "🦀",
+        "rarity": "normal",
+        "chance": 50
+    },
+    {
+        "id": "squid",
+        "name": "鱿鱼",
+        "emoji": "🦑",
+        "rarity": "normal",
+        "chance": 50
+    },
+    {
+        "id": "octopus",
+        "name": "章鱼",
+        "emoji": "🐙",
+        "rarity": "normal",
+        "chance": 50
+    },
+
+    {
+        "id": "tropical_fish",
+        "name": "热带鱼",
+        "emoji": "🐠",
+        "rarity": "rare",
+        "chance": 15
+    },
+    {
+        "id": "blowfish",
+        "name": "河豚",
+        "emoji": "🐡",
+        "rarity": "rare",
+        "chance": 15
+    },
+    {
+        "id": "coral",
+        "name": "珊瑚",
+        "emoji": "🪸",
+        "rarity": "rare",
+        "chance": 15
+    },
+    {
+        "id": "seaweed_bundle",
+        "name": "海藻",
+        "emoji": "🌿",
+        "rarity": "rare",
+        "chance": 15
+    },
+
+    {
+        "id": "lobster",
+        "name": "龙虾",
+        "emoji": "🦞",
+        "rarity": "super_rare",
+        "chance": 4
+    },
+    {
+        "id": "clam",
+        "name": "蛤蜊",
+        "emoji": "🐚",
+        "rarity": "super_rare",
+        "chance": 4
+    },
+    {
+        "id": "sea_urchin",
+        "name": "海胆",
+        "emoji": "🦔",
+        "rarity": "super_rare",
+        "chance": 4
+    },
+    {
+        "id": "oyster",
+        "name": "牡蛎",
+        "emoji": "🦪",
+        "rarity": "super_rare",
+        "chance": 4
+    },
+
+    {
+        "id": "pearl",
+        "name": "珍珠",
+        "emoji": "🫧",
+        "rarity": "pearl",
+        "chance": 1
+    }
+]

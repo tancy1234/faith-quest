@@ -1,0 +1,2216 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#202225;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.chat-container{
+width:390px;
+height:844px;
+background:#313338;
+display:flex;
+flex-direction:column;
+overflow:hidden;
+border-radius:20px;
+}
+
+header{
+height:60px;
+background:#1f2023;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:0 15px;
+color:white;
+}
+
+header button{
+background:none;
+border:none;
+color:white;
+font-size:22px;
+cursor:pointer;
+}
+
+
+
+footer{
+height:70px;
+background:#383a40;
+display:flex;
+align-items:center;
+gap:10px;
+padding:10px;
+}
+
+footer button{
+width:45px;
+height:45px;
+border:none;
+border-radius:50%;
+background:#5865F2;
+color:white;
+font-size:18px;
+cursor:pointer;
+}
+
+footer input{
+flex:1;
+height:45px;
+border:none;
+outline:none;
+padding:0 15px;
+border-radius:25px;
+background:#4a4d55;
+color:white;
+}
+
+.message{
+    margin-bottom:15px;
+    max-width:80%;
+}
+
+
+.username{
+    font-size:12px;
+    
+    color:#57f287;
+    
+}
+
+
+.text{
+    background:#404249;
+    color:white;
+    padding:10px 15px;
+    border-radius:15px;
+    margin-top:5px;
+}
+
+
+.time{
+    font-size:10px;
+    color:#aaa;
+}
+
+
+.my-message{
+    margin-left:auto;
+}
+
+
+.my-message .text{
+    background:#9699b7;
+}
+
+#userDropdown{
+
+    position:absolute;
+
+    bottom:60px;
+
+    background:white;
+
+    border:1px solid #ccc;
+
+    width:250px;
+
+    display:none;
+
+}
+
+
+.user-item{
+
+    padding:10px;
+
+    cursor:pointer;
+
+}
+
+
+.user-item:hover{
+
+    background:#eee;
+
+}
+
+.hidden{
+
+    display:none;
+
+}
+
+
+#usernameModal{
+
+    position:fixed;
+
+    top:40%;
+
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+    background:white;
+
+    padding:20px;
+
+    border-radius:10px;
+
+    z-index: 9999;
+
+}
+
+.app{
+
+    display:flex;
+
+    flex:1;
+    position:relative;
+    overflow:hidden;
+
+}
+
+.sidebar{
+
+    position:absolute;
+
+    top:0;
+    left:0;
+
+    height:100%;
+
+    width:220px;
+
+    background:#202225;
+
+    color:white;
+
+    display:flex;
+
+    flex-direction:column;
+
+    z-index:100;
+
+    transition:0.3s;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}
+
+.sidebar-title{
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    padding:20px;
+
+    border-bottom:1px solid #333;
+
+}
+
+.sidebar.hide{
+
+    transform:translateX(-220px);
+
+}
+
+.room:hover{
+
+    background:#36393f;
+
+}
+
+.active-room{
+
+    background:#8b8fb4;
+
+}
+
+.chat-area{
+
+    flex:1;
+
+    display:flex;
+
+    flex-direction:column;
+
+    overflow:hidden;
+    width:100%;
+
+}
+
+.content{
+
+    display:flex;
+
+    flex:1;
+
+    overflow:hidden;
+
+}
+
+
+
+.room{
+
+    padding:15px;
+
+    cursor:pointer;
+
+    transition:0.2s;
+
+}
+
+
+
+.room:hover{
+
+    background:#36393f;
+
+}
+
+
+
+
+#chatBox{
+    flex:1;
+    overflow-y:auto;
+    padding:15px;
+    min-height:0;
+}
+
+#userArea{
+
+    position:relative;
+
+}
+
+
+#user{
+
+    cursor:pointer;
+
+    font-size:20px;
+
+}
+
+
+
+#profilePopup{
+
+    position:absolute;
+
+    right:0;
+
+    top:40px;
+
+    width:260px;
+
+    background:#313338;
+
+    color:white;
+
+    border-radius:12px;
+
+    padding:15px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.4);
+
+    z-index:200;
+
+}
+
+
+
+.profile-header{
+
+    display:flex;
+
+    gap:10px;
+
+    align-items:center;
+
+}
+
+
+#profileAvatar{
+
+    font-size:35px;
+
+}
+
+
+.profile-info p{
+
+    margin:8px 0;
+
+}
+
+
+
+.hidden{
+
+    display:none;
+
+}
+
+#userArea{
+
+    position:relative;
+
+    cursor:pointer;
+
+}
+
+
+
+#user{
+
+    color:white;
+
+    font-size:18px;
+
+}
+
+#profilePopup{
+
+    position:absolute;
+
+    right:0;
+
+    top:35px;
+
+
+    width:260px;
+
+
+    background:#222;
+
+    color:white;
+
+
+    border-radius:12px;
+
+
+    padding:15px;
+
+
+    box-shadow:
+    0 5px 20px rgba(0,0,0,0.4);
+
+
+    z-index:1000;
+
+}
+
+
+
+.hidden{
+
+    display:none;
+
+}
+
+.profile-header{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+}
+
+
+
+#profileAvatar{
+
+    width:45px;
+
+    height:45px;
+
+    border-radius:50%;
+
+    background:#444;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:25px;
+
+}
+
+
+
+#profileName{
+
+    margin:0;
+
+}
+
+
+
+#profileLevel{
+
+    margin:5px 0 0;
+
+    color:#ffd700;
+
+}
+
+.xp-section{
+
+    margin-top:10px;
+
+}
+
+
+
+.xp-title{
+
+    font-size:14px;
+
+    margin-bottom:6px;
+
+}
+
+
+
+.xp-bar{
+
+    width:100%;
+
+    height:12px;
+
+
+    background:#444;
+
+
+    border-radius:10px;
+
+
+    overflow:hidden;
+
+}
+
+
+
+.xp-fill{
+
+    height:100%;
+
+
+    width:0%;
+
+
+    background:#ffd700;
+
+
+    transition:
+    width 0.5s ease;
+
+}
+
+
+
+.xp-text{
+
+    font-size:12px;
+
+    margin-top:5px;
+
+    text-align:right;
+
+}
+
+.profile-info p{
+
+    margin:8px 0;
+
+    font-size:14px;
+
+}
+
+.xp-bar-container{
+
+    width:100%;
+    height:12px;
+    background:#ddd;
+    border-radius:10px;
+    overflow:hidden;
+
+}
+
+
+.xp-progress{
+
+    height:100%;
+    width:0%;
+
+    background:#4caf50;
+
+    transition:0.3s;
+
+}
+
+#churchCreateModal {
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, 0.55);
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    z-index: 9999;
+
+}
+
+
+#churchCreateModal.hidden {
+
+    display: none;
+
+}
+
+
+.church-create-panel {
+
+    width: 350px;
+
+    background: white;
+
+    border-radius: 15px;
+
+    padding: 25px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+
+    text-align: center;
+
+}
+
+
+.church-create-panel h2 {
+
+    margin-top: 0;
+
+}
+
+
+.church-create-panel p {
+
+    margin: 10px 0;
+
+}
+
+
+#churchNameInput {
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    outline: none;
+
+}
+
+
+#churchCreateError {
+
+    color: red;
+
+    min-height: 20px;
+
+    font-size: 14px;
+
+}
+
+
+.church-create-buttons {
+
+    display: flex;
+
+    gap: 10px;
+
+    justify-content: center;
+
+    margin-top: 15px;
+
+}
+
+
+.church-create-buttons button {
+
+    padding: 10px 16px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+}
+
+
+#churchCreateCancel {
+
+    background: #ddd;
+
+}
+
+
+#churchCreateConfirm {
+
+    background: #333;
+
+    color: white;
+
+}
+
+.sidebar-section-title {
+    margin-top: 18px;
+    margin-bottom: 8px;
+    padding: 0 12px;
+
+    font-size: 12px;
+    font-weight: bold;
+
+    opacity: 0.6;
+    letter-spacing: 1px;
+}
+
+.sidebar-user {
+    display: flex;
+    align-items: center;
+
+    padding: 8px 12px;
+
+    cursor: pointer;
+}
+
+.sidebar-user:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.user-icon {
+    margin-right: 8px;
+}
+
+.user-name {
+    flex: 1;
+}
+
+.user-level {
+    font-size: 11px;
+    opacity: 0.6;
+}
+
+.user-status {
+    margin-right: 5px;
+    font-size: 10px;
+}
+
+.shop-popup-overlay {
+
+    display: none;
+
+    position: fixed;
+
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.55);
+
+    justify-content: center;
+
+    align-items: center;
+
+    z-index: 9999;
+
+}
+
+
+.shop-popup {
+
+    width: 430px;
+
+    max-width: 92%;
+
+    max-height: 85vh;
+
+    background: white;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 15px 40px
+        rgba(0,0,0,0.3);
+
+}
+
+
+.shop-header {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 18px 20px;
+
+    border-bottom:
+        1px solid #eee;
+
+}
+
+
+.shop-header h2 {
+
+    margin: 0;
+
+    font-size: 21px;
+
+}
+
+
+#closeShopBtn {
+
+    border: none;
+
+    background: transparent;
+
+    font-size: 20px;
+
+    cursor: pointer;
+
+}
+
+
+.shop-content {
+
+    padding: 18px;
+
+    max-height: 60vh;
+
+    overflow-y: auto;
+
+}
+
+
+.shop-content h3 {
+
+    margin: 8px 0 12px;
+
+}
+
+
+.shop-list {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+
+    margin-bottom: 25px;
+
+}
+
+
+.shop-product {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 12px;
+
+    border: 1px solid #e5e5e5;
+
+    border-radius: 14px;
+
+    background: #fafafa;
+
+}
+
+
+.shop-product-info {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    min-width: 0;
+
+}
+
+
+.shop-product-emoji {
+
+    font-size: 28px;
+
+}
+
+
+.shop-product-details {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+.shop-product-name {
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+}
+
+
+.shop-product-price {
+
+    font-size: 13px;
+
+    margin-top: 3px;
+
+    opacity: 0.7;
+
+}
+
+
+.quantity-control {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 7px;
+
+}
+
+
+.quantity-btn {
+
+    width: 30px;
+
+    height: 30px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+}
+
+
+.quantity-number {
+
+    width: 25px;
+
+    text-align: center;
+
+    font-weight: bold;
+
+}
+
+
+.shop-footer {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 15px;
+
+    padding: 15px 18px;
+
+    border-top:
+        1px solid #eee;
+
+    background: #fafafa;
+
+}
+
+
+#shopTotal {
+
+    font-weight: 700;
+
+}
+
+
+#shopBuyBtn {
+
+    padding: 10px 18px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+}
+
+
+#shopBuyBtn:disabled {
+
+    opacity: 0.5;
+
+    cursor: not-allowed;
+
+}
+
+/* =========================
+   SELL POPUP
+========================= */
+
+.sell-popup {
+    width: 420px;
+    max-width: 90%;
+}
+
+
+.sell-content {
+    padding: 20px;
+}
+
+
+.sell-item-info {
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+
+.sell-item-info .sell-item-emoji {
+    font-size: 55px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+.sell-item-info .sell-item-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.sell-price-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 12px 15px;
+    margin-bottom: 15px;
+
+    border-radius: 10px;
+    background: #f5f5f5;
+}
+
+
+.sell-quantity-section {
+    text-align: center;
+    margin: 15px 0;
+}
+
+
+.sell-quantity-section p {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+
+.sell-content .quantity-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.sell-content .quantity-number {
+    min-width: 35px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.sell-total {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+
+    margin: 20px 0;
+}
+
+
+.sell-content .shop-buy-btn {
+    width: 100%;
+}
+
+/* =========================================
+   DEDICATE POPUP
+========================================= */
+
+.dedicate-overlay {
+    position: fixed;
+    inset: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+
+    background: rgba(0, 0, 0, 0.62);
+
+    z-index: 9999;
+}
+
+.dedicate-overlay.hidden {
+    display: none;
+}
+
+
+/* =========================================
+   MAIN PANEL
+========================================= */
+
+.dedicate-panel {
+    width: 520px;
+    max-width: 100%;
+
+    max-height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+
+    background: #fffdf8;
+
+    border-radius: 22px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 20px 60px rgba(0, 0, 0, 0.28);
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+.dedicate-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 22px 24px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #fff8df,
+            #fffdf7
+        );
+
+    border-bottom: 1px solid #eee4c8;
+}
+
+.dedicate-title-area h2 {
+    margin: 0;
+
+    font-size: 25px;
+
+    color: #4d3b19;
+}
+
+.dedicate-title-area p {
+    margin: 5px 0 0;
+
+    font-size: 13px;
+
+    color: #8d8068;
+}
+
+.dedicate-close-btn {
+    width: 36px;
+    height: 36px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: #f1eee6;
+
+    color: #5d584e;
+
+    font-size: 17px;
+
+    cursor: pointer;
+
+    transition: 0.15s;
+}
+
+.dedicate-close-btn:hover {
+    background: #e4dfd2;
+
+    transform: rotate(5deg);
+}
+
+
+/* =========================================
+   FOOD SECTION
+========================================= */
+
+.dedicate-food-section {
+    padding: 18px 20px 10px;
+
+    min-height: 0;
+}
+
+.dedicate-section-title {
+    margin-bottom: 12px;
+
+    font-size: 13px;
+
+    font-weight: 800;
+
+    color: #857452;
+
+    letter-spacing: 0.5px;
+}
+
+
+/* =========================================
+   FOOD LIST
+========================================= */
+
+.dedicate-food-list {
+    max-height: 340px;
+
+    overflow-y: auto;
+
+    padding-right: 5px;
+}
+
+
+/* Scrollbar */
+
+.dedicate-food-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.dedicate-food-list::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.dedicate-food-list::-webkit-scrollbar-thumb {
+    background: #d8cfb9;
+
+    border-radius: 10px;
+}
+
+
+/* =========================================
+   FOOD CARD
+========================================= */
+
+.dedicate-food-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 12px;
+
+    padding: 13px;
+
+    margin-bottom: 10px;
+
+    background: white;
+
+    border: 1px solid #eee8da;
+
+    border-radius: 15px;
+
+    transition:
+        transform 0.15s,
+        box-shadow 0.15s,
+        border-color 0.15s;
+}
+
+.dedicate-food-card:hover {
+    transform: translateY(-1px);
+
+    border-color: #dec98c;
+
+    box-shadow:
+        0 5px 15px rgba(122, 99, 45, 0.08);
+}
+
+
+/* =========================================
+   FOOD INFORMATION
+========================================= */
+
+.dedicate-food-info {
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+
+    min-width: 0;
+}
+
+.dedicate-food-emoji {
+    width: 50px;
+    height: 50px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #fff9e9;
+
+    border: 1px solid #f0e5c6;
+
+    border-radius: 13px;
+
+    font-size: 28px;
+}
+
+.dedicate-food-details {
+    display: flex;
+    flex-direction: column;
+
+    gap: 3px;
+}
+
+.dedicate-food-name {
+    font-size: 15px;
+
+    font-weight: 700;
+
+    color: #3f3a31;
+}
+
+.dedicate-food-owned {
+    font-size: 12px;
+
+    color: #999184;
+}
+
+.dedicate-food-price {
+    font-size: 12px;
+
+    font-weight: 600;
+
+    color: #b38b2e;
+}
+
+
+/* =========================================
+   QUANTITY CONTROL
+========================================= */
+
+.dedicate-quantity-control {
+    display: flex;
+    align-items: center;
+
+    gap: 7px;
+
+    flex-shrink: 0;
+}
+
+.dedicate-quantity-btn {
+    width: 31px;
+    height: 31px;
+
+    border: none;
+
+    border-radius: 9px;
+
+    background: #eeeae1;
+
+    color: #514b40;
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.15s;
+}
+
+.dedicate-quantity-btn:hover {
+    background: #ded8ca;
+}
+
+.dedicate-quantity-btn:active {
+    transform: scale(0.92);
+}
+
+.dedicate-quantity-number {
+    min-width: 27px;
+
+    text-align: center;
+
+    font-size: 15px;
+
+    font-weight: 800;
+
+    color: #403a30;
+}
+
+
+/* =========================================
+   SUMMARY
+========================================= */
+
+.dedicate-summary {
+    margin: 8px 20px 0;
+
+    padding: 16px 17px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #fffaf0,
+            #fffdf8
+        );
+
+    border: 1px solid #eee2c2;
+
+    border-radius: 16px;
+}
+
+.dedicate-summary-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 9px;
+
+    font-size: 14px;
+
+    color: #6f6758;
+}
+
+.dedicate-summary-row strong {
+    color: #493c22;
+}
+
+.dedicate-summary-divider {
+    height: 1px;
+
+    margin: 12px 0;
+
+    background: #e9dfc6;
+}
+
+.dedicate-total-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 15px;
+
+    font-weight: 700;
+
+    color: #51452d;
+}
+
+.dedicate-total-row strong {
+    font-size: 19px;
+
+    color: #b38b2e;
+}
+
+
+/* =========================================
+   BUTTONS
+========================================= */
+
+.dedicate-buttons {
+    display: flex;
+
+    gap: 10px;
+
+    padding: 17px 20px 20px;
+}
+
+.dedicate-confirm-btn,
+.dedicate-cancel-btn {
+    height: 46px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    font-size: 15px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: 0.15s;
+}
+
+.dedicate-confirm-btn {
+    flex: 1;
+
+    background:
+        linear-gradient(
+            135deg,
+            #d8b64c,
+            #bd952d
+        );
+
+    color: white;
+
+    box-shadow:
+        0 5px 12px rgba(181, 143, 37, 0.2);
+}
+
+.dedicate-confirm-btn:hover:not(:disabled) {
+    transform: translateY(-1px);
+
+    box-shadow:
+        0 7px 16px rgba(181, 143, 37, 0.28);
+}
+
+.dedicate-confirm-btn:active:not(:disabled) {
+    transform: translateY(0);
+}
+
+.dedicate-confirm-btn:disabled {
+    opacity: 0.45;
+
+    cursor: not-allowed;
+
+    box-shadow: none;
+}
+
+.dedicate-cancel-btn {
+    width: 120px;
+
+    background: #eeeae2;
+
+    color: #5e584d;
+}
+
+.dedicate-cancel-btn:hover {
+    background: #ded9ce;
+}
+
+
+/* =========================================
+   LOADING
+========================================= */
+
+.dedicate-loading {
+    padding: 35px 10px;
+
+    text-align: center;
+
+    color: #999184;
+
+    font-size: 14px;
+}
+
+
+/* =========================================
+   EMPTY STATE
+========================================= */
+
+.dedicate-empty {
+    padding: 40px 20px;
+
+    text-align: center;
+
+    color: #8f887a;
+}
+
+.dedicate-empty-icon {
+    font-size: 42px;
+
+    margin-bottom: 10px;
+}
+
+.dedicate-empty-title {
+    font-size: 16px;
+
+    font-weight: 700;
+
+    color: #5b554a;
+}
+
+.dedicate-empty-text {
+    margin-top: 5px;
+
+    font-size: 13px;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+
+    .dedicate-overlay {
+        padding: 10px;
+    }
+
+    .dedicate-panel {
+        width: 100%;
+
+        max-height: 94vh;
+
+        border-radius: 18px;
+    }
+
+    .dedicate-header {
+        padding: 18px;
+    }
+
+    .dedicate-food-section {
+        padding: 15px;
+    }
+
+    .dedicate-food-list {
+        max-height: 300px;
+    }
+
+    .dedicate-food-card {
+        padding: 11px;
+    }
+
+    .dedicate-food-emoji {
+        width: 43px;
+        height: 43px;
+
+        font-size: 24px;
+    }
+
+    .dedicate-food-name {
+        font-size: 14px;
+    }
+
+    .dedicate-quantity-btn {
+        width: 29px;
+        height: 29px;
+    }
+
+    .dedicate-summary {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .dedicate-buttons {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
+
+/* =================================
+   ADVENTURE
+================================= */
+
+#adventurePopup {
+    position: fixed;
+    inset: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(0, 0, 0, 0.55);
+
+    z-index: 9999;
+}
+
+
+#adventurePopup.hidden {
+    display: none;
+}
+
+
+.adventure-panel {
+
+    position: relative;
+
+    width: min(520px, 92vw);
+    max-height: 88vh;
+
+    overflow-y: auto;
+
+    background: #ffffff;
+
+    border-radius: 20px;
+
+    padding: 24px;
+
+    box-shadow:
+        0 20px 60px
+        rgba(0, 0, 0, 0.25);
+}
+
+
+/* HEADER */
+
+.adventure-header {
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+
+.adventure-title {
+
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+.adventure-maps {
+
+    font-size: 14px;
+
+    background: #f3f4f6;
+
+    padding: 8px 12px;
+
+    border-radius: 20px;
+
+    font-weight: 600;
+}
+
+
+/* CLOSE */
+
+.adventure-close {
+
+    position: absolute;
+
+    right: 16px;
+    top: 12px;
+
+    border: none;
+
+    background: transparent;
+
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+
+/* SECTION */
+
+.adventure-section {
+
+    margin-top: 20px;
+}
+
+
+.adventure-section h3 {
+
+    margin-bottom: 12px;
+
+    font-size: 17px;
+}
+
+
+/* =================================
+   TIME GRID
+================================= */
+
+.adventure-time-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 10px;
+}
+
+
+.adventure-time-card {
+
+    border: 2px solid #e5e7eb;
+
+    border-radius: 14px;
+
+    padding: 13px;
+
+    background: #ffffff;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.15s,
+        border-color 0.15s,
+        background 0.15s;
+
+    text-align: left;
+}
+
+
+.adventure-time-card:hover {
+
+    transform: translateY(-2px);
+
+    border-color: #9ca3af;
+}
+
+
+.adventure-time-card.selected {
+
+    border-color: #6366f1;
+
+    background: #eef2ff;
+}
+
+
+.adventure-time-name {
+
+    font-size: 16px;
+
+    font-weight: 700;
+}
+
+
+.adventure-time-power {
+
+    margin-top: 4px;
+
+    font-size: 13px;
+
+    color: #6b7280;
+}
+
+
+/* =================================
+   LOCATION
+================================= */
+
+.adventure-location-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 10px;
+}
+
+
+.adventure-location-card {
+
+    border: 2px solid #e5e7eb;
+
+    border-radius: 14px;
+
+    padding: 15px;
+
+    background: #ffffff;
+
+    cursor: pointer;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    text-align: center;
+
+    transition:
+        transform 0.15s,
+        border-color 0.15s,
+        background 0.15s;
+}
+
+
+.adventure-location-card:hover {
+
+    transform: translateY(-2px);
+
+    border-color: #9ca3af;
+}
+
+
+.adventure-location-card.selected {
+
+    border-color: #16a34a;
+
+    background: #f0fdf4;
+}
+
+
+/* =================================
+   START BUTTON
+================================= */
+
+.adventure-start-btn {
+
+    width: 100%;
+
+    margin-top: 24px;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 14px;
+
+    font-size: 16px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    background: #16a34a;
+
+    color: white;
+}
+
+
+.adventure-start-btn:disabled {
+
+    background: #d1d5db;
+
+    cursor: not-allowed;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 480px) {
+
+    .adventure-panel {
+
+        width: 94vw;
+
+        padding: 18px;
+
+    }
+
+
+    .adventure-time-grid {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+
+    }
+
+
+    .adventure-location-grid {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+
+    }
+
+}
+
+.collection-popup {
+    position: fixed;
+
+    inset: 0;
+
+    display: none;
+    
+
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(0, 0, 0, 0.55);
+
+    z-index: 99999;
+}
+
+
+.collection-window {
+    width: 90%;
+    max-width: 900px;
+
+    max-height: 85vh;
+
+    overflow-y: auto;
+
+    background: #ffffff;
+
+    border-radius: 18px;
+
+    padding: 20px;
+
+    box-shadow:
+        0 12px 35px
+        rgba(0, 0, 0, 0.3);
+}
+
+
+.collection-header {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+
+.collection-header h2 {
+    margin: 0;
+
+    font-size: 24px;
+}
+
+
+.collection-close {
+    border: none;
+
+    background: transparent;
+
+    font-size: 24px;
+
+    cursor: pointer;
+}
+
+
+/* =========================
+   CATEGORY SECTION
+========================= */
+
+.collection-section {
+    margin-bottom: 28px;
+}
+
+
+.collection-section-title {
+    font-size: 18px;
+
+    font-weight: 700;
+
+    margin-bottom: 12px;
+
+    padding-bottom: 6px;
+
+    border-bottom:
+        1px solid #ddd;
+}
+
+
+/* =========================
+   GRID
+========================= */
+
+.collection-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            auto-fill,
+            minmax(105px, 1fr)
+        );
+
+    gap: 12px;
+}
+
+
+/* =========================
+   COLLECTION BLOCK
+========================= */
+
+.collection-card {
+    min-height: 110px;
+
+    padding: 12px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 8px;
+
+    background: #f5f5f5;
+
+    border:
+        1px solid #dddddd;
+
+    border-radius: 12px;
+}
+
+
+.collection-emoji {
+    font-size: 40px;
+
+    line-height: 1;
+}
+
+
+.collection-name {
+    font-size: 13px;
+
+    font-weight: 600;
+
+    text-align: center;
+}
+
+
+/* =========================
+   LOCKED COLLECTION
+========================= */
+
+.collection-card.locked {
+    background: #e4e4e4;
+}
+
+
+.collection-card.locked
+.collection-emoji {
+    filter:
+        grayscale(100%)
+        brightness(0);
+
+    opacity: 0.75;
+}
+
+
+.collection-card.locked
+.collection-name {
+    color: #777;
+}
+
+.command-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 20px;
+}
+
+
+.command-item {
+    padding: 7px 10px;
+    border-radius: 6px;
+
+    font-size: 13px;
+
+    cursor: default;
+
+    opacity: 0.85;
+}
+
+
+.command-item:hover {
+    background: rgba(255, 255, 255, 0.08);
+
+    opacity: 1;
+}
+
+.command-category {
+    margin-top: 14px;
+    margin-bottom: 6px;
+
+    padding-left: 10px;
+
+    font-size: 11px;
+    font-weight: 700;
+
+    opacity: 0.55;
+
+    letter-spacing: 1px;
+}
+
+
+.command-list {
+    display: flex;
+    flex-direction: column;
+
+    gap: 3px;
+
+    margin-bottom: 8px;
+}
+
+
+.command-item {
+    padding: 6px 10px;
+
+    border-radius: 6px;
+
+    font-size: 13px;
+
+    cursor: default;
+
+    opacity: 0.85;
+}
+
+
+.command-item:hover {
+    background: rgba(255, 255, 255, 0.08);
+
+    opacity: 1;
+}

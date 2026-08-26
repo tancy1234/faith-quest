@@ -1,0 +1,19 @@
+import json
+from collections import Counter
+
+with open("/Users/tcy/Desktop/christian-chat-game/math_questions_shuffled.json", "r", encoding="utf-8") as f:
+    questions = json.load(f)
+
+answer_counts = Counter(
+    question["answer"]
+    for question in questions
+)
+
+print("Answer Distribution:")
+print("-------------------")
+
+for answer in ["A", "B", "C", "D"]:
+    print(f"{answer}: {answer_counts[answer]}")
+
+print("-------------------")
+print(f"Total: {len(questions)}")

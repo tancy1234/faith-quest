@@ -1,0 +1,7211 @@
+[
+  {
+    "id": 1,
+    "field": {
+      "id": "general",
+      "en": "General Knowledge",
+      "zh": "常识"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "Which color is NOT a primary color in traditional painting?",
+      "zh": "在传统绘画中，以下哪一种颜色不是三原色？"
+    },
+    "options": {
+      "A": {
+        "en": "Red",
+        "zh": "红色"
+      },
+      "B": {
+        "en": "Blue",
+        "zh": "蓝色"
+      },
+      "C": {
+        "en": "Yellow",
+        "zh": "黄色"
+      },
+      "D": {
+        "en": "Green",
+        "zh": "绿色"
+      }
+    },
+    "answer": "D",
+    "explanation": {
+      "en": "In the traditional RYB color model, red, yellow, and blue are primary colors.",
+      "zh": "在传统的 RYB 色彩模型中，红色、黄色和蓝色是三原色。"
+    }
+  },
+
+  {
+    "id": 2,
+    "field": {
+      "id": "pokemon",
+      "en": "Pokémon",
+      "zh": "宝可梦"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "Which of these Pokémon is an Electric-type Pokémon?",
+      "zh": "以下哪一只宝可梦属于电属性？"
+    },
+    "options": {
+      "A": {
+        "en": "Pikachu",
+        "zh": "皮卡丘"
+      },
+      "B": {
+        "en": "Squirtle",
+        "zh": "杰尼龟"
+      },
+      "C": {
+        "en": "Charmander",
+        "zh": "小火龙"
+      },
+      "D": {
+        "en": "Bulbasaur",
+        "zh": "妙蛙种子"
+      }
+    },
+    "answer": "A",
+    "explanation": {
+      "en": "Pikachu is an Electric-type Pokémon.",
+      "zh": "皮卡丘是电属性宝可梦。"
+    }
+  },
+
+  {
+    "id": 3,
+    "field": {
+      "id": "yugioh",
+      "en": "Yu-Gi-Oh!",
+      "zh": "游戏王"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "Which of these is a Monster Attribute in Yu-Gi-Oh!?",
+      "zh": "以下哪一个是《游戏王》怪兽的属性？"
+    },
+    "options": {
+      "A": {
+        "en": "FIRE",
+        "zh": "炎"
+      },
+      "B": {
+        "en": "STEEL",
+        "zh": "钢"
+      },
+      "C": {
+        "en": "POISON",
+        "zh": "毒"
+      },
+      "D": {
+        "en": "MAGIC",
+        "zh": "魔法"
+      }
+    },
+    "answer": "A",
+    "explanation": {
+      "en": "FIRE is one of the Monster Attributes used in Yu-Gi-Oh!.",
+      "zh": "炎属性是《游戏王》怪兽所使用的正式属性之一。"
+    }
+  },
+
+  {
+    "id": 4,
+    "field": {
+      "id": "animals",
+      "en": "Animals",
+      "zh": "动物"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "How many legs does a spider normally have?",
+      "zh": "蜘蛛通常有多少条腿？"
+    },
+    "options": {
+      "A": {
+        "en": "6",
+        "zh": "6"
+      },
+      "B": {
+        "en": "8",
+        "zh": "8"
+      },
+      "C": {
+        "en": "10",
+        "zh": "10"
+      },
+      "D": {
+        "en": "12",
+        "zh": "12"
+      }
+    },
+    "answer": "B",
+    "explanation": {
+      "en": "Spiders are arachnids and normally have eight legs.",
+      "zh": "蜘蛛属于蛛形纲动物，通常有八条腿。"
+    }
+  },
+
+  {
+    "id": 5,
+    "field": {
+      "id": "space",
+      "en": "Space",
+      "zh": "太空"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "Which planet is known as the Red Planet?",
+      "zh": "哪一颗行星被称为“红色星球”？"
+    },
+    "options": {
+      "A": {
+        "en": "Venus",
+        "zh": "金星"
+      },
+      "B": {
+        "en": "Mars",
+        "zh": "火星"
+      },
+      "C": {
+        "en": "Jupiter",
+        "zh": "木星"
+      },
+      "D": {
+        "en": "Mercury",
+        "zh": "水星"
+      }
+    },
+    "answer": "B",
+    "explanation": {
+      "en": "Mars appears reddish because iron minerals on its surface have oxidized.",
+      "zh": "火星表面的铁矿物氧化后呈现红色，因此被称为红色星球。"
+    }
+  },
+
+  {
+    "id": 6,
+    "field": {
+      "id": "food",
+      "en": "Food",
+      "zh": "食物"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "Which fruit is commonly used to make guacamole?",
+      "zh": "制作鳄梨酱通常会使用哪一种水果？"
+    },
+    "options": {
+      "A": {
+        "en": "Avocado",
+        "zh": "牛油果"
+      },
+      "B": {
+        "en": "Apple",
+        "zh": "苹果"
+      },
+      "C": {
+        "en": "Orange",
+        "zh": "橙子"
+      },
+      "D": {
+        "en": "Watermelon",
+        "zh": "西瓜"
+      }
+    },
+    "answer": "A",
+    "explanation": {
+      "en": "Avocado is the main ingredient in guacamole.",
+      "zh": "牛油果是鳄梨酱的主要材料。"
+    }
+  },
+
+  {
+    "id": 7,
+    "field": {
+      "id": "technology",
+      "en": "Technology",
+      "zh": "科技"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "What does CPU stand for?",
+      "zh": "CPU 的英文全称是什么？"
+    },
+    "options": {
+      "A": {
+        "en": "Central Processing Unit",
+        "zh": "中央处理器"
+      },
+      "B": {
+        "en": "Computer Power Utility",
+        "zh": "电脑电源工具"
+      },
+      "C": {
+        "en": "Central Program User",
+        "zh": "中央程序用户"
+      },
+      "D": {
+        "en": "Core Processing Utility",
+        "zh": "核心处理工具"
+      }
+    },
+    "answer": "A",
+    "explanation": {
+      "en": "CPU stands for Central Processing Unit.",
+      "zh": "CPU 是 Central Processing Unit，也就是中央处理器。"
+    }
+  },
+
+  {
+    "id": 8,
+    "field": {
+      "id": "bible",
+      "en": "Bible",
+      "zh": "圣经"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "Who built the ark in the Bible?",
+      "zh": "圣经中是谁建造了方舟？"
+    },
+    "options": {
+      "A": {
+        "en": "Moses",
+        "zh": "摩西"
+      },
+      "B": {
+        "en": "David",
+        "zh": "大卫"
+      },
+      "C": {
+        "en": "Noah",
+        "zh": "挪亚"
+      },
+      "D": {
+        "en": "Peter",
+        "zh": "彼得"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "Noah built the ark according to the book of Genesis.",
+      "zh": "根据《创世记》的记载，挪亚建造了方舟。"
+    }
+  },
+
+  {
+    "id": 9,
+    "field": {
+      "id": "geography",
+      "en": "Geography",
+      "zh": "地理"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "Which is the largest ocean on Earth?",
+      "zh": "地球上最大的海洋是哪一个？"
+    },
+    "options": {
+      "A": {
+        "en": "Atlantic Ocean",
+        "zh": "大西洋"
+      },
+      "B": {
+        "en": "Indian Ocean",
+        "zh": "印度洋"
+      },
+      "C": {
+        "en": "Pacific Ocean",
+        "zh": "太平洋"
+      },
+      "D": {
+        "en": "Arctic Ocean",
+        "zh": "北冰洋"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "The Pacific Ocean is the largest ocean on Earth.",
+      "zh": "太平洋是地球上面积最大的海洋。"
+    }
+  },
+
+  {
+    "id": 10,
+    "field": {
+      "id": "random",
+      "en": "Random Facts",
+      "zh": "冷知识"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "How many hearts does an octopus have?",
+      "zh": "章鱼有几颗心脏？"
+    },
+    "options": {
+      "A": {
+        "en": "1",
+        "zh": "1"
+      },
+      "B": {
+        "en": "2",
+        "zh": "2"
+      },
+      "C": {
+        "en": "3",
+        "zh": "3"
+      },
+      "D": {
+        "en": "4",
+        "zh": "4"
+      }
+    },
+    "answer": "C",
+    "explanation": {
+      "en": "An octopus has three hearts.",
+      "zh": "章鱼有三颗心脏。"
+    }
+  },
+  {
+    "id": 11,
+    "field": {
+        "id": "pokemon",
+        "en": "Pokémon",
+        "zh": "宝可梦"
+    },
+    "difficulty": "medium",
+    "question": {
+        "en": "Which item is normally used to evolve Pikachu into Raichu?",
+        "zh": "通常需要使用哪一种道具才能让皮卡丘进化成雷丘？"
+    },
+    "options": {
+        "A": {
+        "en": "Fire Stone",
+        "zh": "火之石"
+        },
+        "B": {
+        "en": "Water Stone",
+        "zh": "水之石"
+        },
+        "C": {
+        "en": "Thunder Stone",
+        "zh": "雷之石"
+        },
+        "D": {
+        "en": "Moon Stone",
+        "zh": "月之石"
+        }
+    },
+    "answer": "C",
+    "explanation": {
+        "en": "Pikachu normally evolves into Raichu when exposed to a Thunder Stone.",
+        "zh": "皮卡丘通常使用雷之石后会进化成雷丘。"
+    }
+    },
+    {
+    "id": 12,
+    "field": {
+        "id": "science",
+        "en": "Science",
+        "zh": "科学"
+    },
+    "difficulty": "medium",
+    "question": {
+        "en": "Which gas makes up the largest percentage of Earth's atmosphere?",
+        "zh": "地球大气层中含量最高的气体是什么？"
+    },
+    "options": {
+        "A": {
+        "en": "Oxygen",
+        "zh": "氧气"
+        },
+        "B": {
+        "en": "Nitrogen",
+        "zh": "氮气"
+        },
+        "C": {
+        "en": "Carbon dioxide",
+        "zh": "二氧化碳"
+        },
+        "D": {
+        "en": "Hydrogen",
+        "zh": "氢气"
+        }
+    },
+    "answer": "B",
+    "explanation": {
+        "en": "Nitrogen makes up about 78% of Earth's atmosphere.",
+        "zh": "氮气约占地球大气层的 78%。"
+    }
+    },
+    {
+    "id": 13,
+    "field": {
+        "id": "yugioh",
+        "en": "Yu-Gi-Oh!",
+        "zh": "游戏王"
+    },
+    "difficulty": "medium",
+    "question": {
+        "en": "How many cards are normally required to perform a Fusion Summon using Polymerization?",
+        "zh": "通常使用“融合”进行融合召唤时，至少涉及多少张卡？"
+    },
+    "options": {
+        "A": {
+        "en": "1",
+        "zh": "1"
+        },
+        "B": {
+        "en": "2",
+        "zh": "2"
+        },
+        "C": {
+        "en": "3",
+        "zh": "3"
+        },
+        "D": {
+        "en": "5",
+        "zh": "5"
+        }
+    },
+    "answer": "C",
+    "explanation": {
+        "en": "A basic Fusion Summon with Polymerization normally involves Polymerization itself plus at least two Fusion Materials.",
+        "zh": "基本的融合召唤通常需要“融合”魔法卡本身，加上至少两只融合素材怪兽，因此至少涉及三张卡。"
+    }
+    },
+    {
+    "id": 14,
+    "field": {
+        "id": "geography",
+        "en": "Geography",
+        "zh": "地理"
+    },
+    "difficulty": "medium",
+    "question": {
+        "en": "What is the capital city of Canada?",
+        "zh": "加拿大的首都是哪座城市？"
+    },
+    "options": {
+        "A": {
+        "en": "Toronto",
+        "zh": "多伦多"
+        },
+        "B": {
+        "en": "Vancouver",
+        "zh": "温哥华"
+        },
+        "C": {
+        "en": "Montreal",
+        "zh": "蒙特利尔"
+        },
+        "D": {
+        "en": "Ottawa",
+        "zh": "渥太华"
+        }
+    },
+    "answer": "D",
+    "explanation": {
+        "en": "Ottawa is the capital city of Canada.",
+        "zh": "渥太华是加拿大的首都。"
+    }
+    },
+    {
+    "id": 15,
+    "field": {
+        "id": "technology",
+        "en": "Technology",
+        "zh": "科技"
+    },
+    "difficulty": "medium",
+    "question": {
+        "en": "What does HTML stand for?",
+        "zh": "HTML 的英文全称是什么？"
+    },
+    "options": {
+        "A": {
+        "en": "HyperText Markup Language",
+        "zh": "超文本标记语言"
+        },
+        "B": {
+        "en": "High Transfer Machine Language",
+        "zh": "高速传输机器语言"
+        },
+        "C": {
+        "en": "Hyper Transfer Main Link",
+        "zh": "超传输主链接"
+        },
+        "D": {
+        "en": "Home Tool Markup Language",
+        "zh": "主页工具标记语言"
+        }
+    },
+    "answer": "A",
+    "explanation": {
+        "en": "HTML stands for HyperText Markup Language and is used to structure content on web pages.",
+        "zh": "HTML 是 HyperText Markup Language（超文本标记语言）的缩写，用于构建网页内容结构。"
+    }
+    },
+    {
+    "id": 16,
+    "field": {
+        "id": "animals",
+        "en": "Animals",
+        "zh": "动物"
+    },
+    "difficulty": "medium",
+    "question": {
+        "en": "Which mammal is capable of true sustained flight?",
+        "zh": "以下哪一种哺乳动物能够进行真正持续的飞行？"
+    },
+    "options": {
+        "A": {
+        "en": "Flying squirrel",
+        "zh": "鼯鼠"
+        },
+        "B": {
+        "en": "Bat",
+        "zh": "蝙蝠"
+        },
+        "C": {
+        "en": "Sugar glider",
+        "zh": "蜜袋鼯"
+        },
+        "D": {
+        "en": "Colugo",
+        "zh": "鼯猴"
+        }
+    },
+    "answer": "B",
+    "explanation": {
+        "en": "Bats are the only mammals capable of true sustained powered flight. The others glide.",
+        "zh": "蝙蝠是唯一能够真正持续进行动力飞行的哺乳动物，其他选项主要依靠滑翔。"
+    }
+    },
+    {
+    "id": 17,
+    "field": {
+        "id": "bible",
+        "en": "Bible",
+        "zh": "圣经"
+    },
+    "difficulty": "medium",
+    "question": {
+        "en": "Who interpreted Pharaoh's dreams in the book of Genesis?",
+        "zh": "在《创世记》中，是谁为法老解释梦境？"
+    },
+    "options": {
+        "A": {
+        "en": "Joseph",
+        "zh": "约瑟"
+        },
+        "B": {
+        "en": "Moses",
+        "zh": "摩西"
+        },
+        "C": {
+        "en": "Abraham",
+        "zh": "亚伯拉罕"
+        },
+        "D": {
+        "en": "Joshua",
+        "zh": "约书亚"
+        }
+    },
+    "answer": "A",
+    "explanation": {
+        "en": "Joseph interpreted Pharaoh's dreams about the coming years of abundance and famine.",
+        "zh": "约瑟为法老解释了有关丰年和饥荒将要来临的梦。"
+    }
+    },
+    {
+    "id": 18,
+    "field": {
+        "id": "space",
+        "en": "Space",
+        "zh": "太空"
+    },
+    "difficulty": "medium",
+    "question": {
+        "en": "Which planet has the shortest year in our Solar System?",
+        "zh": "太阳系中哪一颗行星的一年最短？"
+    },
+    "options": {
+        "A": {
+        "en": "Earth",
+        "zh": "地球"
+        },
+        "B": {
+        "en": "Venus",
+        "zh": "金星"
+        },
+        "C": {
+        "en": "Mercury",
+        "zh": "水星"
+        },
+        "D": {
+        "en": "Mars",
+        "zh": "火星"
+        }
+    },
+    "answer": "C",
+    "explanation": {
+        "en": "Mercury takes about 88 Earth days to orbit the Sun, giving it the shortest year of any planet.",
+        "zh": "水星绕太阳公转一周大约需要 88 个地球日，因此它的一年是所有行星中最短的。"
+    }
+    },
+    {
+    "id": 19,
+    "field": {
+        "id": "random",
+        "en": "Random Facts",
+        "zh": "冷知识"
+    },
+    "difficulty": "medium",
+    "question": {
+        "en": "Which animal has fingerprints so similar to humans that they can be difficult to distinguish?",
+        "zh": "哪一种动物的指纹与人类非常相似，甚至可能难以分辨？"
+    },
+    "options": {
+        "A": {
+        "en": "Koala",
+        "zh": "考拉"
+        },
+        "B": {
+        "en": "Panda",
+        "zh": "熊猫"
+        },
+        "C": {
+        "en": "Kangaroo",
+        "zh": "袋鼠"
+        },
+        "D": {
+        "en": "Sloth",
+        "zh": "树懒"
+        }
+    },
+    "answer": "A",
+    "explanation": {
+        "en": "Koalas have fingerprints with patterns remarkably similar to human fingerprints.",
+        "zh": "考拉的指纹纹路与人类的指纹非常相似。"
+    }
+    },
+    {
+    "id": 20,
+    "field": {
+        "id": "games",
+        "en": "Video Games",
+        "zh": "电子游戏"
+    },
+    "difficulty": "medium",
+    "question": {
+        "en": "In Minecraft, which material is required to build a Nether Portal frame?",
+        "zh": "在《Minecraft》中，建造下界传送门框架需要哪一种材料？"
+    },
+    "options": {
+        "A": {
+        "en": "Bedrock",
+        "zh": "基岩"
+        },
+        "B": {
+        "en": "Obsidian",
+        "zh": "黑曜石"
+        },
+        "C": {
+        "en": "Blackstone",
+        "zh": "黑石"
+        },
+        "D": {
+        "en": "Deepslate",
+        "zh": "深板岩"
+        }
+    },
+    "answer": "B",
+    "explanation": {
+        "en": "A Nether Portal frame is constructed from obsidian.",
+        "zh": "下界传送门的框架需要使用黑曜石建造。"
+    }
+    },
+    {
+  "id": 21,
+  "field": {
+    "id": "science",
+    "en": "Science",
+    "zh": "科学"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which element has the chemical symbol W?",
+    "zh": "哪一种元素的化学符号是 W？"
+  },
+  "options": {
+    "A": {
+      "en": "Tungsten",
+      "zh": "钨"
+    },
+    "B": {
+      "en": "Tin",
+      "zh": "锡"
+    },
+    "C": {
+      "en": "Titanium",
+      "zh": "钛"
+    },
+    "D": {
+      "en": "Tellurium",
+      "zh": "碲"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "W is the chemical symbol for tungsten, derived from its older name, wolfram.",
+    "zh": "W 是钨的化学符号，来源于它的旧称 Wolfram。"
+  }
+},
+{
+  "id": 22,
+  "field": {
+    "id": "geography",
+    "en": "Geography",
+    "zh": "地理"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which country has the most time zones when overseas territories are included?",
+    "zh": "如果把海外领地计算在内，哪个国家拥有最多时区？"
+  },
+  "options": {
+    "A": {
+      "en": "Russia",
+      "zh": "俄罗斯"
+    },
+    "B": {
+      "en": "United States",
+      "zh": "美国"
+    },
+    "C": {
+      "en": "France",
+      "zh": "法国"
+    },
+    "D": {
+      "en": "Australia",
+      "zh": "澳大利亚"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "France spans more time zones than any other country when its overseas territories are included.",
+    "zh": "如果把法国的海外领地计算在内，法国横跨的时区数量比其他国家更多。"
+  }
+},
+{
+  "id": 23,
+  "field": {
+    "id": "pokemon",
+    "en": "Pokémon",
+    "zh": "宝可梦"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which Pokémon was the first one designed during the development of the original games?",
+    "zh": "在初代《宝可梦》游戏开发过程中，哪一只宝可梦是最早被设计出来的？"
+  },
+  "options": {
+    "A": {
+      "en": "Pikachu",
+      "zh": "皮卡丘"
+    },
+    "B": {
+      "en": "Rhydon",
+      "zh": "钻角犀兽"
+    },
+    "C": {
+      "en": "Mew",
+      "zh": "梦幻"
+    },
+    "D": {
+      "en": "Bulbasaur",
+      "zh": "妙蛙种子"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Rhydon is widely recognized as the first Pokémon design created during development of the original games.",
+    "zh": "钻角犀兽通常被认为是初代游戏开发期间最早被设计出来的宝可梦。"
+  }
+},
+{
+  "id": 24,
+  "field": {
+    "id": "bible",
+    "en": "Bible",
+    "zh": "圣经"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Who was the father of John the Baptist?",
+    "zh": "施洗约翰的父亲是谁？"
+  },
+  "options": {
+    "A": {
+      "en": "Zechariah",
+      "zh": "撒迦利亚"
+    },
+    "B": {
+      "en": "Joseph",
+      "zh": "约瑟"
+    },
+    "C": {
+      "en": "Simeon",
+      "zh": "西面"
+    },
+    "D": {
+      "en": "Nicodemus",
+      "zh": "尼哥底母"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Zechariah, a priest, was the father of John the Baptist.",
+    "zh": "祭司撒迦利亚是施洗约翰的父亲。"
+  }
+},
+{
+  "id": 25,
+  "field": {
+    "id": "technology",
+    "en": "Technology",
+    "zh": "科技"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which data structure follows the principle of Last In, First Out?",
+    "zh": "哪一种数据结构遵循“后进先出”的原则？"
+  },
+  "options": {
+    "A": {
+      "en": "Queue",
+      "zh": "队列"
+    },
+    "B": {
+      "en": "Stack",
+      "zh": "栈"
+    },
+    "C": {
+      "en": "Linked List",
+      "zh": "链表"
+    },
+    "D": {
+      "en": "Tree",
+      "zh": "树"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "A stack follows Last In, First Out, often abbreviated as LIFO.",
+    "zh": "栈遵循后进先出原则，通常简称为 LIFO。"
+  }
+},
+{
+  "id": 26,
+  "field": {
+    "id": "space",
+    "en": "Space",
+    "zh": "太空"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which planet has the fastest rotation in the Solar System?",
+    "zh": "太阳系中哪一颗行星自转最快？"
+  },
+  "options": {
+    "A": {
+      "en": "Earth",
+      "zh": "地球"
+    },
+    "B": {
+      "en": "Saturn",
+      "zh": "土星"
+    },
+    "C": {
+      "en": "Jupiter",
+      "zh": "木星"
+    },
+    "D": {
+      "en": "Neptune",
+      "zh": "海王星"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "Jupiter completes one rotation in roughly 10 hours, making it the fastest-rotating planet.",
+    "zh": "木星大约每 10 小时自转一圈，是太阳系中自转最快的行星。"
+  }
+},
+{
+  "id": 27,
+  "field": {
+    "id": "yugioh",
+    "en": "Yu-Gi-Oh!",
+    "zh": "游戏王"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which card type is placed face-down in the Spell & Trap Zone and usually cannot be activated immediately on the same turn it is Set?",
+    "zh": "哪一种卡通常会盖放在魔法与陷阱区域，并且一般不能在盖放的同一个回合立刻发动？"
+  },
+  "options": {
+    "A": {
+      "en": "Normal Monster",
+      "zh": "通常怪兽"
+    },
+    "B": {
+      "en": "Trap Card",
+      "zh": "陷阱卡"
+    },
+    "C": {
+      "en": "Field Spell",
+      "zh": "场地魔法"
+    },
+    "D": {
+      "en": "Ritual Monster",
+      "zh": "仪式怪兽"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Trap Cards are normally Set before use and generally cannot be activated during the same turn they were Set.",
+    "zh": "陷阱卡通常需要先盖放，并且一般不能在盖放的同一个回合发动。"
+  }
+},
+{
+  "id": 28,
+  "field": {
+    "id": "animals",
+    "en": "Animals",
+    "zh": "动物"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which animal has the highest blood pressure among living animals?",
+    "zh": "现存动物中，哪一种动物的血压最高？"
+  },
+  "options": {
+    "A": {
+      "en": "Elephant",
+      "zh": "大象"
+    },
+    "B": {
+      "en": "Blue whale",
+      "zh": "蓝鲸"
+    },
+    "C": {
+      "en": "Giraffe",
+      "zh": "长颈鹿"
+    },
+    "D": {
+      "en": "Rhinoceros",
+      "zh": "犀牛"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "Giraffes need very high blood pressure to pump blood up their long necks to the brain.",
+    "zh": "长颈鹿需要非常高的血压，才能把血液输送到长颈上方的大脑。"
+  }
+},
+{
+  "id": 29,
+  "field": {
+    "id": "history",
+    "en": "History",
+    "zh": "历史"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which ancient civilization built Machu Picchu?",
+    "zh": "马丘比丘是由哪一个古代文明建造的？"
+  },
+  "options": {
+    "A": {
+      "en": "Aztec",
+      "zh": "阿兹特克"
+    },
+    "B": {
+      "en": "Maya",
+      "zh": "玛雅"
+    },
+    "C": {
+      "en": "Inca",
+      "zh": "印加"
+    },
+    "D": {
+      "en": "Olmec",
+      "zh": "奥尔梅克"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "Machu Picchu was built by the Inca civilization in the 15th century.",
+    "zh": "马丘比丘由印加文明在 15 世纪建造。"
+  }
+},
+{
+  "id": 30,
+  "field": {
+    "id": "random",
+    "en": "Random Facts",
+    "zh": "冷知识"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which food can remain edible for extremely long periods when stored properly because of its low moisture and acidic environment?",
+    "zh": "哪一种食物因为含水量低并具有酸性环境，在妥善保存时可以保存非常久？"
+  },
+  "options": {
+    "A": {
+      "en": "Honey",
+      "zh": "蜂蜜"
+    },
+    "B": {
+      "en": "Bread",
+      "zh": "面包"
+    },
+    "C": {
+      "en": "Cheese",
+      "zh": "奶酪"
+    },
+    "D": {
+      "en": "Rice",
+      "zh": "米饭"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Honey's low moisture, acidity, and high sugar concentration make it very resistant to spoilage when stored properly.",
+    "zh": "蜂蜜含水量低、具有酸性，而且糖分浓度高，因此在妥善保存时非常不容易腐坏。"
+  }
+},
+{
+  "id": 31,
+  "field": {
+    "id": "pokemon",
+    "en": "Pokémon",
+    "zh": "宝可梦"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which Pokémon has National Pokédex number 137?",
+    "zh": "全国图鉴编号 137 的宝可梦是哪一只？"
+  },
+  "options": {
+    "A": {
+      "en": "Ditto",
+      "zh": "百变怪"
+    },
+    "B": {
+      "en": "Porygon",
+      "zh": "多边兽"
+    },
+    "C": {
+      "en": "Omanyte",
+      "zh": "菊石兽"
+    },
+    "D": {
+      "en": "Kabuto",
+      "zh": "化石盔"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Porygon is number 137 in the National Pokédex.",
+    "zh": "多边兽在全国图鉴中的编号是 137。"
+  }
+},
+{
+  "id": 32,
+  "field": {
+    "id": "science",
+    "en": "Science",
+    "zh": "科学"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which element has the highest melting point among pure metals at standard pressure?",
+    "zh": "在标准压力下，哪一种元素在纯金属中拥有最高的熔点？"
+  },
+  "options": {
+    "A": {
+      "en": "Tungsten",
+      "zh": "钨"
+    },
+    "B": {
+      "en": "Titanium",
+      "zh": "钛"
+    },
+    "C": {
+      "en": "Platinum",
+      "zh": "铂"
+    },
+    "D": {
+      "en": "Osmium",
+      "zh": "锇"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Tungsten has the highest melting point among pure metals, at approximately 3422°C.",
+    "zh": "钨在纯金属中拥有最高的熔点，约为 3422°C。"
+  }
+},
+{
+  "id": 33,
+  "field": {
+    "id": "bible",
+    "en": "Bible",
+    "zh": "圣经"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which judge of Israel was left-handed and killed Eglon, king of Moab?",
+    "zh": "以色列哪一位士师是左撇子，并杀死了摩押王伊矶伦？"
+  },
+  "options": {
+    "A": {
+      "en": "Gideon",
+      "zh": "基甸"
+    },
+    "B": {
+      "en": "Ehud",
+      "zh": "以笏"
+    },
+    "C": {
+      "en": "Jephthah",
+      "zh": "耶弗他"
+    },
+    "D": {
+      "en": "Othniel",
+      "zh": "俄陀聂"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Judges 3 describes Ehud as a left-handed Benjaminite who killed Eglon, king of Moab.",
+    "zh": "《士师记》第 3 章记载，以笏是一位惯用左手的便雅悯人，他杀死了摩押王伊矶伦。"
+  }
+},
+{
+  "id": 34,
+  "field": {
+    "id": "geography",
+    "en": "Geography",
+    "zh": "地理"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which sovereign country has Ngerulmud as its capital?",
+    "zh": "哪一个主权国家的首都是恩吉鲁穆德（Ngerulmud）？"
+  },
+  "options": {
+    "A": {
+      "en": "Palau",
+      "zh": "帕劳"
+    },
+    "B": {
+      "en": "Tuvalu",
+      "zh": "图瓦卢"
+    },
+    "C": {
+      "en": "Kiribati",
+      "zh": "基里巴斯"
+    },
+    "D": {
+      "en": "Vanuatu",
+      "zh": "瓦努阿图"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Ngerulmud is the capital of Palau, located in the state of Melekeok.",
+    "zh": "恩吉鲁穆德是帕劳的首都，位于梅莱凯奥克州。"
+  }
+},
+{
+  "id": 35,
+  "field": {
+    "id": "space",
+    "en": "Space",
+    "zh": "太空"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which planet has a moon named Dysnomia?",
+    "zh": "哪一颗矮行星拥有一颗名为 Dysnomia（阋神星一）的卫星？"
+  },
+  "options": {
+    "A": {
+      "en": "Pluto",
+      "zh": "冥王星"
+    },
+    "B": {
+      "en": "Eris",
+      "zh": "阋神星"
+    },
+    "C": {
+      "en": "Haumea",
+      "zh": "妊神星"
+    },
+    "D": {
+      "en": "Makemake",
+      "zh": "鸟神星"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Dysnomia is the known moon of the dwarf planet Eris.",
+    "zh": "Dysnomia 是矮行星阋神星的已知卫星。"
+  }
+},
+{
+  "id": 36,
+  "field": {
+    "id": "technology",
+    "en": "Technology",
+    "zh": "科技"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which programming language was originally named Oak?",
+    "zh": "哪一种编程语言最初的名称是 Oak？"
+  },
+  "options": {
+    "A": {
+      "en": "Python",
+      "zh": "Python"
+    },
+    "B": {
+      "en": "Java",
+      "zh": "Java"
+    },
+    "C": {
+      "en": "Ruby",
+      "zh": "Ruby"
+    },
+    "D": {
+      "en": "C++",
+      "zh": "C++"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Java was originally called Oak during its early development at Sun Microsystems.",
+    "zh": "Java 在 Sun Microsystems 的早期开发阶段最初被命名为 Oak。"
+  }
+},
+{
+  "id": 37,
+  "field": {
+    "id": "animals",
+    "en": "Animals",
+    "zh": "动物"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "What is the largest living species of penguin?",
+    "zh": "现存体型最大的企鹅是哪一种？"
+  },
+  "options": {
+    "A": {
+      "en": "King Penguin",
+      "zh": "王企鹅"
+    },
+    "B": {
+      "en": "Emperor Penguin",
+      "zh": "帝企鹅"
+    },
+    "C": {
+      "en": "Gentoo Penguin",
+      "zh": "巴布亚企鹅"
+    },
+    "D": {
+      "en": "Chinstrap Penguin",
+      "zh": "帽带企鹅"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "The Emperor Penguin is the largest living penguin species.",
+    "zh": "帝企鹅是现存体型最大的企鹅种类。"
+  }
+},
+{
+  "id": 38,
+  "field": {
+    "id": "history",
+    "en": "History",
+    "zh": "历史"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "The Defenestration of Prague in 1618 helped trigger which major European conflict?",
+    "zh": "1618 年的“布拉格掷出窗外事件”促成了哪一场欧洲重大战争的爆发？"
+  },
+  "options": {
+    "A": {
+      "en": "Seven Years' War",
+      "zh": "七年战争"
+    },
+    "B": {
+      "en": "Thirty Years' War",
+      "zh": "三十年战争"
+    },
+    "C": {
+      "en": "War of the Spanish Succession",
+      "zh": "西班牙王位继承战争"
+    },
+    "D": {
+      "en": "Hundred Years' War",
+      "zh": "百年战争"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "The 1618 Defenestration of Prague was a major event leading into the Thirty Years' War.",
+    "zh": "1618 年的布拉格掷出窗外事件是引发三十年战争的重要事件之一。"
+  }
+},
+{
+  "id": 39,
+  "field": {
+    "id": "random",
+    "en": "Random Facts",
+    "zh": "冷知识"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "What is the dot above a lowercase letter i or j called?",
+    "zh": "英文字母小写 i 或 j 上方的小点正式叫什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Tittle",
+      "zh": "Tittle"
+    },
+    "B": {
+      "en": "Glyph",
+      "zh": "Glyph"
+    },
+    "C": {
+      "en": "Serif",
+      "zh": "Serif"
+    },
+    "D": {
+      "en": "Diacritic",
+      "zh": "Diacritic"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "The small distinguishing mark above a lowercase i or j is called a tittle.",
+    "zh": "小写字母 i 或 j 上方的小点称为 tittle。"
+  }
+},
+{
+  "id": 40,
+  "field": {
+    "id": "yugioh",
+    "en": "Yu-Gi-Oh!",
+    "zh": "游戏王"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "What is the original ATK of Thousand-Eyes Restrict?",
+    "zh": "《游戏王》中“千眼纳祭神”的原本攻击力是多少？"
+  },
+  "options": {
+    "A": {
+      "en": "0",
+      "zh": "0"
+    },
+    "B": {
+      "en": "500",
+      "zh": "500"
+    },
+    "C": {
+      "en": "1000",
+      "zh": "1000"
+    },
+    "D": {
+      "en": "1500",
+      "zh": "1500"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Thousand-Eyes Restrict has 0 original ATK and 0 original DEF.",
+    "zh": "“千眼纳祭神”的原本攻击力为 0，原本守备力也为 0。"
+  }
+},
+{
+  "id": 41,
+  "field": {
+    "id": "movies",
+    "en": "Movies",
+    "zh": "电影"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "In Frozen, what is the name of the snowman?",
+    "zh": "在《冰雪奇缘》中，雪人的名字是什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Olaf",
+      "zh": "雪宝"
+    },
+    "B": {
+      "en": "Sven",
+      "zh": "斯文"
+    },
+    "C": {
+      "en": "Kristoff",
+      "zh": "克斯托夫"
+    },
+    "D": {
+      "en": "Hans",
+      "zh": "汉斯"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Olaf is the talking snowman in Frozen.",
+    "zh": "雪宝（Olaf）是《冰雪奇缘》中的会说话雪人。"
+  }
+},
+{
+  "id": 42,
+  "field": {
+    "id": "anime",
+    "en": "Anime",
+    "zh": "动漫"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "In Doraemon, what type of animal is Doraemon designed to resemble?",
+    "zh": "在《哆啦A梦》中，哆啦A梦的设计原型是什么动物？"
+  },
+  "options": {
+    "A": {
+      "en": "Dog",
+      "zh": "狗"
+    },
+    "B": {
+      "en": "Cat",
+      "zh": "猫"
+    },
+    "C": {
+      "en": "Rabbit",
+      "zh": "兔子"
+    },
+    "D": {
+      "en": "Bear",
+      "zh": "熊"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Doraemon is a robotic cat from the future.",
+    "zh": "哆啦A梦是一只来自未来的机器猫。"
+  }
+},
+{
+  "id": 43,
+  "field": {
+    "id": "sports",
+    "en": "Sports",
+    "zh": "体育"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "How many players from one team are normally on the field at a time in association football?",
+    "zh": "在足球比赛中，一支球队通常同时有多少名球员在场上？"
+  },
+  "options": {
+    "A": {
+      "en": "9",
+      "zh": "9"
+    },
+    "B": {
+      "en": "10",
+      "zh": "10"
+    },
+    "C": {
+      "en": "11",
+      "zh": "11"
+    },
+    "D": {
+      "en": "12",
+      "zh": "12"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "A football team normally has 11 players on the field, including the goalkeeper.",
+    "zh": "一支足球队通常有 11 名球员在场上，其中包括守门员。"
+  }
+},
+{
+  "id": 44,
+  "field": {
+    "id": "language",
+    "en": "Language",
+    "zh": "语言"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "Which language is primarily spoken in Brazil?",
+    "zh": "巴西主要使用哪一种语言？"
+  },
+  "options": {
+    "A": {
+      "en": "Spanish",
+      "zh": "西班牙语"
+    },
+    "B": {
+      "en": "Portuguese",
+      "zh": "葡萄牙语"
+    },
+    "C": {
+      "en": "French",
+      "zh": "法语"
+    },
+    "D": {
+      "en": "Italian",
+      "zh": "意大利语"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Portuguese is the official and primary language of Brazil.",
+    "zh": "葡萄牙语是巴西的官方语言，也是当地主要使用的语言。"
+  }
+},
+{
+  "id": 45,
+  "field": {
+    "id": "music",
+    "en": "Music",
+    "zh": "音乐"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "How many keys does a standard modern piano normally have?",
+    "zh": "现代标准钢琴通常有多少个琴键？"
+  },
+  "options": {
+    "A": {
+      "en": "66",
+      "zh": "66"
+    },
+    "B": {
+      "en": "72",
+      "zh": "72"
+    },
+    "C": {
+      "en": "88",
+      "zh": "88"
+    },
+    "D": {
+      "en": "100",
+      "zh": "100"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "A standard modern piano normally has 88 keys.",
+    "zh": "现代标准钢琴通常拥有 88 个琴键。"
+  }
+},
+{
+  "id": 46,
+  "field": {
+    "id": "food",
+    "en": "Food",
+    "zh": "食物"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "Which ingredient is traditionally the main ingredient of hummus?",
+    "zh": "传统鹰嘴豆泥的主要原料是什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Chickpeas",
+      "zh": "鹰嘴豆"
+    },
+    "B": {
+      "en": "Potatoes",
+      "zh": "马铃薯"
+    },
+    "C": {
+      "en": "Corn",
+      "zh": "玉米"
+    },
+    "D": {
+      "en": "Peanuts",
+      "zh": "花生"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Hummus is traditionally made primarily from cooked and mashed chickpeas.",
+    "zh": "传统鹰嘴豆泥主要由煮熟并捣碎的鹰嘴豆制成。"
+  }
+},
+{
+  "id": 47,
+  "field": {
+    "id": "games",
+    "en": "Video Games",
+    "zh": "电子游戏"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "Which character is famous for collecting rings in the Sonic the Hedgehog series?",
+    "zh": "在《刺猬索尼克》系列中，哪一个角色以收集金环而闻名？"
+  },
+  "options": {
+    "A": {
+      "en": "Mario",
+      "zh": "马力欧"
+    },
+    "B": {
+      "en": "Sonic",
+      "zh": "索尼克"
+    },
+    "C": {
+      "en": "Kirby",
+      "zh": "卡比"
+    },
+    "D": {
+      "en": "Link",
+      "zh": "林克"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Sonic collects rings throughout the Sonic the Hedgehog games.",
+    "zh": "索尼克在《刺猬索尼克》系列游戏中会收集金环。"
+  }
+},
+{
+  "id": 48,
+  "field": {
+    "id": "nature",
+    "en": "Nature",
+    "zh": "自然"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "What process allows plants to use sunlight to make food?",
+    "zh": "植物利用阳光制造养分的过程叫什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Respiration",
+      "zh": "呼吸作用"
+    },
+    "B": {
+      "en": "Photosynthesis",
+      "zh": "光合作用"
+    },
+    "C": {
+      "en": "Fermentation",
+      "zh": "发酵"
+    },
+    "D": {
+      "en": "Evaporation",
+      "zh": "蒸发"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Photosynthesis allows plants to use light energy to produce sugars from carbon dioxide and water.",
+    "zh": "光合作用让植物利用光能，将二氧化碳和水转化为糖类等养分。"
+  }
+},
+{
+  "id": 49,
+  "field": {
+    "id": "general",
+    "en": "General Knowledge",
+    "zh": "常识"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "How many days are there in a leap year?",
+    "zh": "闰年一共有多少天？"
+  },
+  "options": {
+    "A": {
+      "en": "364",
+      "zh": "364"
+    },
+    "B": {
+      "en": "365",
+      "zh": "365"
+    },
+    "C": {
+      "en": "366",
+      "zh": "366"
+    },
+    "D": {
+      "en": "367",
+      "zh": "367"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "A leap year has 366 days because February has an additional day.",
+    "zh": "闰年有 366 天，因为二月份会增加一天。"
+  }
+},
+{
+  "id": 50,
+  "field": {
+    "id": "random",
+    "en": "Random Facts",
+    "zh": "冷知识"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "Which animal is famous for changing its skin color?",
+    "zh": "哪一种动物以能够改变皮肤颜色而闻名？"
+  },
+  "options": {
+    "A": {
+      "en": "Chameleon",
+      "zh": "变色龙"
+    },
+    "B": {
+      "en": "Rabbit",
+      "zh": "兔子"
+    },
+    "C": {
+      "en": "Penguin",
+      "zh": "企鹅"
+    },
+    "D": {
+      "en": "Kangaroo",
+      "zh": "袋鼠"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Chameleons are famous for changing their skin coloration, including for communication and temperature regulation.",
+    "zh": "变色龙以改变皮肤颜色而闻名，变色可用于交流和调节体温等。"
+  }
+},
+{
+  "id": 51,
+  "field": {
+    "id": "anime",
+    "en": "Anime",
+    "zh": "动漫"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "In Naruto, what is the name of Naruto Uzumaki's home village?",
+    "zh": "在《火影忍者》中，漩涡鸣人的家乡忍者村叫什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Sunagakure",
+      "zh": "砂隐村"
+    },
+    "B": {
+      "en": "Kirigakure",
+      "zh": "雾隐村"
+    },
+    "C": {
+      "en": "Konohagakure",
+      "zh": "木叶隐村"
+    },
+    "D": {
+      "en": "Kumogakure",
+      "zh": "云隐村"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "Naruto Uzumaki is a ninja from Konohagakure, commonly called the Hidden Leaf Village.",
+    "zh": "漩涡鸣人来自木叶隐村，也就是常说的木叶村。"
+  }
+},
+{
+  "id": 52,
+  "field": {
+    "id": "history",
+    "en": "History",
+    "zh": "历史"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "Which ancient civilization built the Colosseum?",
+    "zh": "罗马斗兽场是由哪一个古代文明建造的？"
+  },
+  "options": {
+    "A": {
+      "en": "Romans",
+      "zh": "罗马人"
+    },
+    "B": {
+      "en": "Greeks",
+      "zh": "希腊人"
+    },
+    "C": {
+      "en": "Egyptians",
+      "zh": "埃及人"
+    },
+    "D": {
+      "en": "Persians",
+      "zh": "波斯人"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "The Colosseum was constructed during the Roman Empire in the first century AD.",
+    "zh": "罗马斗兽场于公元一世纪的罗马帝国时期建造。"
+  }
+},
+{
+  "id": 53,
+  "field": {
+    "id": "pokemon",
+    "en": "Pokémon",
+    "zh": "宝可梦"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "Which type of move is super effective against a Water-type Pokémon?",
+    "zh": "哪一种属性的招式对水属性宝可梦效果绝佳？"
+  },
+  "options": {
+    "A": {
+      "en": "Fire",
+      "zh": "火"
+    },
+    "B": {
+      "en": "Electric",
+      "zh": "电"
+    },
+    "C": {
+      "en": "Ice",
+      "zh": "冰"
+    },
+    "D": {
+      "en": "Steel",
+      "zh": "钢"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Electric-type moves are super effective against Water-type Pokémon.",
+    "zh": "电属性招式对水属性宝可梦效果绝佳。"
+  }
+},
+{
+  "id": 54,
+  "field": {
+    "id": "science",
+    "en": "Science",
+    "zh": "科学"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "What is the chemical symbol for silver?",
+    "zh": "银的化学符号是什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Si",
+      "zh": "Si"
+    },
+    "B": {
+      "en": "S",
+      "zh": "S"
+    },
+    "C": {
+      "en": "Ag",
+      "zh": "Ag"
+    },
+    "D": {
+      "en": "Au",
+      "zh": "Au"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "The chemical symbol for silver is Ag, derived from the Latin word argentum.",
+    "zh": "银的化学符号是 Ag，来自拉丁文 argentum。"
+  }
+},
+{
+  "id": 55,
+  "field": {
+    "id": "games",
+    "en": "Video Games",
+    "zh": "电子游戏"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "In Super Mario games, what is the name of Mario's brother?",
+    "zh": "在《超级马力欧》系列中，马力欧的兄弟叫什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Wario",
+      "zh": "瓦力欧"
+    },
+    "B": {
+      "en": "Luigi",
+      "zh": "路易吉"
+    },
+    "C": {
+      "en": "Yoshi",
+      "zh": "耀西"
+    },
+    "D": {
+      "en": "Toad",
+      "zh": "奇诺比奥"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Luigi is Mario's younger twin brother and appears throughout the Super Mario series.",
+    "zh": "路易吉是马力欧的双胞胎弟弟，并经常出现在《超级马力欧》系列中。"
+  }
+},
+{
+  "id": 56,
+  "field": {
+    "id": "geography",
+    "en": "Geography",
+    "zh": "地理"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "Which country is home to Mount Fuji?",
+    "zh": "富士山位于哪个国家？"
+  },
+  "options": {
+    "A": {
+      "en": "China",
+      "zh": "中国"
+    },
+    "B": {
+      "en": "South Korea",
+      "zh": "韩国"
+    },
+    "C": {
+      "en": "Japan",
+      "zh": "日本"
+    },
+    "D": {
+      "en": "Mongolia",
+      "zh": "蒙古"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "Mount Fuji is located on the Japanese island of Honshu.",
+    "zh": "富士山位于日本本州岛。"
+  }
+},
+{
+  "id": 57,
+  "field": {
+    "id": "sports",
+    "en": "Sports",
+    "zh": "体育"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "In basketball, how many points is a successful free throw worth?",
+    "zh": "在篮球比赛中，成功罚进一个罚球可以得到多少分？"
+  },
+  "options": {
+    "A": {
+      "en": "1",
+      "zh": "1"
+    },
+    "B": {
+      "en": "2",
+      "zh": "2"
+    },
+    "C": {
+      "en": "3",
+      "zh": "3"
+    },
+    "D": {
+      "en": "4",
+      "zh": "4"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Each successful free throw in basketball is worth one point.",
+    "zh": "篮球比赛中，每罚进一个罚球可以得到 1 分。"
+  }
+},
+{
+  "id": 58,
+  "field": {
+    "id": "food",
+    "en": "Food",
+    "zh": "食物"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "Which country is generally considered the birthplace of pizza in its modern form?",
+    "zh": "现代形式的披萨通常被认为起源于哪个国家？"
+  },
+  "options": {
+    "A": {
+      "en": "France",
+      "zh": "法国"
+    },
+    "B": {
+      "en": "Italy",
+      "zh": "意大利"
+    },
+    "C": {
+      "en": "Spain",
+      "zh": "西班牙"
+    },
+    "D": {
+      "en": "Greece",
+      "zh": "希腊"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Modern pizza is generally associated with Naples, Italy.",
+    "zh": "现代披萨通常被认为起源于意大利那不勒斯。"
+  }
+},
+{
+  "id": 59,
+  "field": {
+    "id": "random",
+    "en": "Random Facts",
+    "zh": "冷知识"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "Which part of the human body contains the smallest bones?",
+    "zh": "人体最小的骨头位于哪个部位？"
+  },
+  "options": {
+    "A": {
+      "en": "Ear",
+      "zh": "耳朵"
+    },
+    "B": {
+      "en": "Nose",
+      "zh": "鼻子"
+    },
+    "C": {
+      "en": "Finger",
+      "zh": "手指"
+    },
+    "D": {
+      "en": "Foot",
+      "zh": "脚"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "The middle ear contains three tiny bones, including the stapes, the smallest bone in the human body.",
+    "zh": "中耳内有三块非常小的听小骨，其中镫骨是人体最小的骨头。"
+  }
+},
+{
+  "id": 60,
+  "field": {
+    "id": "yugioh",
+    "en": "Yu-Gi-Oh!",
+    "zh": "游戏王"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "What is the original ATK of Blue-Eyes White Dragon?",
+    "zh": "《游戏王》中“青眼白龙”的原本攻击力是多少？"
+  },
+  "options": {
+    "A": {
+      "en": "2500",
+      "zh": "2500"
+    },
+    "B": {
+      "en": "2800",
+      "zh": "2800"
+    },
+    "C": {
+      "en": "3000",
+      "zh": "3000"
+    },
+    "D": {
+      "en": "3500",
+      "zh": "3500"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "Blue-Eyes White Dragon has 3000 original ATK and 2500 original DEF.",
+    "zh": "“青眼白龙”的原本攻击力是 3000，原本守备力是 2500。"
+  }
+},
+{
+  "id": 61,
+  "field": {
+    "id": "anime",
+    "en": "Anime",
+    "zh": "动漫"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "In Death Note, what is the name of the Shinigami who originally drops the Death Note that Light Yagami finds?",
+    "zh": "在《死亡笔记》中，夜神月捡到的死亡笔记最初是哪一位死神丢到人间的？"
+  },
+  "options": {
+    "A": {
+      "en": "Rem",
+      "zh": "雷姆"
+    },
+    "B": {
+      "en": "Ryuk",
+      "zh": "琉克"
+    },
+    "C": {
+      "en": "Sidoh",
+      "zh": "席多"
+    },
+    "D": {
+      "en": "Gelus",
+      "zh": "杰拉斯"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Ryuk deliberately drops a Death Note into the human world, where Light Yagami finds it.",
+    "zh": "琉克故意把一本死亡笔记丢到人间，之后被夜神月捡到。"
+  }
+},
+{
+  "id": 62,
+  "field": {
+    "id": "science",
+    "en": "Science",
+    "zh": "科学"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which organelle is primarily responsible for producing ATP through cellular respiration in eukaryotic cells?",
+    "zh": "在真核细胞中，哪一种细胞器主要负责通过细胞呼吸产生 ATP？"
+  },
+  "options": {
+    "A": {
+      "en": "Ribosome",
+      "zh": "核糖体"
+    },
+    "B": {
+      "en": "Golgi apparatus",
+      "zh": "高尔基体"
+    },
+    "C": {
+      "en": "Mitochondrion",
+      "zh": "线粒体"
+    },
+    "D": {
+      "en": "Lysosome",
+      "zh": "溶酶体"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "Mitochondria produce most of a eukaryotic cell's ATP through cellular respiration.",
+    "zh": "线粒体通过细胞呼吸产生真核细胞所需的大部分 ATP。"
+  }
+},
+{
+  "id": 63,
+  "field": {
+    "id": "games",
+    "en": "Video Games",
+    "zh": "电子游戏"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "In Minecraft, which hostile mob normally drops Blaze Rods?",
+    "zh": "在《Minecraft》中，哪一种敌对生物通常会掉落烈焰棒？"
+  },
+  "options": {
+    "A": {
+      "en": "Ghast",
+      "zh": "恶魂"
+    },
+    "B": {
+      "en": "Blaze",
+      "zh": "烈焰人"
+    },
+    "C": {
+      "en": "Wither Skeleton",
+      "zh": "凋灵骷髅"
+    },
+    "D": {
+      "en": "Magma Cube",
+      "zh": "岩浆怪"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Blazes can drop Blaze Rods when killed by a player or a tamed wolf.",
+    "zh": "烈焰人在被玩家或驯服的狼击杀时可以掉落烈焰棒。"
+  }
+},
+{
+  "id": 64,
+  "field": {
+    "id": "geography",
+    "en": "Geography",
+    "zh": "地理"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which country is completely surrounded by South Africa?",
+    "zh": "哪一个国家的领土完全被南非包围？"
+  },
+  "options": {
+    "A": {
+      "en": "Eswatini",
+      "zh": "斯威士兰"
+    },
+    "B": {
+      "en": "Lesotho",
+      "zh": "莱索托"
+    },
+    "C": {
+      "en": "Botswana",
+      "zh": "博茨瓦纳"
+    },
+    "D": {
+      "en": "Namibia",
+      "zh": "纳米比亚"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Lesotho is an enclave entirely surrounded by South Africa.",
+    "zh": "莱索托是一个完全被南非领土包围的内陆国家。"
+  }
+},
+{
+  "id": 65,
+  "field": {
+    "id": "pokemon",
+    "en": "Pokémon",
+    "zh": "宝可梦"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which Pokémon evolves into Milotic?",
+    "zh": "哪一只宝可梦可以进化成美纳斯？"
+  },
+  "options": {
+    "A": {
+      "en": "Feebas",
+      "zh": "丑丑鱼"
+    },
+    "B": {
+      "en": "Magikarp",
+      "zh": "鲤鱼王"
+    },
+    "C": {
+      "en": "Carvanha",
+      "zh": "利牙鱼"
+    },
+    "D": {
+      "en": "Barboach",
+      "zh": "泥泥鳅"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Feebas evolves into Milotic under specific evolution conditions that vary between Pokémon games.",
+    "zh": "丑丑鱼在满足特定进化条件后可以进化成美纳斯，不同《宝可梦》游戏中的具体条件有所不同。"
+  }
+},
+{
+  "id": 66,
+  "field": {
+    "id": "history",
+    "en": "History",
+    "zh": "历史"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which empire was ruled by Mansa Musa in the 14th century?",
+    "zh": "14 世纪时，曼萨·穆萨统治的是哪一个帝国？"
+  },
+  "options": {
+    "A": {
+      "en": "Mali Empire",
+      "zh": "马里帝国"
+    },
+    "B": {
+      "en": "Ottoman Empire",
+      "zh": "奥斯曼帝国"
+    },
+    "C": {
+      "en": "Songhai Empire",
+      "zh": "桑海帝国"
+    },
+    "D": {
+      "en": "Aksumite Empire",
+      "zh": "阿克苏姆帝国"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Mansa Musa ruled the Mali Empire and became famous for its enormous wealth and his pilgrimage to Mecca.",
+    "zh": "曼萨·穆萨统治马里帝国，并因其巨大的财富以及前往麦加朝圣而闻名。"
+  }
+},
+{
+  "id": 67,
+  "field": {
+    "id": "bible",
+    "en": "Bible",
+    "zh": "圣经"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which prophet confronted King David after David's actions involving Bathsheba and Uriah?",
+    "zh": "大卫与拔示巴和乌利亚的事件之后，是哪一位先知责备大卫王？"
+  },
+  "options": {
+    "A": {
+      "en": "Elijah",
+      "zh": "以利亚"
+    },
+    "B": {
+      "en": "Nathan",
+      "zh": "拿单"
+    },
+    "C": {
+      "en": "Samuel",
+      "zh": "撒母耳"
+    },
+    "D": {
+      "en": "Isaiah",
+      "zh": "以赛亚"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "The prophet Nathan confronted David and told him a parable that exposed his wrongdoing.",
+    "zh": "先知拿单责备大卫，并通过一个比喻指出大卫所犯的罪。"
+  }
+},
+{
+  "id": 68,
+  "field": {
+    "id": "technology",
+    "en": "Technology",
+    "zh": "科技"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which protocol is primarily used to translate domain names such as example.com into IP addresses?",
+    "zh": "哪一种协议主要负责把 example.com 这样的域名转换成 IP 地址？"
+  },
+  "options": {
+    "A": {
+      "en": "FTP",
+      "zh": "FTP"
+    },
+    "B": {
+      "en": "SMTP",
+      "zh": "SMTP"
+    },
+    "C": {
+      "en": "DNS",
+      "zh": "DNS"
+    },
+    "D": {
+      "en": "SSH",
+      "zh": "SSH"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "The Domain Name System, or DNS, resolves domain names into IP addresses.",
+    "zh": "域名系统（DNS）负责把域名解析成相应的 IP 地址。"
+  }
+},
+{
+  "id": 69,
+  "field": {
+    "id": "random",
+    "en": "Random Facts",
+    "zh": "冷知识"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which common fruit belongs botanically to the berry category, while strawberries do not?",
+    "zh": "从植物学分类来看，以下哪一种常见水果属于真正的浆果，而草莓反而不属于？"
+  },
+  "options": {
+    "A": {
+      "en": "Banana",
+      "zh": "香蕉"
+    },
+    "B": {
+      "en": "Apple",
+      "zh": "苹果"
+    },
+    "C": {
+      "en": "Peach",
+      "zh": "桃"
+    },
+    "D": {
+      "en": "Cherry",
+      "zh": "樱桃"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Botanically, bananas meet the definition of berries, while strawberries are aggregate accessory fruits.",
+    "zh": "从植物学定义来看，香蕉属于浆果，而草莓属于聚合附属果，并不是真正的浆果。"
+  }
+},
+{
+  "id": 70,
+  "field": {
+    "id": "yugioh",
+    "en": "Yu-Gi-Oh!",
+    "zh": "游戏王"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which summoning method normally uses a Tuner monster together with one or more non-Tuner monsters?",
+    "zh": "《游戏王》中，哪一种召唤方式通常需要使用一只调整怪兽和一只或以上的非调整怪兽？"
+  },
+  "options": {
+    "A": {
+      "en": "Fusion Summon",
+      "zh": "融合召唤"
+    },
+    "B": {
+      "en": "Xyz Summon",
+      "zh": "超量召唤"
+    },
+    "C": {
+      "en": "Synchro Summon",
+      "zh": "同调召唤"
+    },
+    "D": {
+      "en": "Ritual Summon",
+      "zh": "仪式召唤"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "Synchro Summoning normally uses a Tuner and one or more non-Tuner monsters whose Levels meet the Synchro Monster's requirements.",
+    "zh": "同调召唤通常使用一只调整怪兽和一只或以上非调整怪兽，并让它们的等级满足同调怪兽的召唤条件。"
+  }
+},
+{
+  "id": 71,
+  "field": {
+    "id": "science",
+    "en": "Science",
+    "zh": "科学"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which element has the atomic number 74?",
+    "zh": "原子序数 74 对应哪一种元素？"
+  },
+  "options": {
+    "A": {
+      "en": "Tungsten",
+      "zh": "钨"
+    },
+    "B": {
+      "en": "Rhenium",
+      "zh": "铼"
+    },
+    "C": {
+      "en": "Osmium",
+      "zh": "锇"
+    },
+    "D": {
+      "en": "Tantalum",
+      "zh": "钽"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Tungsten has atomic number 74 and the chemical symbol W.",
+    "zh": "钨的原子序数是 74，化学符号是 W。"
+  }
+},
+{
+  "id": 72,
+  "field": {
+    "id": "pokemon",
+    "en": "Pokémon",
+    "zh": "宝可梦"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which Pokémon has National Pokédex number 292?",
+    "zh": "全国图鉴编号 292 的宝可梦是哪一只？"
+  },
+  "options": {
+    "A": {
+      "en": "Ninjask",
+      "zh": "铁面忍者"
+    },
+    "B": {
+      "en": "Shedinja",
+      "zh": "脱壳忍者"
+    },
+    "C": {
+      "en": "Sableye",
+      "zh": "勾魂眼"
+    },
+    "D": {
+      "en": "Mawile",
+      "zh": "大嘴娃"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Shedinja is number 292 in the National Pokédex.",
+    "zh": "脱壳忍者在全国图鉴中的编号是 292。"
+  }
+},
+{
+  "id": 73,
+  "field": {
+    "id": "geography",
+    "en": "Geography",
+    "zh": "地理"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which country has the capital city Ouagadougou?",
+    "zh": "哪个国家的首都是瓦加杜古（Ouagadougou）？"
+  },
+  "options": {
+    "A": {
+      "en": "Mali",
+      "zh": "马里"
+    },
+    "B": {
+      "en": "Niger",
+      "zh": "尼日尔"
+    },
+    "C": {
+      "en": "Burkina Faso",
+      "zh": "布基纳法索"
+    },
+    "D": {
+      "en": "Benin",
+      "zh": "贝宁"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "Ouagadougou is the capital and largest city of Burkina Faso.",
+    "zh": "瓦加杜古是布基纳法索的首都，也是该国最大的城市。"
+  }
+},
+{
+  "id": 74,
+  "field": {
+    "id": "bible",
+    "en": "Bible",
+    "zh": "圣经"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which king of Judah was struck with leprosy after unlawfully attempting to burn incense in the temple?",
+    "zh": "犹大的哪一位王因为擅自在圣殿中烧香而患上大麻风？"
+  },
+  "options": {
+    "A": {
+      "en": "Uzziah",
+      "zh": "乌西雅"
+    },
+    "B": {
+      "en": "Hezekiah",
+      "zh": "希西家"
+    },
+    "C": {
+      "en": "Josiah",
+      "zh": "约西亚"
+    },
+    "D": {
+      "en": "Jehoshaphat",
+      "zh": "约沙法"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "According to 2 Chronicles 26, King Uzziah was struck with leprosy after attempting to burn incense in the temple.",
+    "zh": "根据《历代志下》第 26 章，乌西雅王擅自在圣殿烧香，因此患上了大麻风。"
+  }
+},
+{
+  "id": 75,
+  "field": {
+    "id": "technology",
+    "en": "Technology",
+    "zh": "科技"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Who created the C programming language?",
+    "zh": "C 编程语言是由谁创造的？"
+  },
+  "options": {
+    "A": {
+      "en": "Bjarne Stroustrup",
+      "zh": "Bjarne Stroustrup"
+    },
+    "B": {
+      "en": "Dennis Ritchie",
+      "zh": "Dennis Ritchie"
+    },
+    "C": {
+      "en": "James Gosling",
+      "zh": "James Gosling"
+    },
+    "D": {
+      "en": "Guido van Rossum",
+      "zh": "Guido van Rossum"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Dennis Ritchie developed the C programming language at Bell Labs in the early 1970s.",
+    "zh": "Dennis Ritchie 于 1970 年代初期在贝尔实验室开发了 C 编程语言。"
+  }
+},
+{
+  "id": 76,
+  "field": {
+    "id": "history",
+    "en": "History",
+    "zh": "历史"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which treaty formally ended the Thirty Years' War in 1648?",
+    "zh": "1648 年哪一系列条约正式结束了三十年战争？"
+  },
+  "options": {
+    "A": {
+      "en": "Treaty of Versailles",
+      "zh": "凡尔赛条约"
+    },
+    "B": {
+      "en": "Peace of Westphalia",
+      "zh": "威斯特伐利亚和约"
+    },
+    "C": {
+      "en": "Treaty of Utrecht",
+      "zh": "乌得勒支条约"
+    },
+    "D": {
+      "en": "Treaty of Tordesillas",
+      "zh": "托德西利亚斯条约"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "The Peace of Westphalia, a series of treaties concluded in 1648, ended the Thirty Years' War.",
+    "zh": "1648 年签订的一系列威斯特伐利亚和约结束了三十年战争。"
+  }
+},
+{
+  "id": 77,
+  "field": {
+    "id": "animals",
+    "en": "Animals",
+    "zh": "动物"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which living mammal has the longest gestation period?",
+    "zh": "现存哺乳动物中，哪一种拥有最长的妊娠期？"
+  },
+  "options": {
+    "A": {
+      "en": "Blue whale",
+      "zh": "蓝鲸"
+    },
+    "B": {
+      "en": "African elephant",
+      "zh": "非洲象"
+    },
+    "C": {
+      "en": "Giraffe",
+      "zh": "长颈鹿"
+    },
+    "D": {
+      "en": "Hippopotamus",
+      "zh": "河马"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "African elephants have a gestation period of about 22 months, the longest among living mammals.",
+    "zh": "非洲象的妊娠期大约为 22 个月，是现存哺乳动物中最长的。"
+  }
+},
+{
+  "id": 78,
+  "field": {
+    "id": "space",
+    "en": "Space",
+    "zh": "太空"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "What is the largest moon of Neptune?",
+    "zh": "海王星最大的卫星是哪一颗？"
+  },
+  "options": {
+    "A": {
+      "en": "Triton",
+      "zh": "海卫一"
+    },
+    "B": {
+      "en": "Nereid",
+      "zh": "海卫二"
+    },
+    "C": {
+      "en": "Proteus",
+      "zh": "海卫八"
+    },
+    "D": {
+      "en": "Larissa",
+      "zh": "海卫七"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Triton is Neptune's largest moon and follows a retrograde orbit around the planet.",
+    "zh": "海卫一是海王星最大的卫星，而且以逆行轨道绕海王星运行。"
+  }
+},
+{
+  "id": 79,
+  "field": {
+    "id": "random",
+    "en": "Random Facts",
+    "zh": "冷知识"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "What is the technical term for the smell produced when rain falls on dry soil?",
+    "zh": "雨水落在干燥土地后产生的特殊气味，专业名称是什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Petrichor",
+      "zh": "Petrichor"
+    },
+    "B": {
+      "en": "Geoscent",
+      "zh": "Geoscent"
+    },
+    "C": {
+      "en": "Pluviosis",
+      "zh": "Pluviosis"
+    },
+    "D": {
+      "en": "Hydrosmia",
+      "zh": "Hydrosmia"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Petrichor is the term for the distinctive earthy smell associated with rain falling on dry ground.",
+    "zh": "Petrichor 是指雨水落在干燥土地后出现的独特泥土气味。"
+  }
+},
+{
+  "id": 80,
+  "field": {
+    "id": "yugioh",
+    "en": "Yu-Gi-Oh!",
+    "zh": "游戏王"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "What is the original DEF of Dark Magician?",
+    "zh": "《游戏王》中“黑魔导”的原本守备力是多少？"
+  },
+  "options": {
+    "A": {
+      "en": "1800",
+      "zh": "1800"
+    },
+    "B": {
+      "en": "2000",
+      "zh": "2000"
+    },
+    "C": {
+      "en": "2100",
+      "zh": "2100"
+    },
+    "D": {
+      "en": "2500",
+      "zh": "2500"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "Dark Magician has 2500 original ATK and 2100 original DEF.",
+    "zh": "“黑魔导”的原本攻击力是 2500，原本守备力是 2100。"
+  }
+},
+{
+  "id": 81,
+  "field": {
+    "id": "human_body",
+    "en": "Human Body",
+    "zh": "人体"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "Which organ pumps blood around the human body?",
+    "zh": "人体中哪一个器官负责把血液泵送到全身？"
+  },
+  "options": {
+    "A": {
+      "en": "Liver",
+      "zh": "肝脏"
+    },
+    "B": {
+      "en": "Heart",
+      "zh": "心脏"
+    },
+    "C": {
+      "en": "Lung",
+      "zh": "肺"
+    },
+    "D": {
+      "en": "Kidney",
+      "zh": "肾脏"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "The heart pumps blood through the circulatory system around the body.",
+    "zh": "心脏通过循环系统将血液泵送到全身。"
+  }
+},
+{
+  "id": 82,
+  "field": {
+    "id": "cartoon",
+    "en": "Cartoons",
+    "zh": "卡通"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "What type of animal is Tom in Tom and Jerry?",
+    "zh": "《猫和老鼠》中的汤姆是什么动物？"
+  },
+  "options": {
+    "A": {
+      "en": "Mouse",
+      "zh": "老鼠"
+    },
+    "B": {
+      "en": "Dog",
+      "zh": "狗"
+    },
+    "C": {
+      "en": "Cat",
+      "zh": "猫"
+    },
+    "D": {
+      "en": "Rabbit",
+      "zh": "兔子"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "Tom is a cat, while Jerry is a mouse.",
+    "zh": "汤姆是一只猫，而杰瑞是一只老鼠。"
+  }
+},
+{
+  "id": 83,
+  "field": {
+    "id": "inventions",
+    "en": "Inventions",
+    "zh": "发明"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "Which invention is Alexander Graham Bell best known for helping develop?",
+    "zh": "亚历山大·格拉汉姆·贝尔最著名的是参与发展了哪一项发明？"
+  },
+  "options": {
+    "A": {
+      "en": "Telephone",
+      "zh": "电话"
+    },
+    "B": {
+      "en": "Television",
+      "zh": "电视"
+    },
+    "C": {
+      "en": "Airplane",
+      "zh": "飞机"
+    },
+    "D": {
+      "en": "Microscope",
+      "zh": "显微镜"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Alexander Graham Bell is best known for his work on the development and early patenting of the telephone.",
+    "zh": "亚历山大·格拉汉姆·贝尔以参与电话的发展以及早期电话专利而闻名。"
+  }
+},
+{
+  "id": 84,
+  "field": {
+    "id": "flags",
+    "en": "Flags",
+    "zh": "国旗"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "Which country's flag features a red maple leaf?",
+    "zh": "哪个国家的国旗上有一片红色枫叶？"
+  },
+  "options": {
+    "A": {
+      "en": "Canada",
+      "zh": "加拿大"
+    },
+    "B": {
+      "en": "Australia",
+      "zh": "澳大利亚"
+    },
+    "C": {
+      "en": "Austria",
+      "zh": "奥地利"
+    },
+    "D": {
+      "en": "Denmark",
+      "zh": "丹麦"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Canada's national flag features a red maple leaf in its center.",
+    "zh": "加拿大国旗的中央有一片红色枫叶。"
+  }
+},
+{
+  "id": 85,
+  "field": {
+    "id": "transportation",
+    "en": "Transportation",
+    "zh": "交通"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "Which vehicle normally travels on railway tracks?",
+    "zh": "哪一种交通工具通常在铁路轨道上行驶？"
+  },
+  "options": {
+    "A": {
+      "en": "Train",
+      "zh": "火车"
+    },
+    "B": {
+      "en": "Airplane",
+      "zh": "飞机"
+    },
+    "C": {
+      "en": "Ship",
+      "zh": "轮船"
+    },
+    "D": {
+      "en": "Helicopter",
+      "zh": "直升机"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Trains are designed to travel along railway tracks.",
+    "zh": "火车通常沿着铁路轨道行驶。"
+  }
+},
+{
+  "id": 86,
+  "field": {
+    "id": "mythology",
+    "en": "Mythology",
+    "zh": "神话"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "In Greek mythology, who is the god of the sea?",
+    "zh": "在希腊神话中，谁是海神？"
+  },
+  "options": {
+    "A": {
+      "en": "Zeus",
+      "zh": "宙斯"
+    },
+    "B": {
+      "en": "Ares",
+      "zh": "阿瑞斯"
+    },
+    "C": {
+      "en": "Poseidon",
+      "zh": "波塞冬"
+    },
+    "D": {
+      "en": "Hermes",
+      "zh": "赫尔墨斯"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "Poseidon is the god of the sea in Greek mythology.",
+    "zh": "在希腊神话中，波塞冬是海神。"
+  }
+},
+{
+  "id": 87,
+  "field": {
+    "id": "internet",
+    "en": "Internet",
+    "zh": "互联网"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "What does Wi-Fi allow devices to do?",
+    "zh": "Wi-Fi 主要让设备能够做什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Connect to a network wirelessly",
+      "zh": "无线连接网络"
+    },
+    "B": {
+      "en": "Increase battery size",
+      "zh": "增加电池容量"
+    },
+    "C": {
+      "en": "Print without a printer",
+      "zh": "在没有打印机的情况下打印"
+    },
+    "D": {
+      "en": "Increase screen resolution",
+      "zh": "提高屏幕分辨率"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Wi-Fi allows compatible devices to connect to a local network using wireless radio signals.",
+    "zh": "Wi-Fi 让兼容设备通过无线电信号连接到本地网络。"
+  }
+},
+{
+  "id": 88,
+  "field": {
+    "id": "everyday",
+    "en": "Everyday Knowledge",
+    "zh": "生活常识"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "Which tool is normally used to tighten or loosen a screw?",
+    "zh": "通常使用哪一种工具来拧紧或松开螺丝？"
+  },
+  "options": {
+    "A": {
+      "en": "Hammer",
+      "zh": "锤子"
+    },
+    "B": {
+      "en": "Screwdriver",
+      "zh": "螺丝刀"
+    },
+    "C": {
+      "en": "Saw",
+      "zh": "锯子"
+    },
+    "D": {
+      "en": "Paintbrush",
+      "zh": "油漆刷"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "A screwdriver is designed to turn compatible screws.",
+    "zh": "螺丝刀用于旋转相匹配的螺丝。"
+  }
+},
+{
+  "id": 89,
+  "field": {
+    "id": "brands",
+    "en": "Brands",
+    "zh": "品牌"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "Which company makes the PlayStation game console?",
+    "zh": "PlayStation 游戏主机是由哪一家公司推出的？"
+  },
+  "options": {
+    "A": {
+      "en": "Nintendo",
+      "zh": "任天堂"
+    },
+    "B": {
+      "en": "Sony",
+      "zh": "索尼"
+    },
+    "C": {
+      "en": "Microsoft",
+      "zh": "微软"
+    },
+    "D": {
+      "en": "Sega",
+      "zh": "世嘉"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "PlayStation is a video game brand created and operated by Sony Interactive Entertainment.",
+    "zh": "PlayStation 是由索尼互动娱乐推出和运营的电子游戏品牌。"
+  }
+},
+{
+  "id": 90,
+  "field": {
+    "id": "random",
+    "en": "Random Facts",
+    "zh": "冷知识"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "Which bird is famous for being unable to fly but is an excellent swimmer?",
+    "zh": "哪一种鸟以不会飞但非常擅长游泳而闻名？"
+  },
+  "options": {
+    "A": {
+      "en": "Eagle",
+      "zh": "鹰"
+    },
+    "B": {
+      "en": "Parrot",
+      "zh": "鹦鹉"
+    },
+    "C": {
+      "en": "Penguin",
+      "zh": "企鹅"
+    },
+    "D": {
+      "en": "Pigeon",
+      "zh": "鸽子"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "Penguins cannot fly, but their bodies and flippers are highly adapted for swimming.",
+    "zh": "企鹅不会飞，但它们的身体和鳍状翅非常适合游泳。"
+  }
+},
+{
+  "id": 91,
+  "field": {
+    "id": "human_body",
+    "en": "Human Body",
+    "zh": "人体"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "Which is the largest organ of the human body?",
+    "zh": "人体最大的器官是什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Liver",
+      "zh": "肝脏"
+    },
+    "B": {
+      "en": "Brain",
+      "zh": "大脑"
+    },
+    "C": {
+      "en": "Skin",
+      "zh": "皮肤"
+    },
+    "D": {
+      "en": "Lung",
+      "zh": "肺"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "The skin is the largest organ of the human body by surface area and overall mass.",
+    "zh": "按照表面积和整体质量计算，皮肤是人体最大的器官。"
+  }
+},
+{
+  "id": 92,
+  "field": {
+    "id": "cartoon",
+    "en": "Cartoons",
+    "zh": "卡通"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "In SpongeBob SquarePants, what type of animal is Patrick Star?",
+    "zh": "在《海绵宝宝》中，派大星是什么动物？"
+  },
+  "options": {
+    "A": {
+      "en": "Jellyfish",
+      "zh": "水母"
+    },
+    "B": {
+      "en": "Starfish",
+      "zh": "海星"
+    },
+    "C": {
+      "en": "Crab",
+      "zh": "螃蟹"
+    },
+    "D": {
+      "en": "Squid",
+      "zh": "鱿鱼"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Patrick Star is a pink starfish and SpongeBob's close friend.",
+    "zh": "派大星是一只粉红色的海星，也是海绵宝宝的好朋友。"
+  }
+},
+{
+  "id": 93,
+  "field": {
+    "id": "mythology",
+    "en": "Mythology",
+    "zh": "神话"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "In Norse mythology, which god is famous for wielding the hammer Mjolnir?",
+    "zh": "在北欧神话中，哪一位神以挥舞雷神之锤 Mjolnir 而闻名？"
+  },
+  "options": {
+    "A": {
+      "en": "Odin",
+      "zh": "奥丁"
+    },
+    "B": {
+      "en": "Loki",
+      "zh": "洛基"
+    },
+    "C": {
+      "en": "Thor",
+      "zh": "索尔"
+    },
+    "D": {
+      "en": "Baldr",
+      "zh": "巴德尔"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "Thor is the Norse god associated with thunder and wields the hammer Mjolnir.",
+    "zh": "索尔是北欧神话中的雷神，他使用的武器是雷神之锤 Mjolnir。"
+  }
+},
+{
+  "id": 94,
+  "field": {
+    "id": "inventions",
+    "en": "Inventions",
+    "zh": "发明"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "Who developed the movable-type printing press in Europe during the 15th century?",
+    "zh": "15 世纪时，谁在欧洲发展了活字印刷机？"
+  },
+  "options": {
+    "A": {
+      "en": "Johannes Gutenberg",
+      "zh": "约翰内斯·古腾堡"
+    },
+    "B": {
+      "en": "Galileo Galilei",
+      "zh": "伽利略"
+    },
+    "C": {
+      "en": "Isaac Newton",
+      "zh": "艾萨克·牛顿"
+    },
+    "D": {
+      "en": "Leonardo da Vinci",
+      "zh": "列奥纳多·达·芬奇"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Johannes Gutenberg developed a practical movable-type printing system in Europe during the 15th century.",
+    "zh": "约翰内斯·古腾堡在 15 世纪的欧洲发展出实用的活字印刷系统。"
+  }
+},
+{
+  "id": 95,
+  "field": {
+    "id": "flags",
+    "en": "Flags",
+    "zh": "国旗"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "Which country's national flag features a large red circle on a white background?",
+    "zh": "哪个国家的国旗是在白色背景中央有一个大红圆？"
+  },
+  "options": {
+    "A": {
+      "en": "Bangladesh",
+      "zh": "孟加拉国"
+    },
+    "B": {
+      "en": "Japan",
+      "zh": "日本"
+    },
+    "C": {
+      "en": "Indonesia",
+      "zh": "印度尼西亚"
+    },
+    "D": {
+      "en": "Singapore",
+      "zh": "新加坡"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Japan's national flag features a red disc representing the sun on a white field.",
+    "zh": "日本国旗在白色背景上有一个代表太阳的红色圆形。"
+  }
+},
+{
+  "id": 96,
+  "field": {
+    "id": "internet",
+    "en": "Internet",
+    "zh": "互联网"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "What does URL stand for?",
+    "zh": "URL 的英文全称是什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Universal Resource Link",
+      "zh": "Universal Resource Link"
+    },
+    "B": {
+      "en": "Uniform Resource Locator",
+      "zh": "统一资源定位符"
+    },
+    "C": {
+      "en": "Unified Routing Location",
+      "zh": "Unified Routing Location"
+    },
+    "D": {
+      "en": "Universal Routing Locator",
+      "zh": "Universal Routing Locator"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "URL stands for Uniform Resource Locator, which identifies the location of a resource on a network.",
+    "zh": "URL 是 Uniform Resource Locator（统一资源定位符）的缩写，用于标识网络资源的位置。"
+  }
+},
+{
+  "id": 97,
+  "field": {
+    "id": "transportation",
+    "en": "Transportation",
+    "zh": "交通"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "What does ABS commonly stand for in a car's braking system?",
+    "zh": "汽车制动系统中的 ABS 通常代表什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Automatic Brake System",
+      "zh": "自动制动系统"
+    },
+    "B": {
+      "en": "Anti-lock Braking System",
+      "zh": "防抱死制动系统"
+    },
+    "C": {
+      "en": "Advanced Balance System",
+      "zh": "高级平衡系统"
+    },
+    "D": {
+      "en": "Automatic Balance Suspension",
+      "zh": "自动平衡悬挂"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "ABS stands for Anti-lock Braking System and helps prevent wheels from locking during hard braking.",
+    "zh": "ABS 是防抱死制动系统，可以帮助防止车辆在紧急制动时车轮锁死。"
+  }
+},
+{
+  "id": 98,
+  "field": {
+    "id": "brands",
+    "en": "Brands",
+    "zh": "品牌"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "Which company developed the Xbox video game console brand?",
+    "zh": "Xbox 电子游戏主机品牌是由哪一家公司开发的？"
+  },
+  "options": {
+    "A": {
+      "en": "Sony",
+      "zh": "索尼"
+    },
+    "B": {
+      "en": "Nintendo",
+      "zh": "任天堂"
+    },
+    "C": {
+      "en": "Microsoft",
+      "zh": "微软"
+    },
+    "D": {
+      "en": "Sega",
+      "zh": "世嘉"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "Xbox is Microsoft's video game console and gaming brand.",
+    "zh": "Xbox 是微软旗下的电子游戏主机及游戏品牌。"
+  }
+},
+{
+  "id": 99,
+  "field": {
+    "id": "everyday",
+    "en": "Everyday Knowledge",
+    "zh": "生活常识"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "Which scale is commonly used to measure the acidity or alkalinity of a substance?",
+    "zh": "通常使用哪一种数值尺度来表示物质的酸性或碱性？"
+  },
+  "options": {
+    "A": {
+      "en": "pH scale",
+      "zh": "pH 值"
+    },
+    "B": {
+      "en": "Richter scale",
+      "zh": "里氏震级"
+    },
+    "C": {
+      "en": "Beaufort scale",
+      "zh": "蒲福风级"
+    },
+    "D": {
+      "en": "Decibel scale",
+      "zh": "分贝"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "The pH scale is used to describe how acidic or basic an aqueous solution is.",
+    "zh": "pH 值用于表示水溶液的酸性或碱性程度。"
+  }
+},
+{
+  "id": 100,
+  "field": {
+    "id": "random",
+    "en": "Random Facts",
+    "zh": "冷知识"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "Which animal's group is famously called a 'murder'?",
+    "zh": "哪一种动物的群体在英语中有一个著名的称呼叫作“murder”？"
+  },
+  "options": {
+    "A": {
+      "en": "Crows",
+      "zh": "乌鸦"
+    },
+    "B": {
+      "en": "Owls",
+      "zh": "猫头鹰"
+    },
+    "C": {
+      "en": "Eagles",
+      "zh": "鹰"
+    },
+    "D": {
+      "en": "Penguins",
+      "zh": "企鹅"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "A group of crows is traditionally known as a 'murder of crows.'",
+    "zh": "在传统英语用法中，一群乌鸦可以称为 a 'murder of crows'。"
+  }
+},
+{
+  "id": 101,
+  "field": {
+    "id": "human_body",
+    "en": "Human Body",
+    "zh": "人体"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which is the longest bone in the human body?",
+    "zh": "人体中最长的骨头是哪一块？"
+  },
+  "options": {
+    "A": {
+      "en": "Tibia",
+      "zh": "胫骨"
+    },
+    "B": {
+      "en": "Humerus",
+      "zh": "肱骨"
+    },
+    "C": {
+      "en": "Femur",
+      "zh": "股骨"
+    },
+    "D": {
+      "en": "Fibula",
+      "zh": "腓骨"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "The femur, located in the thigh, is the longest and strongest bone in the human body.",
+    "zh": "位于大腿的股骨是人体中最长、最强壮的骨头。"
+  }
+},
+{
+  "id": 102,
+  "field": {
+    "id": "mythology",
+    "en": "Mythology",
+    "zh": "神话"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "In Greek mythology, who was condemned to hold up the sky for eternity?",
+    "zh": "在希腊神话中，谁被惩罚永远支撑天空？"
+  },
+  "options": {
+    "A": {
+      "en": "Prometheus",
+      "zh": "普罗米修斯"
+    },
+    "B": {
+      "en": "Atlas",
+      "zh": "阿特拉斯"
+    },
+    "C": {
+      "en": "Cronus",
+      "zh": "克洛诺斯"
+    },
+    "D": {
+      "en": "Hades",
+      "zh": "哈迪斯"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Atlas was condemned to hold up the heavens after the Titans were defeated by the Olympian gods.",
+    "zh": "泰坦神族被奥林匹斯众神击败后，阿特拉斯被惩罚永远支撑天空。"
+  }
+},
+{
+  "id": 103,
+  "field": {
+    "id": "technology",
+    "en": "Technology",
+    "zh": "科技"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "In computer networking, what does DHCP primarily provide to devices?",
+    "zh": "在计算机网络中，DHCP 主要为设备提供什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Automatic IP configuration",
+      "zh": "自动 IP 配置"
+    },
+    "B": {
+      "en": "File encryption",
+      "zh": "文件加密"
+    },
+    "C": {
+      "en": "Website hosting",
+      "zh": "网站托管"
+    },
+    "D": {
+      "en": "Email delivery",
+      "zh": "电子邮件传送"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "DHCP can automatically assign devices IP addresses and other network configuration information.",
+    "zh": "DHCP 可以自动为设备分配 IP 地址以及其他网络配置信息。"
+  }
+},
+{
+  "id": 104,
+  "field": {
+    "id": "flags",
+    "en": "Flags",
+    "zh": "国旗"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which country has the world's only national flag that is not quadrilateral?",
+    "zh": "世界上唯一一个国旗不是四边形的国家是哪一个？"
+  },
+  "options": {
+    "A": {
+      "en": "Bhutan",
+      "zh": "不丹"
+    },
+    "B": {
+      "en": "Nepal",
+      "zh": "尼泊尔"
+    },
+    "C": {
+      "en": "Sri Lanka",
+      "zh": "斯里兰卡"
+    },
+    "D": {
+      "en": "Switzerland",
+      "zh": "瑞士"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Nepal's national flag consists of two joined pennant shapes and is the only non-quadrilateral national flag.",
+    "zh": "尼泊尔国旗由两个相连的三角旗形组成，是世界上唯一不是四边形的国旗。"
+  }
+},
+{
+  "id": 105,
+  "field": {
+    "id": "inventions",
+    "en": "Inventions",
+    "zh": "发明"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Who is credited with inventing the World Wide Web?",
+    "zh": "谁被公认为万维网（World Wide Web）的发明者？"
+  },
+  "options": {
+    "A": {
+      "en": "Bill Gates",
+      "zh": "比尔·盖茨"
+    },
+    "B": {
+      "en": "Steve Wozniak",
+      "zh": "史蒂夫·沃兹尼亚克"
+    },
+    "C": {
+      "en": "Tim Berners-Lee",
+      "zh": "蒂姆·伯纳斯-李"
+    },
+    "D": {
+      "en": "Vint Cerf",
+      "zh": "文顿·瑟夫"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "Tim Berners-Lee invented the World Wide Web while working at CERN.",
+    "zh": "蒂姆·伯纳斯-李在欧洲核子研究中心（CERN）工作期间发明了万维网。"
+  }
+},
+{
+  "id": 106,
+  "field": {
+    "id": "anime",
+    "en": "Anime",
+    "zh": "动漫"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "In One Piece, what is the name of the first ship used by the Straw Hat Pirates?",
+    "zh": "在《海贼王》中，草帽海贼团使用的第一艘主要海贼船叫什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Thousand Sunny",
+      "zh": "千里阳光号"
+    },
+    "B": {
+      "en": "Going Merry",
+      "zh": "前进梅利号"
+    },
+    "C": {
+      "en": "Red Force",
+      "zh": "雷德·佛斯号"
+    },
+    "D": {
+      "en": "Oro Jackson",
+      "zh": "奥罗·杰克逊号"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "The Going Merry was the Straw Hat Pirates' first main pirate ship before the Thousand Sunny.",
+    "zh": "前进梅利号是草帽海贼团在千里阳光号之前使用的第一艘主要海贼船。"
+  }
+},
+{
+  "id": 107,
+  "field": {
+    "id": "science",
+    "en": "Science",
+    "zh": "科学"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "What is the SI unit of electrical resistance?",
+    "zh": "电阻的国际单位制（SI）单位是什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Volt",
+      "zh": "伏特"
+    },
+    "B": {
+      "en": "Ampere",
+      "zh": "安培"
+    },
+    "C": {
+      "en": "Ohm",
+      "zh": "欧姆"
+    },
+    "D": {
+      "en": "Watt",
+      "zh": "瓦特"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "The ohm, represented by the symbol Ω, is the SI unit of electrical resistance.",
+    "zh": "欧姆是电阻的国际单位制单位，符号为 Ω。"
+  }
+},
+{
+  "id": 108,
+  "field": {
+    "id": "games",
+    "en": "Video Games",
+    "zh": "电子游戏"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "In The Legend of Zelda series, what is the name of the kingdom where many of the games take place?",
+    "zh": "在《塞尔达传说》系列中，许多作品发生在哪一个王国？"
+  },
+  "options": {
+    "A": {
+      "en": "Hyrule",
+      "zh": "海拉鲁"
+    },
+    "B": {
+      "en": "Tamriel",
+      "zh": "泰姆瑞尔"
+    },
+    "C": {
+      "en": "Midgar",
+      "zh": "米德加"
+    },
+    "D": {
+      "en": "Lordran",
+      "zh": "罗德兰"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Hyrule is the central kingdom and setting of many games in The Legend of Zelda series.",
+    "zh": "海拉鲁是《塞尔达传说》系列许多作品中的主要王国和故事舞台。"
+  }
+},
+{
+  "id": 109,
+  "field": {
+    "id": "geography",
+    "en": "Geography",
+    "zh": "地理"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which river flows through the cities of Vienna, Bratislava, Budapest and Belgrade?",
+    "zh": "哪一条河流经维也纳、布拉迪斯拉发、布达佩斯和贝尔格莱德？"
+  },
+  "options": {
+    "A": {
+      "en": "Rhine",
+      "zh": "莱茵河"
+    },
+    "B": {
+      "en": "Danube",
+      "zh": "多瑙河"
+    },
+    "C": {
+      "en": "Seine",
+      "zh": "塞纳河"
+    },
+    "D": {
+      "en": "Volga",
+      "zh": "伏尔加河"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "The Danube flows through several European capitals, including Vienna, Bratislava, Budapest and Belgrade.",
+    "zh": "多瑙河流经多个欧洲首都，包括维也纳、布拉迪斯拉发、布达佩斯和贝尔格莱德。"
+  }
+},
+{
+  "id": 110,
+  "field": {
+    "id": "random",
+    "en": "Random Facts",
+    "zh": "冷知识"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "What is the name of the plastic or metal tip at the end of a shoelace?",
+    "zh": "鞋带末端的塑料或金属小套叫什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Aglet",
+      "zh": "Aglet"
+    },
+    "B": {
+      "en": "Ferrule",
+      "zh": "Ferrule"
+    },
+    "C": {
+      "en": "Eyelet",
+      "zh": "Eyelet"
+    },
+    "D": {
+      "en": "Toggle",
+      "zh": "Toggle"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "The small plastic or metal sheath at the end of a shoelace is called an aglet.",
+    "zh": "鞋带末端用于防止鞋带散开的塑料或金属小套称为 aglet。"
+  }
+},
+{
+  "id": 111,
+  "field": {
+    "id": "human_body",
+    "en": "Human Body",
+    "zh": "人体"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which cranial nerve is the longest and extends from the brainstem into the chest and abdomen?",
+    "zh": "哪一条脑神经最长，并从脑干延伸到胸腔和腹腔？"
+  },
+  "options": {
+    "A": {
+      "en": "Optic nerve",
+      "zh": "视神经"
+    },
+    "B": {
+      "en": "Vagus nerve",
+      "zh": "迷走神经"
+    },
+    "C": {
+      "en": "Facial nerve",
+      "zh": "面神经"
+    },
+    "D": {
+      "en": "Trigeminal nerve",
+      "zh": "三叉神经"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "The vagus nerve is the longest cranial nerve and extends from the brainstem into the thorax and abdomen.",
+    "zh": "迷走神经是最长的脑神经，从脑干一直延伸至胸腔和腹腔。"
+  }
+},
+{
+  "id": 112,
+  "field": {
+    "id": "mythology",
+    "en": "Mythology",
+    "zh": "神话"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "In Greek mythology, who was the mother of Achilles?",
+    "zh": "在希腊神话中，阿喀琉斯的母亲是谁？"
+  },
+  "options": {
+    "A": {
+      "en": "Thetis",
+      "zh": "忒提斯"
+    },
+    "B": {
+      "en": "Hera",
+      "zh": "赫拉"
+    },
+    "C": {
+      "en": "Athena",
+      "zh": "雅典娜"
+    },
+    "D": {
+      "en": "Persephone",
+      "zh": "珀耳塞福涅"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Achilles was the son of the mortal king Peleus and the sea nymph Thetis.",
+    "zh": "阿喀琉斯是凡人国王珀琉斯与海洋女神忒提斯之子。"
+  }
+},
+{
+  "id": 113,
+  "field": {
+    "id": "technology",
+    "en": "Technology",
+    "zh": "科技"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which sorting algorithm has an average-case time complexity of O(n log n) but a worst-case complexity of O(n²) in its standard form?",
+    "zh": "哪一种排序算法在标准实现中平均时间复杂度为 O(n log n)，但最坏情况为 O(n²)？"
+  },
+  "options": {
+    "A": {
+      "en": "Merge Sort",
+      "zh": "归并排序"
+    },
+    "B": {
+      "en": "Quick Sort",
+      "zh": "快速排序"
+    },
+    "C": {
+      "en": "Counting Sort",
+      "zh": "计数排序"
+    },
+    "D": {
+      "en": "Radix Sort",
+      "zh": "基数排序"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Quick Sort averages O(n log n), but poor pivot choices can produce O(n²) worst-case performance.",
+    "zh": "快速排序平均为 O(n log n)，但如果枢轴选择不佳，最坏情况下可能达到 O(n²)。"
+  }
+},
+{
+  "id": 114,
+  "field": {
+    "id": "geography",
+    "en": "Geography",
+    "zh": "地理"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which sovereign country has Yamoussoukro as its official capital?",
+    "zh": "哪个主权国家的官方首都是亚穆苏克罗（Yamoussoukro）？"
+  },
+  "options": {
+    "A": {
+      "en": "Ghana",
+      "zh": "加纳"
+    },
+    "B": {
+      "en": "Senegal",
+      "zh": "塞内加尔"
+    },
+    "C": {
+      "en": "Côte d'Ivoire",
+      "zh": "科特迪瓦"
+    },
+    "D": {
+      "en": "Togo",
+      "zh": "多哥"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "Yamoussoukro is the official capital of Côte d'Ivoire, while Abidjan remains its largest city and economic center.",
+    "zh": "亚穆苏克罗是科特迪瓦的官方首都，而阿比让仍是该国最大的城市和经济中心。"
+  }
+},
+{
+  "id": 115,
+  "field": {
+    "id": "bible",
+    "en": "Bible",
+    "zh": "圣经"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which Old Testament king saw mysterious writing appear on a wall during a feast?",
+    "zh": "旧约中，哪一位王在宴席期间看见墙上出现神秘文字？"
+  },
+  "options": {
+    "A": {
+      "en": "Nebuchadnezzar",
+      "zh": "尼布甲尼撒"
+    },
+    "B": {
+      "en": "Belshazzar",
+      "zh": "伯沙撒"
+    },
+    "C": {
+      "en": "Cyrus",
+      "zh": "古列"
+    },
+    "D": {
+      "en": "Darius",
+      "zh": "大利乌"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Daniel 5 records mysterious writing appearing on the wall during King Belshazzar's feast.",
+    "zh": "《但以理书》第 5 章记载，伯沙撒王举行宴席时，墙上出现了神秘的文字。"
+  }
+},
+{
+  "id": 116,
+  "field": {
+    "id": "science",
+    "en": "Science",
+    "zh": "科学"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which subatomic particle carries the strong nuclear force between quarks?",
+    "zh": "哪一种亚原子粒子负责在夸克之间传递强核力？"
+  },
+  "options": {
+    "A": {
+      "en": "Photon",
+      "zh": "光子"
+    },
+    "B": {
+      "en": "Gluon",
+      "zh": "胶子"
+    },
+    "C": {
+      "en": "Neutrino",
+      "zh": "中微子"
+    },
+    "D": {
+      "en": "Positron",
+      "zh": "正电子"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Gluons are the gauge bosons that mediate the strong interaction between quarks.",
+    "zh": "胶子是传递夸克之间强相互作用的规范玻色子。"
+  }
+},
+{
+  "id": 117,
+  "field": {
+    "id": "history",
+    "en": "History",
+    "zh": "历史"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which Byzantine emperor ordered the construction of the Hagia Sophia completed in 537?",
+    "zh": "哪一位拜占庭皇帝下令建造并于公元 537 年完成圣索菲亚大教堂？"
+  },
+  "options": {
+    "A": {
+      "en": "Constantine I",
+      "zh": "君士坦丁一世"
+    },
+    "B": {
+      "en": "Justinian I",
+      "zh": "查士丁尼一世"
+    },
+    "C": {
+      "en": "Theodosius I",
+      "zh": "狄奥多西一世"
+    },
+    "D": {
+      "en": "Heraclius",
+      "zh": "希拉克略"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "The present Hagia Sophia was commissioned by Byzantine Emperor Justinian I and completed in 537.",
+    "zh": "现存的圣索菲亚大教堂由拜占庭皇帝查士丁尼一世下令建造，并于公元 537 年完成。"
+  }
+},
+{
+  "id": 118,
+  "field": {
+    "id": "pokemon",
+    "en": "Pokémon",
+    "zh": "宝可梦"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which Pokémon has National Pokédex number 474?",
+    "zh": "全国图鉴编号 474 的宝可梦是哪一只？"
+  },
+  "options": {
+    "A": {
+      "en": "Porygon-Z",
+      "zh": "多边兽Z"
+    },
+    "B": {
+      "en": "Dusknoir",
+      "zh": "黑夜魔灵"
+    },
+    "C": {
+      "en": "Gallade",
+      "zh": "艾路雷朵"
+    },
+    "D": {
+      "en": "Probopass",
+      "zh": "大朝北鼻"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Porygon-Z is number 474 in the National Pokédex.",
+    "zh": "多边兽Z在全国图鉴中的编号是 474。"
+  }
+},
+{
+  "id": 119,
+  "field": {
+    "id": "random",
+    "en": "Random Facts",
+    "zh": "冷知识"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "What is the technical term for the symbol '&'?",
+    "zh": "符号“&”的正式英文名称是什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Ampersand",
+      "zh": "Ampersand"
+    },
+    "B": {
+      "en": "Octothorpe",
+      "zh": "Octothorpe"
+    },
+    "C": {
+      "en": "Pilcrow",
+      "zh": "Pilcrow"
+    },
+    "D": {
+      "en": "Interrobang",
+      "zh": "Interrobang"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "The '&' symbol is called an ampersand and represents the word 'and'.",
+    "zh": "“&”符号称为 ampersand，用来表示英文单词“and”。"
+  }
+},
+{
+  "id": 120,
+  "field": {
+    "id": "games",
+    "en": "Video Games",
+    "zh": "电子游戏"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "In the original 1986 The Legend of Zelda, how many pieces make up the Triforce of Wisdom that Link must collect?",
+    "zh": "在 1986 年初代《塞尔达传说》中，林克需要收集多少块智慧三角力量碎片？"
+  },
+  "options": {
+    "A": {
+      "en": "6",
+      "zh": "6"
+    },
+    "B": {
+      "en": "7",
+      "zh": "7"
+    },
+    "C": {
+      "en": "8",
+      "zh": "8"
+    },
+    "D": {
+      "en": "9",
+      "zh": "9"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "In the original game, the Triforce of Wisdom was split into eight fragments that Link must recover.",
+    "zh": "在初代游戏中，智慧三角力量被分成了 8 块碎片，林克必须将它们全部找回。"
+  }
+},
+{
+  "id": 121,
+  "field": {
+    "id": "animals",
+    "en": "Animals",
+    "zh": "动物"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "Which is the largest animal currently living on Earth?",
+    "zh": "目前地球上体型最大的动物是哪一种？"
+  },
+  "options": {
+    "A": {
+      "en": "African Elephant",
+      "zh": "非洲象"
+    },
+    "B": {
+      "en": "Blue Whale",
+      "zh": "蓝鲸"
+    },
+    "C": {
+      "en": "Giraffe",
+      "zh": "长颈鹿"
+    },
+    "D": {
+      "en": "Great White Shark",
+      "zh": "大白鲨"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "The blue whale is the largest animal known to be living on Earth today.",
+    "zh": "蓝鲸是目前已知仍生活在地球上的最大动物。"
+  }
+},
+{
+  "id": 122,
+  "field": {
+    "id": "games",
+    "en": "Video Games",
+    "zh": "电子游戏"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "In Super Mario, what color is Luigi most commonly associated with?",
+    "zh": "在《超级马力欧》系列中，路易吉最常与哪一种颜色联系在一起？"
+  },
+  "options": {
+    "A": {
+      "en": "Red",
+      "zh": "红色"
+    },
+    "B": {
+      "en": "Green",
+      "zh": "绿色"
+    },
+    "C": {
+      "en": "Blue",
+      "zh": "蓝色"
+    },
+    "D": {
+      "en": "Yellow",
+      "zh": "黄色"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Luigi is most commonly associated with green clothing, while Mario is associated with red.",
+    "zh": "路易吉最常以绿色服装登场，而马力欧通常以红色为代表色。"
+  }
+},
+{
+  "id": 123,
+  "field": {
+    "id": "geography",
+    "en": "Geography",
+    "zh": "地理"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "Which country is famous for the pyramids of Giza?",
+    "zh": "吉萨金字塔位于哪个国家？"
+  },
+  "options": {
+    "A": {
+      "en": "Egypt",
+      "zh": "埃及"
+    },
+    "B": {
+      "en": "Greece",
+      "zh": "希腊"
+    },
+    "C": {
+      "en": "India",
+      "zh": "印度"
+    },
+    "D": {
+      "en": "Mexico",
+      "zh": "墨西哥"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "The pyramids of Giza are located near Cairo in Egypt.",
+    "zh": "吉萨金字塔位于埃及开罗附近。"
+  }
+},
+{
+  "id": 124,
+  "field": {
+    "id": "science",
+    "en": "Science",
+    "zh": "科学"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "At standard atmospheric pressure, at what temperature does pure water freeze in degrees Celsius?",
+    "zh": "在标准大气压下，纯水在多少摄氏度时结冰？"
+  },
+  "options": {
+    "A": {
+      "en": "0°C",
+      "zh": "0°C"
+    },
+    "B": {
+      "en": "10°C",
+      "zh": "10°C"
+    },
+    "C": {
+      "en": "32°C",
+      "zh": "32°C"
+    },
+    "D": {
+      "en": "100°C",
+      "zh": "100°C"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "At standard atmospheric pressure, pure water freezes at 0°C.",
+    "zh": "在标准大气压下，纯水的冰点是 0°C。"
+  }
+},
+{
+  "id": 125,
+  "field": {
+    "id": "pokemon",
+    "en": "Pokémon",
+    "zh": "宝可梦"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "Which Pokémon is famous for sleeping and blocking roads?",
+    "zh": "哪一只宝可梦以喜欢睡觉并挡住道路而闻名？"
+  },
+  "options": {
+    "A": {
+      "en": "Snorlax",
+      "zh": "卡比兽"
+    },
+    "B": {
+      "en": "Pikachu",
+      "zh": "皮卡丘"
+    },
+    "C": {
+      "en": "Meowth",
+      "zh": "喵喵"
+    },
+    "D": {
+      "en": "Psyduck",
+      "zh": "可达鸭"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Snorlax is famous for sleeping for long periods and blocking paths in several Pokémon games.",
+    "zh": "卡比兽以长时间睡觉而闻名，并曾在多款《宝可梦》游戏中挡住玩家的道路。"
+  }
+},
+{
+  "id": 126,
+  "field": {
+    "id": "food",
+    "en": "Food",
+    "zh": "食物"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "Which food is traditionally made primarily from milk?",
+    "zh": "以下哪一种食物传统上主要由牛奶制成？"
+  },
+  "options": {
+    "A": {
+      "en": "Cheese",
+      "zh": "奶酪"
+    },
+    "B": {
+      "en": "Bread",
+      "zh": "面包"
+    },
+    "C": {
+      "en": "Pasta",
+      "zh": "意大利面"
+    },
+    "D": {
+      "en": "Tofu",
+      "zh": "豆腐"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Cheese is traditionally produced by coagulating milk and processing the resulting curds.",
+    "zh": "奶酪传统上是通过凝固牛奶并加工形成的凝乳制成的。"
+  }
+},
+{
+  "id": 127,
+  "field": {
+    "id": "space",
+    "en": "Space",
+    "zh": "太空"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "What is the name of Earth's natural satellite?",
+    "zh": "地球的天然卫星叫什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Moon",
+      "zh": "月球"
+    },
+    "B": {
+      "en": "Sun",
+      "zh": "太阳"
+    },
+    "C": {
+      "en": "Mars",
+      "zh": "火星"
+    },
+    "D": {
+      "en": "Titan",
+      "zh": "泰坦"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Earth has one natural satellite, commonly called the Moon.",
+    "zh": "地球拥有一颗天然卫星，也就是月球。"
+  }
+},
+{
+  "id": 128,
+  "field": {
+    "id": "bible",
+    "en": "Bible",
+    "zh": "圣经"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "Who defeated Goliath in the Bible?",
+    "zh": "在圣经中，是谁击败了歌利亚？"
+  },
+  "options": {
+    "A": {
+      "en": "David",
+      "zh": "大卫"
+    },
+    "B": {
+      "en": "Solomon",
+      "zh": "所罗门"
+    },
+    "C": {
+      "en": "Samuel",
+      "zh": "撒母耳"
+    },
+    "D": {
+      "en": "Jonathan",
+      "zh": "约拿单"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "David defeated the Philistine warrior Goliath before David became king of Israel.",
+    "zh": "大卫在成为以色列王之前击败了非利士勇士歌利亚。"
+  }
+},
+{
+  "id": 129,
+  "field": {
+    "id": "language",
+    "en": "Language",
+    "zh": "语言"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "Which punctuation mark is normally placed at the end of a direct question in English?",
+    "zh": "英文中的直接问句通常以哪一个标点符号结尾？"
+  },
+  "options": {
+    "A": {
+      "en": "Comma",
+      "zh": "逗号"
+    },
+    "B": {
+      "en": "Question mark",
+      "zh": "问号"
+    },
+    "C": {
+      "en": "Colon",
+      "zh": "冒号"
+    },
+    "D": {
+      "en": "Semicolon",
+      "zh": "分号"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "A direct question in English normally ends with a question mark (?).",
+    "zh": "英文中的直接问句通常以问号（?）结尾。"
+  }
+},
+{
+  "id": 130,
+  "field": {
+    "id": "random",
+    "en": "Random Facts",
+    "zh": "冷知识"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "Which animal is known for carrying its baby in a pouch?",
+    "zh": "哪一种动物以把幼崽放在育儿袋中而闻名？"
+  },
+  "options": {
+    "A": {
+      "en": "Kangaroo",
+      "zh": "袋鼠"
+    },
+    "B": {
+      "en": "Giraffe",
+      "zh": "长颈鹿"
+    },
+    "C": {
+      "en": "Tiger",
+      "zh": "老虎"
+    },
+    "D": {
+      "en": "Zebra",
+      "zh": "斑马"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Kangaroos are marsupials, and females carry and nurse their young in a pouch.",
+    "zh": "袋鼠属于有袋类动物，雌性袋鼠会在育儿袋中携带并哺育幼崽。"
+  }
+},
+{
+  "id": 131,
+  "field": {
+    "id": "animals",
+    "en": "Animals",
+    "zh": "动物"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "Which animal is the largest living species of lizard?",
+    "zh": "现存体型最大的蜥蜴是哪一种？"
+  },
+  "options": {
+    "A": {
+      "en": "Green Iguana",
+      "zh": "绿鬣蜥"
+    },
+    "B": {
+      "en": "Komodo Dragon",
+      "zh": "科莫多巨蜥"
+    },
+    "C": {
+      "en": "Gila Monster",
+      "zh": "吉拉毒蜥"
+    },
+    "D": {
+      "en": "Chameleon",
+      "zh": "变色龙"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "The Komodo dragon is the largest living species of lizard.",
+    "zh": "科莫多巨蜥是现存体型最大的蜥蜴。"
+  }
+},
+{
+  "id": 132,
+  "field": {
+    "id": "games",
+    "en": "Video Games",
+    "zh": "电子游戏"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "In Pac-Man, what does Pac-Man normally eat to make the ghosts temporarily vulnerable?",
+    "zh": "在《吃豆人》中，Pac-Man 通常吃什么后可以暂时反过来攻击幽灵？"
+  },
+  "options": {
+    "A": {
+      "en": "Power Pellet",
+      "zh": "能量豆"
+    },
+    "B": {
+      "en": "Coin",
+      "zh": "金币"
+    },
+    "C": {
+      "en": "Mushroom",
+      "zh": "蘑菇"
+    },
+    "D": {
+      "en": "Star",
+      "zh": "星星"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Eating a Power Pellet temporarily makes the ghosts vulnerable to Pac-Man.",
+    "zh": "Pac-Man 吃下能量豆后，幽灵会暂时进入可以被吃掉的状态。"
+  }
+},
+{
+  "id": 133,
+  "field": {
+    "id": "geography",
+    "en": "Geography",
+    "zh": "地理"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "Which European country is often described as being shaped like a boot?",
+    "zh": "哪个欧洲国家的国土形状经常被形容像一只靴子？"
+  },
+  "options": {
+    "A": {
+      "en": "Spain",
+      "zh": "西班牙"
+    },
+    "B": {
+      "en": "Portugal",
+      "zh": "葡萄牙"
+    },
+    "C": {
+      "en": "Italy",
+      "zh": "意大利"
+    },
+    "D": {
+      "en": "Greece",
+      "zh": "希腊"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "The Italian Peninsula is famously shaped somewhat like a boot.",
+    "zh": "意大利半岛的形状经常被形容为一只靴子。"
+  }
+},
+{
+  "id": 134,
+  "field": {
+    "id": "science",
+    "en": "Science",
+    "zh": "科学"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "What is the chemical symbol for potassium?",
+    "zh": "钾的化学符号是什么？"
+  },
+  "options": {
+    "A": {
+      "en": "P",
+      "zh": "P"
+    },
+    "B": {
+      "en": "Po",
+      "zh": "Po"
+    },
+    "C": {
+      "en": "Pt",
+      "zh": "Pt"
+    },
+    "D": {
+      "en": "K",
+      "zh": "K"
+    }
+  },
+  "answer": "D",
+  "explanation": {
+    "en": "Potassium has the chemical symbol K, derived from the Neo-Latin word kalium.",
+    "zh": "钾的化学符号是 K，来源于新拉丁文 kalium。"
+  }
+},
+{
+  "id": 135,
+  "field": {
+    "id": "pokemon",
+    "en": "Pokémon",
+    "zh": "宝可梦"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "Which Pokémon evolves from Magikarp?",
+    "zh": "鲤鱼王会进化成哪一只宝可梦？"
+  },
+  "options": {
+    "A": {
+      "en": "Lapras",
+      "zh": "拉普拉斯"
+    },
+    "B": {
+      "en": "Gyarados",
+      "zh": "暴鲤龙"
+    },
+    "C": {
+      "en": "Milotic",
+      "zh": "美纳斯"
+    },
+    "D": {
+      "en": "Dragonair",
+      "zh": "哈克龙"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Magikarp evolves into Gyarados starting at level 20.",
+    "zh": "鲤鱼王从等级 20 开始可以进化成暴鲤龙。"
+  }
+},
+{
+  "id": 136,
+  "field": {
+    "id": "history",
+    "en": "History",
+    "zh": "历史"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "Which ancient people are credited with building the city of Petra?",
+    "zh": "古城佩特拉主要是由哪一个古代民族建造和发展起来的？"
+  },
+  "options": {
+    "A": {
+      "en": "Nabataeans",
+      "zh": "纳巴泰人"
+    },
+    "B": {
+      "en": "Vikings",
+      "zh": "维京人"
+    },
+    "C": {
+      "en": "Spartans",
+      "zh": "斯巴达人"
+    },
+    "D": {
+      "en": "Phoenicians",
+      "zh": "腓尼基人"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Petra became the capital and major trading center of the Nabataean kingdom.",
+    "zh": "佩特拉曾成为纳巴泰王国的首都和重要贸易中心。"
+  }
+},
+{
+  "id": 137,
+  "field": {
+    "id": "bible",
+    "en": "Bible",
+    "zh": "圣经"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "Which disciple walked on water toward Jesus?",
+    "zh": "哪一位门徒曾在水面上走向耶稣？"
+  },
+  "options": {
+    "A": {
+      "en": "John",
+      "zh": "约翰"
+    },
+    "B": {
+      "en": "Peter",
+      "zh": "彼得"
+    },
+    "C": {
+      "en": "Thomas",
+      "zh": "多马"
+    },
+    "D": {
+      "en": "Matthew",
+      "zh": "马太"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "According to Matthew 14, Peter stepped out of the boat and walked on the water toward Jesus.",
+    "zh": "根据《马太福音》第 14 章，彼得离开船，在水面上走向耶稣。"
+  }
+},
+{
+  "id": 138,
+  "field": {
+    "id": "technology",
+    "en": "Technology",
+    "zh": "科技"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "What does RAM stand for in computing?",
+    "zh": "计算机中的 RAM 英文全称是什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Random Access Memory",
+      "zh": "随机存取存储器"
+    },
+    "B": {
+      "en": "Rapid Application Machine",
+      "zh": "快速应用机器"
+    },
+    "C": {
+      "en": "Remote Access Module",
+      "zh": "远程访问模块"
+    },
+    "D": {
+      "en": "Read All Memory",
+      "zh": "读取全部存储器"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "RAM stands for Random Access Memory and is used for temporary working data while programs are running.",
+    "zh": "RAM 是 Random Access Memory（随机存取存储器）的缩写，用于暂时保存正在运行的程序所需要的数据。"
+  }
+},
+{
+  "id": 139,
+  "field": {
+    "id": "music",
+    "en": "Music",
+    "zh": "音乐"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "Which family of musical instruments does the violin belong to?",
+    "zh": "小提琴属于哪一类乐器？"
+  },
+  "options": {
+    "A": {
+      "en": "Brass",
+      "zh": "铜管乐器"
+    },
+    "B": {
+      "en": "Percussion",
+      "zh": "打击乐器"
+    },
+    "C": {
+      "en": "String",
+      "zh": "弦乐器"
+    },
+    "D": {
+      "en": "Woodwind",
+      "zh": "木管乐器"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "The violin is a string instrument, normally played using a bow.",
+    "zh": "小提琴属于弦乐器，通常使用琴弓演奏。"
+  }
+},
+{
+  "id": 140,
+  "field": {
+    "id": "random",
+    "en": "Random Facts",
+    "zh": "冷知识"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "Which animal is known for producing cube-shaped droppings?",
+    "zh": "哪一种动物以排出立方体形状的粪便而闻名？"
+  },
+  "options": {
+    "A": {
+      "en": "Wombat",
+      "zh": "袋熊"
+    },
+    "B": {
+      "en": "Koala",
+      "zh": "考拉"
+    },
+    "C": {
+      "en": "Beaver",
+      "zh": "河狸"
+    },
+    "D": {
+      "en": "Otter",
+      "zh": "水獭"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Wombats are famous for producing unusually cube-shaped droppings.",
+    "zh": "袋熊以能够排出独特的立方体形状粪便而闻名。"
+  }
+},
+{
+  "id": 141,
+  "field": {
+    "id": "science",
+    "en": "Science",
+    "zh": "科学"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which element has the chemical symbol Sb?",
+    "zh": "哪一种元素的化学符号是 Sb？"
+  },
+  "options": {
+    "A": {
+      "en": "Antimony",
+      "zh": "锑"
+    },
+    "B": {
+      "en": "Samarium",
+      "zh": "钐"
+    },
+    "C": {
+      "en": "Selenium",
+      "zh": "硒"
+    },
+    "D": {
+      "en": "Strontium",
+      "zh": "锶"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Sb is the chemical symbol for antimony, derived from the Latin name stibium.",
+    "zh": "Sb 是锑的化学符号，来源于其拉丁名称 stibium。"
+  }
+},
+{
+  "id": 142,
+  "field": {
+    "id": "games",
+    "en": "Video Games",
+    "zh": "电子游戏"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "In Terraria, which boss is summoned using a Suspicious Looking Eye?",
+    "zh": "在《Terraria》中，使用“可疑眼球”可以召唤哪一个 Boss？"
+  },
+  "options": {
+    "A": {
+      "en": "Eye of Cthulhu",
+      "zh": "克苏鲁之眼"
+    },
+    "B": {
+      "en": "Brain of Cthulhu",
+      "zh": "克苏鲁之脑"
+    },
+    "C": {
+      "en": "Skeletron",
+      "zh": "骷髅王"
+    },
+    "D": {
+      "en": "King Slime",
+      "zh": "史莱姆王"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "The Suspicious Looking Eye can be used at night to summon the Eye of Cthulhu.",
+    "zh": "玩家可以在夜晚使用“可疑眼球”召唤克苏鲁之眼。"
+  }
+},
+{
+  "id": 143,
+  "field": {
+    "id": "geography",
+    "en": "Geography",
+    "zh": "地理"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which country has Ljubljana as its capital?",
+    "zh": "卢布尔雅那（Ljubljana）是哪一个国家的首都？"
+  },
+  "options": {
+    "A": {
+      "en": "Slovakia",
+      "zh": "斯洛伐克"
+    },
+    "B": {
+      "en": "Slovenia",
+      "zh": "斯洛文尼亚"
+    },
+    "C": {
+      "en": "Croatia",
+      "zh": "克罗地亚"
+    },
+    "D": {
+      "en": "Serbia",
+      "zh": "塞尔维亚"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Ljubljana is the capital and largest city of Slovenia.",
+    "zh": "卢布尔雅那是斯洛文尼亚的首都和最大城市。"
+  }
+},
+{
+  "id": 144,
+  "field": {
+    "id": "bible",
+    "en": "Bible",
+    "zh": "圣经"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which prophet succeeded Elijah?",
+    "zh": "哪一位先知接续了以利亚的事奉？"
+  },
+  "options": {
+    "A": {
+      "en": "Isaiah",
+      "zh": "以赛亚"
+    },
+    "B": {
+      "en": "Jeremiah",
+      "zh": "耶利米"
+    },
+    "C": {
+      "en": "Elisha",
+      "zh": "以利沙"
+    },
+    "D": {
+      "en": "Ezekiel",
+      "zh": "以西结"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "Elisha became Elijah's prophetic successor after Elijah was taken up.",
+    "zh": "以利亚被接升天后，以利沙接续他成为先知。"
+  }
+},
+{
+  "id": 145,
+  "field": {
+    "id": "anime",
+    "en": "Anime",
+    "zh": "动漫"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "In Fullmetal Alchemist, what is the name of Edward Elric's younger brother?",
+    "zh": "在《钢之炼金术师》中，爱德华·艾尔利克的弟弟叫什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Alphonse Elric",
+      "zh": "阿尔冯斯·艾尔利克"
+    },
+    "B": {
+      "en": "Roy Mustang",
+      "zh": "罗伊·马斯坦古"
+    },
+    "C": {
+      "en": "Maes Hughes",
+      "zh": "马斯·休斯"
+    },
+    "D": {
+      "en": "Alex Armstrong",
+      "zh": "亚力克斯·路易·阿姆斯壮"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Alphonse Elric is Edward Elric's younger brother.",
+    "zh": "阿尔冯斯·艾尔利克是爱德华·艾尔利克的弟弟。"
+  }
+},
+{
+  "id": 146,
+  "field": {
+    "id": "history",
+    "en": "History",
+    "zh": "历史"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which city was buried by the eruption of Mount Vesuvius in AD 79?",
+    "zh": "公元 79 年维苏威火山爆发时，哪一座古城被火山喷发物掩埋？"
+  },
+  "options": {
+    "A": {
+      "en": "Athens",
+      "zh": "雅典"
+    },
+    "B": {
+      "en": "Pompeii",
+      "zh": "庞贝"
+    },
+    "C": {
+      "en": "Sparta",
+      "zh": "斯巴达"
+    },
+    "D": {
+      "en": "Carthage",
+      "zh": "迦太基"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Pompeii was one of the Roman cities buried during the eruption of Mount Vesuvius in AD 79.",
+    "zh": "庞贝是公元 79 年维苏威火山爆发时被掩埋的罗马城市之一。"
+  }
+},
+{
+  "id": 147,
+  "field": {
+    "id": "technology",
+    "en": "Technology",
+    "zh": "科技"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which number system uses only the digits 0 and 1?",
+    "zh": "哪一种数制只使用数字 0 和 1？"
+  },
+  "options": {
+    "A": {
+      "en": "Decimal",
+      "zh": "十进制"
+    },
+    "B": {
+      "en": "Hexadecimal",
+      "zh": "十六进制"
+    },
+    "C": {
+      "en": "Octal",
+      "zh": "八进制"
+    },
+    "D": {
+      "en": "Binary",
+      "zh": "二进制"
+    }
+  },
+  "answer": "D",
+  "explanation": {
+    "en": "The binary number system uses only two digits: 0 and 1.",
+    "zh": "二进制只使用两个数字：0 和 1。"
+  }
+},
+{
+  "id": 148,
+  "field": {
+    "id": "animals",
+    "en": "Animals",
+    "zh": "动物"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which is the only group of mammals that lays eggs instead of giving birth to live young?",
+    "zh": "哪一类哺乳动物会产卵，而不是直接产下幼崽？"
+  },
+  "options": {
+    "A": {
+      "en": "Marsupials",
+      "zh": "有袋类"
+    },
+    "B": {
+      "en": "Monotremes",
+      "zh": "单孔类"
+    },
+    "C": {
+      "en": "Primates",
+      "zh": "灵长类"
+    },
+    "D": {
+      "en": "Cetaceans",
+      "zh": "鲸类"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Monotremes are egg-laying mammals and include the platypus and echidnas.",
+    "zh": "单孔类是会产卵的哺乳动物，包括鸭嘴兽和针鼹。"
+  }
+},
+{
+  "id": 149,
+  "field": {
+    "id": "pokemon",
+    "en": "Pokémon",
+    "zh": "宝可梦"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which Pokémon evolves into Scizor when traded while holding a Metal Coat?",
+    "zh": "哪一只宝可梦在携带金属膜进行交换后可以进化成巨钳螳螂？"
+  },
+  "options": {
+    "A": {
+      "en": "Pinsir",
+      "zh": "凯罗斯"
+    },
+    "B": {
+      "en": "Scyther",
+      "zh": "飞天螳螂"
+    },
+    "C": {
+      "en": "Heracross",
+      "zh": "赫拉克罗斯"
+    },
+    "D": {
+      "en": "Skarmory",
+      "zh": "盔甲鸟"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "In games using the traditional evolution method, Scyther evolves into Scizor when traded while holding a Metal Coat.",
+    "zh": "在采用传统进化方式的作品中，飞天螳螂携带金属膜进行交换后会进化成巨钳螳螂。"
+  }
+},
+{
+  "id": 150,
+  "field": {
+    "id": "random",
+    "en": "Random Facts",
+    "zh": "冷知识"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "What is the name of the groove between the nose and the upper lip?",
+    "zh": "鼻子与上嘴唇之间的凹槽叫什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Philtrum",
+      "zh": "人中"
+    },
+    "B": {
+      "en": "Frenulum",
+      "zh": "系带"
+    },
+    "C": {
+      "en": "Septum",
+      "zh": "鼻中隔"
+    },
+    "D": {
+      "en": "Glabella",
+      "zh": "眉间"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "The vertical groove between the base of the nose and the upper lip is called the philtrum.",
+    "zh": "鼻子底部与上嘴唇之间的纵向凹槽称为人中（philtrum）。"
+  }
+},
+{
+  "id": 151,
+  "field": {
+    "id": "science",
+    "en": "Science",
+    "zh": "科学"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which element has the atomic number 92?",
+    "zh": "原子序数 92 对应哪一种元素？"
+  },
+  "options": {
+    "A": {
+      "en": "Plutonium",
+      "zh": "钚"
+    },
+    "B": {
+      "en": "Uranium",
+      "zh": "铀"
+    },
+    "C": {
+      "en": "Thorium",
+      "zh": "钍"
+    },
+    "D": {
+      "en": "Radium",
+      "zh": "镭"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Uranium has atomic number 92 and the chemical symbol U.",
+    "zh": "铀的原子序数是 92，化学符号是 U。"
+  }
+},
+{
+  "id": 152,
+  "field": {
+    "id": "pokemon",
+    "en": "Pokémon",
+    "zh": "宝可梦"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which Pokémon has National Pokédex number 369?",
+    "zh": "全国图鉴编号 369 的宝可梦是哪一只？"
+  },
+  "options": {
+    "A": {
+      "en": "Relicanth",
+      "zh": "古空棘鱼"
+    },
+    "B": {
+      "en": "Luvdisc",
+      "zh": "爱心鱼"
+    },
+    "C": {
+      "en": "Huntail",
+      "zh": "猎斑鱼"
+    },
+    "D": {
+      "en": "Gorebyss",
+      "zh": "樱花鱼"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Relicanth is number 369 in the National Pokédex.",
+    "zh": "古空棘鱼在全国图鉴中的编号是 369。"
+  }
+},
+{
+  "id": 153,
+  "field": {
+    "id": "bible",
+    "en": "Bible",
+    "zh": "圣经"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which judge of Israel had thirty sons who rode thirty donkeys and controlled thirty towns?",
+    "zh": "以色列哪一位士师有三十个儿子，他们骑着三十匹驴驹，并管理三十座城？"
+  },
+  "options": {
+    "A": {
+      "en": "Tola",
+      "zh": "陀拉"
+    },
+    "B": {
+      "en": "Jair",
+      "zh": "睚珥"
+    },
+    "C": {
+      "en": "Ibzan",
+      "zh": "以比赞"
+    },
+    "D": {
+      "en": "Abdon",
+      "zh": "押顿"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Judges 10 records that Jair had thirty sons who rode thirty donkeys and controlled thirty towns.",
+    "zh": "《士师记》第 10 章记载，睚珥有三十个儿子，骑着三十匹驴驹，并管理三十座城。"
+  }
+},
+{
+  "id": 154,
+  "field": {
+    "id": "geography",
+    "en": "Geography",
+    "zh": "地理"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which country has Bishkek as its capital?",
+    "zh": "比什凯克（Bishkek）是哪一个国家的首都？"
+  },
+  "options": {
+    "A": {
+      "en": "Tajikistan",
+      "zh": "塔吉克斯坦"
+    },
+    "B": {
+      "en": "Kyrgyzstan",
+      "zh": "吉尔吉斯斯坦"
+    },
+    "C": {
+      "en": "Uzbekistan",
+      "zh": "乌兹别克斯坦"
+    },
+    "D": {
+      "en": "Turkmenistan",
+      "zh": "土库曼斯坦"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Bishkek is the capital and largest city of Kyrgyzstan.",
+    "zh": "比什凯克是吉尔吉斯斯坦的首都和最大城市。"
+  }
+},
+{
+  "id": 155,
+  "field": {
+    "id": "technology",
+    "en": "Technology",
+    "zh": "科技"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which HTTP status code means 'I'm a teapot'?",
+    "zh": "哪个 HTTP 状态码代表“I'm a teapot（我是一个茶壶）”？"
+  },
+  "options": {
+    "A": {
+      "en": "404",
+      "zh": "404"
+    },
+    "B": {
+      "en": "418",
+      "zh": "418"
+    },
+    "C": {
+      "en": "451",
+      "zh": "451"
+    },
+    "D": {
+      "en": "503",
+      "zh": "503"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "HTTP status code 418 is 'I'm a teapot', originally defined as an April Fools' joke in RFC 2324.",
+    "zh": "HTTP 状态码 418 表示“I'm a teapot”，最初来自 RFC 2324 的愚人节玩笑。"
+  }
+},
+{
+  "id": 156,
+  "field": {
+    "id": "history",
+    "en": "History",
+    "zh": "历史"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Who was the last active pharaoh of Ptolemaic Egypt?",
+    "zh": "托勒密王朝埃及最后一位实际统治的法老是谁？"
+  },
+  "options": {
+    "A": {
+      "en": "Nefertiti",
+      "zh": "娜芙蒂蒂"
+    },
+    "B": {
+      "en": "Hatshepsut",
+      "zh": "哈特谢普苏特"
+    },
+    "C": {
+      "en": "Cleopatra VII",
+      "zh": "克利奥帕特拉七世"
+    },
+    "D": {
+      "en": "Arsinoe II",
+      "zh": "阿尔西诺伊二世"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "Cleopatra VII was the last active ruler of the Ptolemaic Kingdom of Egypt before it became a Roman province.",
+    "zh": "克利奥帕特拉七世是托勒密埃及最后一位实际统治者，之后埃及成为罗马的一个行省。"
+  }
+},
+{
+  "id": 157,
+  "field": {
+    "id": "animals",
+    "en": "Animals",
+    "zh": "动物"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "What is the scientific name of the modern human species?",
+    "zh": "现代人类的科学名称是什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Homo erectus",
+      "zh": "直立人"
+    },
+    "B": {
+      "en": "Homo habilis",
+      "zh": "能人"
+    },
+    "C": {
+      "en": "Homo sapiens",
+      "zh": "智人"
+    },
+    "D": {
+      "en": "Homo neanderthalensis",
+      "zh": "尼安德特人"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "Modern humans belong to the species Homo sapiens.",
+    "zh": "现代人类属于智人（Homo sapiens）这一物种。"
+  }
+},
+{
+  "id": 158,
+  "field": {
+    "id": "space",
+    "en": "Space",
+    "zh": "太空"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which moon is the largest moon of Saturn?",
+    "zh": "土星最大的卫星是哪一颗？"
+  },
+  "options": {
+    "A": {
+      "en": "Enceladus",
+      "zh": "土卫二"
+    },
+    "B": {
+      "en": "Titan",
+      "zh": "土卫六"
+    },
+    "C": {
+      "en": "Rhea",
+      "zh": "土卫五"
+    },
+    "D": {
+      "en": "Iapetus",
+      "zh": "土卫八"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Titan is Saturn's largest moon and the second-largest moon in the Solar System.",
+    "zh": "土卫六是土星最大的卫星，也是太阳系第二大的卫星。"
+  }
+},
+{
+  "id": 159,
+  "field": {
+    "id": "language",
+    "en": "Language",
+    "zh": "语言"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "What is a word called when it reads the same forward and backward, such as 'level'?",
+    "zh": "像英文单词“level”这样正着读和反着读都一样的词叫什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Palindrome",
+      "zh": "回文"
+    },
+    "B": {
+      "en": "Anagram",
+      "zh": "字母重排词"
+    },
+    "C": {
+      "en": "Homophone",
+      "zh": "同音词"
+    },
+    "D": {
+      "en": "Oxymoron",
+      "zh": "矛盾修辞"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "A palindrome is a sequence that reads the same forward and backward.",
+    "zh": "回文（palindrome）是指正向和反向读取都相同的文字序列。"
+  }
+},
+{
+  "id": 160,
+  "field": {
+    "id": "random",
+    "en": "Random Facts",
+    "zh": "冷知识"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "What is the technical name for the '#' symbol?",
+    "zh": "符号“#”的一个正式英文名称是什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Ampersand",
+      "zh": "Ampersand"
+    },
+    "B": {
+      "en": "Octothorpe",
+      "zh": "Octothorpe"
+    },
+    "C": {
+      "en": "Tittle",
+      "zh": "Tittle"
+    },
+    "D": {
+      "en": "Pilcrow",
+      "zh": "Pilcrow"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Octothorpe is one name used for the '#' symbol, which is also commonly called the number sign, pound sign, or hash.",
+    "zh": "Octothorpe 是“#”符号的名称之一；它也常被称为 number sign、pound sign 或 hash。"
+  }
+},
+{
+  "id": 161,
+  "field": {
+    "id": "movies",
+    "en": "Movies",
+    "zh": "电影"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "In Frozen, what is the name of the snowman who loves warm hugs?",
+    "zh": "在《冰雪奇缘》中，喜欢温暖拥抱的雪人叫什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Olaf",
+      "zh": "雪宝"
+    },
+    "B": {
+      "en": "Sven",
+      "zh": "斯文"
+    },
+    "C": {
+      "en": "Kristoff",
+      "zh": "克斯托夫"
+    },
+    "D": {
+      "en": "Hans",
+      "zh": "汉斯"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Olaf is the friendly snowman in Frozen who loves warm hugs.",
+    "zh": "雪宝是《冰雪奇缘》中的雪人，并且非常喜欢温暖的拥抱。"
+  }
+},
+{
+  "id": 162,
+  "field": {
+    "id": "nature",
+    "en": "Nature",
+    "zh": "自然"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "Which part of a plant normally absorbs water from the soil?",
+    "zh": "植物通常通过哪个部分从土壤中吸收水分？"
+  },
+  "options": {
+    "A": {
+      "en": "Flower",
+      "zh": "花"
+    },
+    "B": {
+      "en": "Fruit",
+      "zh": "果实"
+    },
+    "C": {
+      "en": "Roots",
+      "zh": "根"
+    },
+    "D": {
+      "en": "Seeds",
+      "zh": "种子"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "Plant roots absorb water and minerals from the soil.",
+    "zh": "植物的根从土壤中吸收水分和矿物质。"
+  }
+},
+{
+  "id": 163,
+  "field": {
+    "id": "games",
+    "en": "Video Games",
+    "zh": "电子游戏"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "In Minecraft, which tool is normally used to mine stone efficiently?",
+    "zh": "在《Minecraft》中，通常使用哪一种工具来有效挖掘石头？"
+  },
+  "options": {
+    "A": {
+      "en": "Sword",
+      "zh": "剑"
+    },
+    "B": {
+      "en": "Pickaxe",
+      "zh": "镐"
+    },
+    "C": {
+      "en": "Bow",
+      "zh": "弓"
+    },
+    "D": {
+      "en": "Fishing Rod",
+      "zh": "钓鱼竿"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "A pickaxe is the appropriate tool for efficiently mining stone and many ores in Minecraft.",
+    "zh": "在《Minecraft》中，镐是有效挖掘石头和许多矿石的合适工具。"
+  }
+},
+{
+  "id": 164,
+  "field": {
+    "id": "geography",
+    "en": "Geography",
+    "zh": "地理"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "What is the capital city of France?",
+    "zh": "法国的首都是哪一座城市？"
+  },
+  "options": {
+    "A": {
+      "en": "Rome",
+      "zh": "罗马"
+    },
+    "B": {
+      "en": "Madrid",
+      "zh": "马德里"
+    },
+    "C": {
+      "en": "Paris",
+      "zh": "巴黎"
+    },
+    "D": {
+      "en": "Berlin",
+      "zh": "柏林"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "Paris is the capital and largest city of France.",
+    "zh": "巴黎是法国的首都和最大城市。"
+  }
+},
+{
+  "id": 165,
+  "field": {
+    "id": "food",
+    "en": "Food",
+    "zh": "食物"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "Which ingredient is commonly used to make traditional French fries?",
+    "zh": "传统炸薯条主要使用哪一种食材制作？"
+  },
+  "options": {
+    "A": {
+      "en": "Potato",
+      "zh": "马铃薯"
+    },
+    "B": {
+      "en": "Carrot",
+      "zh": "胡萝卜"
+    },
+    "C": {
+      "en": "Cucumber",
+      "zh": "黄瓜"
+    },
+    "D": {
+      "en": "Tomato",
+      "zh": "番茄"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Traditional French fries are made from potatoes that are cut and fried.",
+    "zh": "传统炸薯条是将马铃薯切条后油炸制成的。"
+  }
+},
+{
+  "id": 166,
+  "field": {
+    "id": "technology",
+    "en": "Technology",
+    "zh": "科技"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "Which computer device is commonly used to move the pointer on a desktop screen?",
+    "zh": "在桌面电脑上，通常使用哪一种设备来移动屏幕上的指针？"
+  },
+  "options": {
+    "A": {
+      "en": "Printer",
+      "zh": "打印机"
+    },
+    "B": {
+      "en": "Mouse",
+      "zh": "鼠标"
+    },
+    "C": {
+      "en": "Speaker",
+      "zh": "扬声器"
+    },
+    "D": {
+      "en": "Microphone",
+      "zh": "麦克风"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "A computer mouse is commonly used to control and move the pointer on a desktop interface.",
+    "zh": "电脑鼠标通常用于控制和移动桌面界面上的指针。"
+  }
+},
+{
+  "id": 167,
+  "field": {
+    "id": "sports",
+    "en": "Sports",
+    "zh": "体育"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "Which sport uses a racket and a shuttlecock?",
+    "zh": "哪一种运动会使用球拍和羽毛球？"
+  },
+  "options": {
+    "A": {
+      "en": "Basketball",
+      "zh": "篮球"
+    },
+    "B": {
+      "en": "Badminton",
+      "zh": "羽毛球"
+    },
+    "C": {
+      "en": "Baseball",
+      "zh": "棒球"
+    },
+    "D": {
+      "en": "Golf",
+      "zh": "高尔夫球"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Badminton players use rackets to hit a shuttlecock across a net.",
+    "zh": "羽毛球运动员使用球拍将羽毛球击过球网。"
+  }
+},
+{
+  "id": 168,
+  "field": {
+    "id": "pokemon",
+    "en": "Pokémon",
+    "zh": "宝可梦"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "Which Pokémon is number 001 in the National Pokédex?",
+    "zh": "全国图鉴编号 001 的宝可梦是哪一只？"
+  },
+  "options": {
+    "A": {
+      "en": "Pikachu",
+      "zh": "皮卡丘"
+    },
+    "B": {
+      "en": "Charmander",
+      "zh": "小火龙"
+    },
+    "C": {
+      "en": "Bulbasaur",
+      "zh": "妙蛙种子"
+    },
+    "D": {
+      "en": "Squirtle",
+      "zh": "杰尼龟"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "Bulbasaur is number 001 in the National Pokédex.",
+    "zh": "妙蛙种子在全国图鉴中的编号是 001。"
+  }
+},
+{
+  "id": 169,
+  "field": {
+    "id": "bible",
+    "en": "Bible",
+    "zh": "圣经"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "Who built the ark before the great flood in the Bible?",
+    "zh": "在圣经的大洪水故事中，是谁建造了方舟？"
+  },
+  "options": {
+    "A": {
+      "en": "Abraham",
+      "zh": "亚伯拉罕"
+    },
+    "B": {
+      "en": "Moses",
+      "zh": "摩西"
+    },
+    "C": {
+      "en": "Noah",
+      "zh": "挪亚"
+    },
+    "D": {
+      "en": "Jacob",
+      "zh": "雅各"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "God instructed Noah to build an ark before the flood.",
+    "zh": "神在洪水来到之前吩咐挪亚建造方舟。"
+  }
+},
+{
+  "id": 170,
+  "field": {
+    "id": "everyday",
+    "en": "Everyday Knowledge",
+    "zh": "生活常识"
+  },
+  "difficulty": "easy",
+  "question": {
+    "en": "How many minutes are there in one hour?",
+    "zh": "一个小时有多少分钟？"
+  },
+  "options": {
+    "A": {
+      "en": "30",
+      "zh": "30"
+    },
+    "B": {
+      "en": "45",
+      "zh": "45"
+    },
+    "C": {
+      "en": "60",
+      "zh": "60"
+    },
+    "D": {
+      "en": "100",
+      "zh": "100"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "One hour contains 60 minutes.",
+    "zh": "一个小时等于 60 分钟。"
+  }
+},
+{
+  "id": 171,
+  "field": {
+    "id": "movies",
+    "en": "Movies",
+    "zh": "电影"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "In The Lord of the Rings, what is the name of the wizard who accompanies the Fellowship?",
+    "zh": "在《指环王》中，与护戒使者同行的巫师叫什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Gandalf",
+      "zh": "甘道夫"
+    },
+    "B": {
+      "en": "Aragorn",
+      "zh": "阿拉贡"
+    },
+    "C": {
+      "en": "Legolas",
+      "zh": "莱戈拉斯"
+    },
+    "D": {
+      "en": "Boromir",
+      "zh": "波洛米尔"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Gandalf is the wizard who joins and guides the Fellowship of the Ring.",
+    "zh": "甘道夫是加入并引导护戒使者的巫师。"
+  }
+},
+{
+  "id": 172,
+  "field": {
+    "id": "nature",
+    "en": "Nature",
+    "zh": "自然"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "What process do plants use to convert light energy into chemical energy?",
+    "zh": "植物通过什么过程将光能转化为化学能？"
+  },
+  "options": {
+    "A": {
+      "en": "Respiration",
+      "zh": "呼吸作用"
+    },
+    "B": {
+      "en": "Photosynthesis",
+      "zh": "光合作用"
+    },
+    "C": {
+      "en": "Fermentation",
+      "zh": "发酵"
+    },
+    "D": {
+      "en": "Transpiration",
+      "zh": "蒸腾作用"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Photosynthesis allows plants to use light energy to produce energy-rich sugars from carbon dioxide and water.",
+    "zh": "光合作用让植物利用光能，将二氧化碳和水转化成富含能量的糖类。"
+  }
+},
+{
+  "id": 173,
+  "field": {
+    "id": "games",
+    "en": "Video Games",
+    "zh": "电子游戏"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "In Among Us, what is the role of the player secretly trying to eliminate the other players?",
+    "zh": "在《Among Us》中，秘密试图淘汰其他玩家的角色叫什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Crewmate",
+      "zh": "船员"
+    },
+    "B": {
+      "en": "Impostor",
+      "zh": "内鬼"
+    },
+    "C": {
+      "en": "Captain",
+      "zh": "船长"
+    },
+    "D": {
+      "en": "Engineer",
+      "zh": "工程师"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "The Impostor secretly works against the Crewmates and attempts to eliminate them.",
+    "zh": "内鬼会秘密对抗船员，并试图淘汰他们。"
+  }
+},
+{
+  "id": 174,
+  "field": {
+    "id": "geography",
+    "en": "Geography",
+    "zh": "地理"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "Which country has Wellington as its capital?",
+    "zh": "惠灵顿是哪一个国家的首都？"
+  },
+  "options": {
+    "A": {
+      "en": "Australia",
+      "zh": "澳大利亚"
+    },
+    "B": {
+      "en": "New Zealand",
+      "zh": "新西兰"
+    },
+    "C": {
+      "en": "Fiji",
+      "zh": "斐济"
+    },
+    "D": {
+      "en": "Ireland",
+      "zh": "爱尔兰"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Wellington is the capital city of New Zealand.",
+    "zh": "惠灵顿是新西兰的首都。"
+  }
+},
+{
+  "id": 175,
+  "field": {
+    "id": "food",
+    "en": "Food",
+    "zh": "食物"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "What is the main ingredient traditionally used to make hummus?",
+    "zh": "传统鹰嘴豆泥（hummus）的主要原料是什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Lentils",
+      "zh": "扁豆"
+    },
+    "B": {
+      "en": "Chickpeas",
+      "zh": "鹰嘴豆"
+    },
+    "C": {
+      "en": "Kidney beans",
+      "zh": "红腰豆"
+    },
+    "D": {
+      "en": "Peas",
+      "zh": "豌豆"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Traditional hummus is primarily made from cooked chickpeas blended with ingredients such as tahini and lemon juice.",
+    "zh": "传统鹰嘴豆泥主要由煮熟的鹰嘴豆制成，并通常加入芝麻酱和柠檬汁等材料。"
+  }
+},
+{
+  "id": 176,
+  "field": {
+    "id": "technology",
+    "en": "Technology",
+    "zh": "科技"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "What does CPU stand for?",
+    "zh": "CPU 的英文全称是什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Central Processing Unit",
+      "zh": "中央处理器"
+    },
+    "B": {
+      "en": "Computer Processing Utility",
+      "zh": "计算机处理工具"
+    },
+    "C": {
+      "en": "Central Program Utility",
+      "zh": "中央程序工具"
+    },
+    "D": {
+      "en": "Core Processing User",
+      "zh": "核心处理用户"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "CPU stands for Central Processing Unit, a primary component responsible for executing computer instructions.",
+    "zh": "CPU 是 Central Processing Unit（中央处理器）的缩写，是负责执行计算机指令的主要组件之一。"
+  }
+},
+{
+  "id": 177,
+  "field": {
+    "id": "sports",
+    "en": "Sports",
+    "zh": "体育"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "In standard volleyball, how many players from each team are on the court at one time?",
+    "zh": "在标准排球比赛中，每支球队同时有多少名球员在场上？"
+  },
+  "options": {
+    "A": {
+      "en": "5",
+      "zh": "5"
+    },
+    "B": {
+      "en": "6",
+      "zh": "6"
+    },
+    "C": {
+      "en": "7",
+      "zh": "7"
+    },
+    "D": {
+      "en": "8",
+      "zh": "8"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "A standard indoor volleyball team has six players on the court at a time.",
+    "zh": "标准室内排球比赛中，每支球队同时有 6 名球员在场上。"
+  }
+},
+{
+  "id": 178,
+  "field": {
+    "id": "pokemon",
+    "en": "Pokémon",
+    "zh": "宝可梦"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "Which stone is traditionally used to evolve Pikachu into Raichu?",
+    "zh": "传统上使用哪一种进化石可以让皮卡丘进化成雷丘？"
+  },
+  "options": {
+    "A": {
+      "en": "Fire Stone",
+      "zh": "火之石"
+    },
+    "B": {
+      "en": "Water Stone",
+      "zh": "水之石"
+    },
+    "C": {
+      "en": "Thunder Stone",
+      "zh": "雷之石"
+    },
+    "D": {
+      "en": "Moon Stone",
+      "zh": "月之石"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "Pikachu evolves into Raichu when exposed to a Thunder Stone in the main series games.",
+    "zh": "在《宝可梦》主系列游戏中，对皮卡丘使用雷之石可以使其进化成雷丘。"
+  }
+},
+{
+  "id": 179,
+  "field": {
+    "id": "bible",
+    "en": "Bible",
+    "zh": "圣经"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "Who interpreted Pharaoh's dreams and later became a powerful official in Egypt?",
+    "zh": "谁为法老解释梦境，并后来成为埃及的重要官员？"
+  },
+  "options": {
+    "A": {
+      "en": "Joseph",
+      "zh": "约瑟"
+    },
+    "B": {
+      "en": "Joshua",
+      "zh": "约书亚"
+    },
+    "C": {
+      "en": "Aaron",
+      "zh": "亚伦"
+    },
+    "D": {
+      "en": "Isaac",
+      "zh": "以撒"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Joseph interpreted Pharaoh's dreams about the coming years of abundance and famine and was placed in authority in Egypt.",
+    "zh": "约瑟为法老解释了有关丰年和荒年的梦，之后被任命在埃及掌权。"
+  }
+},
+{
+  "id": 180,
+  "field": {
+    "id": "random",
+    "en": "Random Facts",
+    "zh": "冷知识"
+  },
+  "difficulty": "medium",
+  "question": {
+    "en": "What is the small dot above a lowercase letter 'i' or 'j' called?",
+    "zh": "英文字母小写“i”或“j”上方的小点叫什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Tittle",
+      "zh": "Tittle"
+    },
+    "B": {
+      "en": "Aglet",
+      "zh": "Aglet"
+    },
+    "C": {
+      "en": "Pilcrow",
+      "zh": "Pilcrow"
+    },
+    "D": {
+      "en": "Tilde",
+      "zh": "Tilde"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "The small distinguishing mark above a lowercase 'i' or 'j' is called a tittle.",
+    "zh": "小写字母“i”或“j”上方的小点称为 tittle。"
+  }
+},
+{
+  "id": 181,
+  "field": {
+    "id": "movies",
+    "en": "Movies",
+    "zh": "电影"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "In The Matrix, which color pill does Neo choose?",
+    "zh": "在《黑客帝国》中，尼奥选择了哪一种颜色的药丸？"
+  },
+  "options": {
+    "A": {
+      "en": "Blue",
+      "zh": "蓝色"
+    },
+    "B": {
+      "en": "Red",
+      "zh": "红色"
+    },
+    "C": {
+      "en": "Green",
+      "zh": "绿色"
+    },
+    "D": {
+      "en": "White",
+      "zh": "白色"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Neo chooses the red pill, allowing him to discover the truth about the Matrix.",
+    "zh": "尼奥选择了红色药丸，从而开始了解 Matrix 背后的真相。"
+  }
+},
+{
+  "id": 182,
+  "field": {
+    "id": "nature",
+    "en": "Nature",
+    "zh": "自然"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "What is the process called when water vapor changes directly into ice without first becoming liquid?",
+    "zh": "水蒸气不经过液态，直接变成冰的过程叫什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Sublimation",
+      "zh": "升华"
+    },
+    "B": {
+      "en": "Deposition",
+      "zh": "凝华"
+    },
+    "C": {
+      "en": "Condensation",
+      "zh": "凝结"
+    },
+    "D": {
+      "en": "Evaporation",
+      "zh": "蒸发"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Deposition is the phase change in which a gas changes directly into a solid.",
+    "zh": "凝华是物质从气态直接转变为固态的过程。"
+  }
+},
+{
+  "id": 183,
+  "field": {
+    "id": "games",
+    "en": "Video Games",
+    "zh": "电子游戏"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "In Portal, what is the name of the artificial intelligence that serves as the main antagonist?",
+    "zh": "在《Portal》中，作为主要反派的人工智能叫什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Cortana",
+      "zh": "Cortana"
+    },
+    "B": {
+      "en": "GLaDOS",
+      "zh": "GLaDOS"
+    },
+    "C": {
+      "en": "SHODAN",
+      "zh": "SHODAN"
+    },
+    "D": {
+      "en": "EDI",
+      "zh": "EDI"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "GLaDOS controls the Aperture Science testing facility and serves as the main antagonist of Portal.",
+    "zh": "GLaDOS 控制着光圈科技的测试设施，并且是《Portal》的主要反派。"
+  }
+},
+{
+  "id": 184,
+  "field": {
+    "id": "geography",
+    "en": "Geography",
+    "zh": "地理"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which country has Ulaanbaatar as its capital?",
+    "zh": "乌兰巴托是哪一个国家的首都？"
+  },
+  "options": {
+    "A": {
+      "en": "Kazakhstan",
+      "zh": "哈萨克斯坦"
+    },
+    "B": {
+      "en": "Mongolia",
+      "zh": "蒙古"
+    },
+    "C": {
+      "en": "Kyrgyzstan",
+      "zh": "吉尔吉斯斯坦"
+    },
+    "D": {
+      "en": "Uzbekistan",
+      "zh": "乌兹别克斯坦"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Ulaanbaatar is the capital and largest city of Mongolia.",
+    "zh": "乌兰巴托是蒙古的首都和最大城市。"
+  }
+},
+{
+  "id": 185,
+  "field": {
+    "id": "technology",
+    "en": "Technology",
+    "zh": "科技"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which data structure follows the principle 'Last In, First Out'?",
+    "zh": "哪一种数据结构遵循“后进先出”（Last In, First Out）的原则？"
+  },
+  "options": {
+    "A": {
+      "en": "Queue",
+      "zh": "队列"
+    },
+    "B": {
+      "en": "Stack",
+      "zh": "栈"
+    },
+    "C": {
+      "en": "Graph",
+      "zh": "图"
+    },
+    "D": {
+      "en": "Linked List",
+      "zh": "链表"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "A stack follows the Last In, First Out principle, meaning the most recently added item is removed first.",
+    "zh": "栈遵循后进先出原则，也就是最后加入的元素最先被取出。"
+  }
+},
+{
+  "id": 186,
+  "field": {
+    "id": "history",
+    "en": "History",
+    "zh": "历史"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which ancient city was famous for the Library of Alexandria?",
+    "zh": "著名的亚历山大图书馆位于哪一座古代城市？"
+  },
+  "options": {
+    "A": {
+      "en": "Alexandria",
+      "zh": "亚历山大港"
+    },
+    "B": {
+      "en": "Athens",
+      "zh": "雅典"
+    },
+    "C": {
+      "en": "Rome",
+      "zh": "罗马"
+    },
+    "D": {
+      "en": "Babylon",
+      "zh": "巴比伦"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "The Library of Alexandria was a major center of scholarship in the ancient Egyptian city of Alexandria.",
+    "zh": "亚历山大图书馆位于古埃及的亚历山大港，是古代重要的学术中心之一。"
+  }
+},
+{
+  "id": 187,
+  "field": {
+    "id": "bible",
+    "en": "Bible",
+    "zh": "圣经"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which New Testament figure was chosen to replace Judas Iscariot among the Twelve?",
+    "zh": "在新约中，谁被选中接替加略人犹大的使徒位置？"
+  },
+  "options": {
+    "A": {
+      "en": "Barnabas",
+      "zh": "巴拿巴"
+    },
+    "B": {
+      "en": "Silas",
+      "zh": "西拉"
+    },
+    "C": {
+      "en": "Matthias",
+      "zh": "马提亚"
+    },
+    "D": {
+      "en": "Stephen",
+      "zh": "司提反"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "According to Acts 1, Matthias was chosen to take the place of Judas Iscariot among the apostles.",
+    "zh": "根据《使徒行传》第 1 章，马提亚被选中接替加略人犹大在使徒中的位置。"
+  }
+},
+{
+  "id": 188,
+  "field": {
+    "id": "pokemon",
+    "en": "Pokémon",
+    "zh": "宝可梦"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "Which Pokémon evolves into Kingdra when traded while holding a Dragon Scale?",
+    "zh": "哪一只宝可梦携带龙之鳞片进行交换后可以进化成刺龙王？"
+  },
+  "options": {
+    "A": {
+      "en": "Horsea",
+      "zh": "墨海马"
+    },
+    "B": {
+      "en": "Seadra",
+      "zh": "海刺龙"
+    },
+    "C": {
+      "en": "Dratini",
+      "zh": "迷你龙"
+    },
+    "D": {
+      "en": "Dragonair",
+      "zh": "哈克龙"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "In games using the traditional evolution method, Seadra evolves into Kingdra when traded while holding a Dragon Scale.",
+    "zh": "在采用传统进化方式的作品中，海刺龙携带龙之鳞片进行交换后会进化成刺龙王。"
+  }
+},
+{
+  "id": 189,
+  "field": {
+    "id": "language",
+    "en": "Language",
+    "zh": "语言"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "What is a word formed by rearranging the letters of another word called?",
+    "zh": "把一个单词的字母重新排列后组成另一个单词，这种形式叫什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Palindrome",
+      "zh": "回文"
+    },
+    "B": {
+      "en": "Anagram",
+      "zh": "字母重排"
+    },
+    "C": {
+      "en": "Homonym",
+      "zh": "同形同音异义词"
+    },
+    "D": {
+      "en": "Acronym",
+      "zh": "首字母缩略词"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "An anagram is formed by rearranging the letters of another word or phrase.",
+    "zh": "Anagram 是通过重新排列另一个单词或短语中的字母形成的新词或短语。"
+  }
+},
+{
+  "id": 190,
+  "field": {
+    "id": "random",
+    "en": "Random Facts",
+    "zh": "冷知识"
+  },
+  "difficulty": "hard",
+  "question": {
+    "en": "What is the name for the study and collection of coins and currency?",
+    "zh": "研究和收藏硬币、货币的学科叫什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Philately",
+      "zh": "集邮学"
+    },
+    "B": {
+      "en": "Numismatics",
+      "zh": "钱币学"
+    },
+    "C": {
+      "en": "Heraldry",
+      "zh": "纹章学"
+    },
+    "D": {
+      "en": "Lexicography",
+      "zh": "词典编纂学"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Numismatics is the study or collection of currency, including coins and paper money.",
+    "zh": "钱币学（Numismatics）是研究或收藏货币的领域，包括硬币和纸币。"
+  }
+},
+{
+  "id": 191,
+  "field": {
+    "id": "science",
+    "en": "Science",
+    "zh": "科学"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which element has the chemical symbol Hf?",
+    "zh": "哪一种元素的化学符号是 Hf？"
+  },
+  "options": {
+    "A": {
+      "en": "Hafnium",
+      "zh": "铪"
+    },
+    "B": {
+      "en": "Holmium",
+      "zh": "钬"
+    },
+    "C": {
+      "en": "Hassium",
+      "zh": "𬭶"
+    },
+    "D": {
+      "en": "Helium",
+      "zh": "氦"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Hf is the chemical symbol for hafnium, an element with atomic number 72.",
+    "zh": "Hf 是铪的化学符号，其原子序数为 72。"
+  }
+},
+{
+  "id": 192,
+  "field": {
+    "id": "geography",
+    "en": "Geography",
+    "zh": "地理"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which country has Ngerulmud as its capital?",
+    "zh": "恩吉鲁穆德（Ngerulmud）是哪一个国家的首都？"
+  },
+  "options": {
+    "A": {
+      "en": "Palau",
+      "zh": "帕劳"
+    },
+    "B": {
+      "en": "Micronesia",
+      "zh": "密克罗尼西亚联邦"
+    },
+    "C": {
+      "en": "Kiribati",
+      "zh": "基里巴斯"
+    },
+    "D": {
+      "en": "Tuvalu",
+      "zh": "图瓦卢"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Ngerulmud is the capital of Palau and is located in the state of Melekeok.",
+    "zh": "恩吉鲁穆德是帕劳的首都，位于梅莱凯奥克州。"
+  }
+},
+{
+  "id": 193,
+  "field": {
+    "id": "bible",
+    "en": "Bible",
+    "zh": "圣经"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which king of Israel reigned for only seven days?",
+    "zh": "以色列哪一位王只作王七天？"
+  },
+  "options": {
+    "A": {
+      "en": "Zimri",
+      "zh": "心利"
+    },
+    "B": {
+      "en": "Omri",
+      "zh": "暗利"
+    },
+    "C": {
+      "en": "Nadab",
+      "zh": "拿答"
+    },
+    "D": {
+      "en": "Elah",
+      "zh": "以拉"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "According to 1 Kings 16, Zimri reigned in Tirzah for seven days.",
+    "zh": "根据《列王纪上》第 16 章，心利在得撒作王七天。"
+  }
+},
+{
+  "id": 194,
+  "field": {
+    "id": "technology",
+    "en": "Technology",
+    "zh": "科技"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which port number is traditionally used by HTTPS?",
+    "zh": "HTTPS 传统上使用哪一个端口号？"
+  },
+  "options": {
+    "A": {
+      "en": "21",
+      "zh": "21"
+    },
+    "B": {
+      "en": "80",
+      "zh": "80"
+    },
+    "C": {
+      "en": "443",
+      "zh": "443"
+    },
+    "D": {
+      "en": "8080",
+      "zh": "8080"
+    }
+  },
+  "answer": "C",
+  "explanation": {
+    "en": "HTTPS traditionally uses TCP port 443.",
+    "zh": "HTTPS 传统上使用 TCP 端口 443。"
+  }
+},
+{
+  "id": 195,
+  "field": {
+    "id": "history",
+    "en": "History",
+    "zh": "历史"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which Carthaginian general famously crossed the Alps during the Second Punic War?",
+    "zh": "第二次布匿战争期间，哪一位迦太基将军以率军翻越阿尔卑斯山而闻名？"
+  },
+  "options": {
+    "A": {
+      "en": "Scipio Africanus",
+      "zh": "西庇阿"
+    },
+    "B": {
+      "en": "Hannibal Barca",
+      "zh": "汉尼拔·巴卡"
+    },
+    "C": {
+      "en": "Hasdrubal Gisco",
+      "zh": "哈斯德鲁巴·吉斯科"
+    },
+    "D": {
+      "en": "Hamilcar Barca",
+      "zh": "哈米尔卡·巴卡"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Hannibal Barca famously led his army across the Alps during the Second Punic War.",
+    "zh": "汉尼拔·巴卡在第二次布匿战争期间率领军队翻越阿尔卑斯山，因此闻名于世。"
+  }
+},
+{
+  "id": 196,
+  "field": {
+    "id": "pokemon",
+    "en": "Pokémon",
+    "zh": "宝可梦"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which Pokémon has National Pokédex number 479?",
+    "zh": "全国图鉴编号 479 的宝可梦是哪一只？"
+  },
+  "options": {
+    "A": {
+      "en": "Rotom",
+      "zh": "洛托姆"
+    },
+    "B": {
+      "en": "Spiritomb",
+      "zh": "花岩怪"
+    },
+    "C": {
+      "en": "Dusknoir",
+      "zh": "黑夜魔灵"
+    },
+    "D": {
+      "en": "Froslass",
+      "zh": "雪妖女"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Rotom is number 479 in the National Pokédex.",
+    "zh": "洛托姆在全国图鉴中的编号是 479。"
+  }
+},
+{
+  "id": 197,
+  "field": {
+    "id": "space",
+    "en": "Space",
+    "zh": "太空"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "Which planet has the moon named Phobos?",
+    "zh": "名为火卫一（Phobos）的卫星围绕哪一颗行星运行？"
+  },
+  "options": {
+    "A": {
+      "en": "Venus",
+      "zh": "金星"
+    },
+    "B": {
+      "en": "Mars",
+      "zh": "火星"
+    },
+    "C": {
+      "en": "Jupiter",
+      "zh": "木星"
+    },
+    "D": {
+      "en": "Saturn",
+      "zh": "土星"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "Phobos is one of the two natural satellites of Mars, along with Deimos.",
+    "zh": "火卫一是火星的两颗天然卫星之一，另一颗是火卫二。"
+  }
+},
+{
+  "id": 198,
+  "field": {
+    "id": "mythology",
+    "en": "Mythology",
+    "zh": "神话"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "In Norse mythology, what is the name of the great wolf destined to fight Odin during Ragnarok?",
+    "zh": "在北欧神话中，注定在诸神黄昏期间与奥丁交战的巨狼叫什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Fenrir",
+      "zh": "芬里尔"
+    },
+    "B": {
+      "en": "Jormungandr",
+      "zh": "耶梦加得"
+    },
+    "C": {
+      "en": "Sleipnir",
+      "zh": "斯莱普尼尔"
+    },
+    "D": {
+      "en": "Nidhogg",
+      "zh": "尼德霍格"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Fenrir is the monstrous wolf foretold to fight Odin during Ragnarok.",
+    "zh": "芬里尔是北欧神话中的巨狼，预言中它将在诸神黄昏时与奥丁交战。"
+  }
+},
+{
+  "id": 199,
+  "field": {
+    "id": "language",
+    "en": "Language",
+    "zh": "语言"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "What is the linguistic term for a word that imitates a sound, such as 'buzz' or 'hiss'?",
+    "zh": "像“buzz”或“hiss”这样模仿声音形成的词，在语言学上叫什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Onomatopoeia",
+      "zh": "拟声词"
+    },
+    "B": {
+      "en": "Palindrome",
+      "zh": "回文"
+    },
+    "C": {
+      "en": "Euphemism",
+      "zh": "委婉语"
+    },
+    "D": {
+      "en": "Metonymy",
+      "zh": "转喻"
+    }
+  },
+  "answer": "A",
+  "explanation": {
+    "en": "Onomatopoeia refers to words formed to imitate or suggest the sounds they describe.",
+    "zh": "Onomatopoeia（拟声词）是通过模仿或表现某种声音而形成的词。"
+  }
+},
+{
+  "id": 200,
+  "field": {
+    "id": "random",
+    "en": "Random Facts",
+    "zh": "冷知识"
+  },
+  "difficulty": "insane",
+  "question": {
+    "en": "What is the technical term for the paragraph symbol '¶'?",
+    "zh": "段落符号“¶”的正式英文名称是什么？"
+  },
+  "options": {
+    "A": {
+      "en": "Tittle",
+      "zh": "Tittle"
+    },
+    "B": {
+      "en": "Pilcrow",
+      "zh": "Pilcrow"
+    },
+    "C": {
+      "en": "Octothorpe",
+      "zh": "Octothorpe"
+    },
+    "D": {
+      "en": "Ampersand",
+      "zh": "Ampersand"
+    }
+  },
+  "answer": "B",
+  "explanation": {
+    "en": "The paragraph symbol '¶' is called a pilcrow.",
+    "zh": "段落符号“¶”称为 pilcrow。"
+  }
+}
+]
