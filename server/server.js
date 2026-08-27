@@ -1417,20 +1417,29 @@ io.on("connection",(socket)=>{
         // CHECK IF THIS USER HAS A MATH GAME
         // ============================================
 
-        const mathGame = getMathGame(data.uid);
+        
 
-        if (mathGame) {
+        const mathGame =
+            getMathGame(
+                data.uid
+            );
 
-            // Remember the game type BEFORE answering,
-            // because handleMathAnswer() may delete the game.
+
+        if (
+            mathGame
+        ) {
+
+            // Remember game type before answer handling
             const mathGameType =
                 mathGame.type;
 
 
-            const result = handleMathAnswer(
-                data.uid,
-                data.text.trim()
-            );
+            const result =
+                handleMathAnswer(
+                    data.uid,
+                    data.text.trim()
+                );
+
 
             // ============================================
             // MATH REWARD
@@ -1446,35 +1455,74 @@ io.on("connection",(socket)=>{
                         mathGame.difficulty
                     ] || 0;
 
+
                 const userRef =
                     db.collection("users")
-                    .doc(data.uid);
+                        .doc(data.uid);
+
 
                 const userDoc =
                     await userRef.get();
 
-                if (userDoc.exists) {
+
+                if (
+                    userDoc.exists
+                ) {
 
                     const user =
                         userDoc.data();
 
+
                     const newPoints =
-                        (user.points || 0) + reward;
+                        (user.points || 0) +
+                        reward;
+
 
                     await userRef.update({
 
-                        points: newPoints
+                        points:
+                            newPoints
 
                     });
 
-                    await sendBotMessage(
+
+                    const rewardMessage = {
+
+                        username:
+                            "FaithBot",
+
+                        uid:
+                            "FaithBot",
+
+                        text:
+                            `🎁 Reward: +${reward} Points`,
+
+                        room:
+                            data.room,
+
+                        createdAt:
+                            Date.now()
+
+                    };
+
+
+                    await saveChatMessage(
                         data.room,
-                        `🎁 Reward: +${reward} Points`
+                        rewardMessage
+                    );
+
+
+                    io.to(
+                        data.room
+                    ).emit(
+                        "receive_message",
+                        rewardMessage
                     );
 
                 }
+
             }
-            
+
 
             // ============================================
             // REMOVE OLD MATH QUESTION
@@ -1490,11 +1538,18 @@ io.on("connection",(socket)=>{
                 )
             ) {
 
-                io.to(data.room).emit(
+                io.to(
+                    data.room
+                ).emit(
                     "remove_math_question",
                     {
-                        userId: data.uid,
-                        gameType: mathGameType
+
+                        userId:
+                            data.uid,
+
+                        gameType:
+                            mathGameType
+
                     }
                 );
 
@@ -1505,19 +1560,54 @@ io.on("connection",(socket)=>{
             // SHOW RESULT
             // ============================================
 
-            const message =
-                formatMathResult(result);
+            const resultText =
+                formatMathResult(
+                    result
+                );
 
-            if (message) {
 
-                await sendBotMessage(
+            if (
+                resultText
+            ) {
+
+                const resultMessage = {
+
+                    username:
+                        "FaithBot",
+
+                    uid:
+                        "FaithBot",
+
+                    text:
+                        resultText,
+
+                    room:
+                        data.room,
+
+                    createdAt:
+                        Date.now()
+
+                };
+
+
+                await saveChatMessage(
                     data.room,
-                    message
+                    resultMessage
+                );
+
+
+                io.to(
+                    data.room
+                ).emit(
+                    "receive_message",
+                    resultMessage
                 );
 
             }
 
+
             return;
+
         }
 
         // If not quiz owner, treat as normal message
@@ -6010,15 +6100,54 @@ function handleCommand(data,socket,io){
                             (remaining % 60000) / 1000
                         );
 
-                    sendBotMessage(
-    data.room,
-    `⏳ 冷却中!\n\n` +
-    `请等 ${minutes}分钟 ` +
-    `${seconds}秒开始 ` +
-    `下一场游戏`
-);
+                    const cooldownMessage = {
 
-                    return;
+                        username:
+                            "FaithBot",
+
+                        uid:
+                            "FaithBot",
+
+                        text:
+                            `⏳ 冷却中!\n\n` +
+                            `请等 ${minutes}分钟 ` +
+                            `${seconds}秒开始 ` +
+                            `下一场游戏`,
+
+                        room:
+                            data.room,
+
+                        createdAt:
+                            Date.now()
+
+                    };
+
+
+                    saveChatMessage(
+                        data.room,
+                        cooldownMessage
+                    )
+                    .then(() => {
+
+                        io.to(
+                            data.room
+                        ).emit(
+                            "receive_message",
+                            cooldownMessage
+                        );
+
+                    })
+                    .catch(error => {
+
+                        console.error(
+                            "❌ Failed to save math cooldown:",
+                            error
+                        );
+
+                    });
+
+
+                    break;
                 }
             }
 
@@ -6069,7 +6198,7 @@ function handleCommand(data,socket,io){
 
                     username: "FaithBot",
 
-                    uid: data.uid,
+                    uid: "FaithBot",
 
                     text: result.message,
 
