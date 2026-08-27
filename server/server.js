@@ -6010,22 +6010,13 @@ function handleCommand(data,socket,io){
                             (remaining % 60000) / 1000
                         );
 
-                    socket.emit(
-                        "receive_message",
-                        {
-                            username: "FaithBot",
-
-                            text:
-                                `⏳ 冷却中!\n\n` +
-                                `请等 ${minutes}分钟 ` +
-                                `${seconds}秒开始 ` +
-                                `下一场游戏`,
-
-                            room: data.room,
-
-                            createdAt: Date.now()
-                        }
-                    );
+                    sendBotMessage(
+    data.room,
+    `⏳ 冷却中!\n\n` +
+    `请等 ${minutes}分钟 ` +
+    `${seconds}秒开始 ` +
+    `下一场游戏`
+);
 
                     break;
                 }
