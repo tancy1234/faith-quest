@@ -1434,74 +1434,134 @@ socket.on("user_list", (users) => {
 
 socket.emit("get_users");
 
-socket.on(
-"user_results",
-(users)=>{
+input.addEventListener(
+    "input",
+    () => {
 
-
-    userDropdown.innerHTML="";
-
-
-    if(users.length===0){
-
-        userDropdown.style.display="none";
-
-        return;
-
-    }
-
-
-
-    users.forEach(user=>{
-
-
-        const div =
-        document.createElement("div");
-
-
-        div.className="user-item";
-
-
-        div.innerHTML =
-        "👤 " + user.username;
-
-
-
-        div.onclick=()=>{
-
-
-            const current =
+        const text =
             input.value;
 
 
-            const newText =
-            current.replace(
-                /@\w*$/,
-                "@" + user.username + " "
+        // Find the last @ mention being typed
+        const match =
+            text.match(
+                /@([^@]*)$/
             );
 
 
-            input.value =
-            newText;
+        if (
+            match
+        ) {
+
+            const keyword =
+                match[1]
+                    .trim();
 
 
-            userDropdown.style.display="none";
+            socket.emit(
+                "search_user",
+                {
+                    keyword:
+                        keyword,
+
+                    currentUid:
+                        currentUser.uid
+                }
+            );
+
+        }
+        else {
+
+            userDropdown.style.display =
+                "none";
+
+        }
+
+    }
+);
 
 
-        };
+socket.on(
+    "user_results",
+    users => {
+
+        userDropdown.innerHTML =
+            "";
 
 
-        userDropdown.appendChild(div);
+        if (
+            !users ||
+            users.length === 0
+        ) {
+
+            userDropdown.style.display =
+                "none";
+
+            return;
+
+        }
 
 
-    });
+        users.forEach(
+            user => {
+
+                const div =
+                    document.createElement(
+                        "div"
+                    );
 
 
+                div.className =
+                    "user-item";
 
-    userDropdown.style.display="block";
+
+                div.innerHTML =
+                    "👤 " +
+                    user.username;
 
 
-});
+                div.onclick =
+                    () => {
+
+                        const current =
+                            input.value;
+
+
+                        const newText =
+                            current.replace(
+                                /@[^@]*$/,
+                                "@" +
+                                user.username +
+                                " "
+                            );
+
+
+                        input.value =
+                            newText;
+
+
+                        userDropdown.style.display =
+                            "none";
+
+
+                        input.focus();
+
+                    };
+
+
+                userDropdown.appendChild(
+                    div
+                );
+
+            }
+        );
+
+
+        userDropdown.style.display =
+            "block";
+
+    }
+);
 
 input.addEventListener(
 "keypress",
@@ -4094,30 +4154,3 @@ socket.on(
     }
 );
 
-input.addEventListener(
-"input",
-()=>{
-
-    const text =
-    input.value;
-
-    const match =
-    text.match(/@([a-zA-Z0-9 ]*)$/);
-
-    if(match){
-
-        const keyword =
-        match[1];
-
-        socket.emit(
-            "search_user",
-            {
-                keyword:keyword,
-                currentUid:currentUser.uid
-            }
-        );
-    }
-    else{
-        userDropdown.style.display="none";
-    }
-});
