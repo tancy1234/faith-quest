@@ -51,7 +51,7 @@ const {
     calculateBlessRewardChances,
     rollBlessingReward,
     calculateDedicationReward
-} = require("./game/dedicatemanager");
+} = require("./game/dedicateManager");
 const startWeeklyDedicateReset =
     require("./game/weeklyResetDedicate");
 const giveCommand = require("./commands/give");
