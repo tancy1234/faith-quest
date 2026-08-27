@@ -6018,7 +6018,7 @@ function handleCommand(data,socket,io){
     `下一场游戏`
 );
 
-                    break;
+                    return;
                 }
             }
 
