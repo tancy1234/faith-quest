@@ -84,7 +84,7 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 
 const socket = io(
-    "http://localhost:3000",
+    "https://faith-quest.onrender.com",
     {
         autoConnect: false
     }
