@@ -1,6 +1,7 @@
 const mathQuiz =
-    require("/Users/tcy/Desktop/christian-chat-game/server/data/math_questions_shuffled.json");
-
+    require(
+        "../data/math_questions_shuffled.json"
+    );
 // ============================================
 // C#Math Manager
 // ============================================
